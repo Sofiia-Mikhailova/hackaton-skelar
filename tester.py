@@ -19,48 +19,37 @@ def run_test(reference_file="dataset_reference.json", results_file="analysis_res
 
     total = len(res_data)
     correct_satisfaction = 0
-    correct_scenarios = 0
     mismatches = []
 
     for idx, analysis in res_data.items():
         if idx not in ref_data:
             continue
         
-        true_label = ref_data[idx].get("label") 
-        pred_label = analysis.get("satisfaction")
+        true_val = ref_data[idx].get("label") 
+        pred_val = analysis.get("satisfaction")
 
-        true_scenario = str(ref_data[idx].get("scenario")).lower()
-        pred_scenario = str(analysis.get("scenario")).lower()
-
-        if true_label == pred_label:
+        if true_val == pred_val:
             correct_satisfaction += 1
-        
-        if true_scenario == pred_scenario:
-            correct_scenarios += 1
         else:
-            if true_label != pred_label or true_scenario != pred_scenario:
-                mismatches.append({
-                    "id": idx,
-                    "true_label": true_label,
-                    "pred_label": pred_label,
-                    "true_scenario": true_scenario,
-                    "pred_scenario": pred_scenario
-                })
+            mismatches.append({
+                "id": idx,
+                "true": true_val,
+                "pred": pred_val,
+                "scenario": ref_data[idx].get("scenario")
+            })
 
-    accuracy_label = (correct_satisfaction / total) * 100 if total > 0 else 0
-    accuracy_scenario = (correct_scenarios / total) * 100 if total > 0 else 0
+    accuracy = (correct_satisfaction / total) * 100 if total > 0 else 0
 
-    print("-" * 50)
-    print(f"SATISFACTION ACCURACY: {accuracy_label:.2f}% ({correct_satisfaction}/{total})")
-    print(f"SCENARIO DETECTION ACCURACY: {accuracy_scenario:.2f}% ({correct_scenarios}/{total})")
-    print("-" * 50)
+    print("-" * 30)
+    print(f"FINAL ACCURACY: {accuracy:.2f}%")
+    print(f"Correct: {correct_satisfaction} / Total: {total}")
+    print("-" * 30)
 
     if mismatches:
-        print("\nMISMATACHES:")
-        for m in mismatches[:15]:
-            print(f"ID {m['id']} | Scenario: [Ref: {m['true_scenario']} | Pred: {m['pred_scenario']}]")
-            print(f"      | Satisfaction: [Ref: {m['true_label']} | Pred: {m['pred_label']}]")
-            print("-" * 20)
+        print("\nMISMATCHES EXAMPLES:")
+
+        for m in mismatches:
+            print(f"ID {m['id']} | Scenario: {m['scenario']} | Expected: {m['true']} | Got: {m['pred']}")
 
 if __name__ == "__main__":
     run_test()

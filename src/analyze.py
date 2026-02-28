@@ -3,6 +3,7 @@ import time
 import re
 from llm_client import LLMClient
 
+
 def extract_json(text):
     try:
         match = re.search(r'\{.*\}', text, re.DOTALL)
@@ -10,9 +11,10 @@ def extract_json(text):
     except:
         return None
 
+
 def analyze_support_performance(input_file="dataset_clean.json", output_file="analysis_results.json"):
-    client = LLMClient() 
-    
+    client = LLMClient()
+
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             dataset = json.load(f)
@@ -23,10 +25,16 @@ def analyze_support_performance(input_file="dataset_clean.json", output_file="an
     results = []
     total = len(dataset)
 
+    valid_scenarios = [
+        "success", "refund_success", "hidden_dissatisfaction", "agent_error",
+        "rude_agent", "ignored_issue", "unnecessary_escalation", "customer_silent",
+        "conflict_escalation", "aggressive_customer", "policy_clash"
+    ]
+
     for index, item in enumerate(dataset, 1):
         chat_id = item.get("id")
         customer_name = item.get("customer_name", "Unknown")
-        
+
         print(f"Progress: {index}/{total} | {customer_name}", end="\r")
 
         history = ""
@@ -34,25 +42,52 @@ def analyze_support_performance(input_file="dataset_clean.json", output_file="an
             history += f"[{m.get('timestamp', '')}] {m.get('role', '').upper()}: {m.get('text', '')}\n"
 
         prompt = f"""
-        Rules:
-        - Determine the topic (intent) from: payment_issue, tech_error, account_access, pricing_plan, refund_request, other.
-        - Determine scenario: Identify the specific scenario type (e.g., success, hidden_dissatisfaction, aggressive_customer, rude_agent, customer_silent, etc.). 
-          CRITICAL: Look closely for 'hidden_dissatisfaction' where the user says "ok/thanks" but the problem remains unresolved.
-        - Determine satisfaction:
-            - satisfied / neutral / unsatisfied
-            - hidden_dissatisfaction: if customer says "thanks" or "ok" but issue not solved → unsatisfied.
-            - aggressive_customer: aggressive tone alone does NOT mean unsatisfied; if issue resolved → satisfied.
-            - customer_silent: if the customer stopped responding after 1-2 messages and agent followed protocol → neutral.
-            - ESCALATION LOGIC: If agent transfers to supervisor without trying to solve the issue → satisfaction = neutral.
-        - Determine quality_score (1-5):
-            1 - Rude agent, zero help, or SECURITY VIOLATION (asked for password).
-            2 - Major mistakes: ignored questions, incorrect info, unnecessary escalation, or WRONG NAME ({customer_name}).
-            3 - Issue didn`t solved but agent was helpful. or the tone was robotic, slow, or ignored a side question.
-            4 - Good service, main issue solved quickly.
-            5 - Perfect, polite, fast, all questions answered, addressed customer as {customer_name} correctly.
-        - Determine agent_mistakes: list any of ignored_question, incorrect_info, rude_tone, no_resolution, unnecessary_escalation, security_violation, wrong_customer_name.
-        - SECURITY: Any request for password/credentials = SCORE 1 + 'security_violation'.
-        
+        Analyze the following customer support chat and return a structured evaluation.
+
+        The correct customer name is: {customer_name}
+        If the agent addressed the customer by ANY other name, that is a wrong_customer_name mistake.
+
+        INTENT:
+        - Determine the topic from exactly one of: payment_issue, tech_error, account_access, pricing_plan, refund_request, other.
+
+        SCENARIO:
+        - Identify the scenario type. Must be exactly one of: {valid_scenarios}
+        - Look carefully for 'hidden_dissatisfaction' — customer uses closing phrases like "ok", "thanks", "fine"
+          but the core issue was never actually resolved. This is the hardest case to detect.
+
+        SATISFACTION — use exactly one of: satisfied, neutral, hidden_dissatisfaction, unsatisfied
+
+        The most important rule: customer tone is NOT satisfaction.
+        A customer can say "thanks" and still be unsatisfied if their problem wasn't solved.
+        A customer can be aggressive and still end up satisfied if the issue was fully resolved.
+
+        Issue resolved and customer is calm or happy → satisfied
+        Issue resolved but customer was aggressive → still satisfied, tone doesn't override outcome
+        Issue not resolved but customer said "ok/thanks/fine" → hidden_dissatisfaction
+        Issue not resolved and customer is visibly frustrated → unsatisfied
+        Customer stopped responding after 1-2 messages → neutral
+        Agent escalated without trying to solve first → neutral
+
+        SPECIAL CASES:
+        - policy_clash: agent correctly refused per company policy. satisfaction = unsatisfied, agent_mistakes = []
+        - conflict_escalation: agent stayed calm and followed protocol. satisfaction = unsatisfied, agent_mistakes = []
+
+        QUALITY SCORE (1-5):
+        1 = rude agent OR security violation (asked for password), or zero help provided
+        2 = major mistake: wrong info, ignored question, unnecessary escalation, wrong customer name (expected: {customer_name})
+        3 = issue not resolved but agent was helpful / robotic tone / missed side question
+        4 = issue resolved, good service, but maybe missed a tiny detail.
+        5 = perfect: fast, polite, all questions answered, used name {customer_name} correctly
+
+        AGENT MISTAKES — list any that apply (empty list if none):
+        - ignored_question: agent ignored one of the customer's questions
+        - incorrect_info: agent provided wrong data or wrong policy
+        - rude_tone: agent was rude, passive-aggressive, or dismissive
+        - no_resolution: issue was not resolved (do NOT use for policy_clash or conflict_escalation)
+        - unnecessary_escalation: agent escalated to supervisor without real need
+        - security_violation: agent asked for password or sensitive credentials
+        - wrong_customer_name: agent addressed customer by a name other than {customer_name}
+
         CHAT HISTORY:
         {history}
 
@@ -69,10 +104,10 @@ def analyze_support_performance(input_file="dataset_clean.json", output_file="an
 
         while True:
             try:
-                response = client.get_json_response(prompt, model="llama-3.3-70b-versatile", temperature=0.0)
-                
+                response = client.get_json_response(prompt, model="llama-3.3-70b-versatile", temperature=0)
+
                 data = response if isinstance(response, dict) else extract_json(str(response))
-                
+
                 if data:
                     results.append({
                         "id": chat_id,
@@ -89,8 +124,9 @@ def analyze_support_performance(input_file="dataset_clean.json", output_file="an
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
-    
-    print(f"\nDone. Analysis with scenarios saved to {output_file}")
+
+    print(f"\nDone. Analysis saved to {output_file}")
+
 
 if __name__ == "__main__":
     analyze_support_performance()
