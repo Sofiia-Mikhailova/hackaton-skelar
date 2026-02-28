@@ -1,0 +1,11 @@
+[
+    {
+        "id": 147,
+        "changes": {
+            "quality_score": {
+                "file1": 3,
+                "file2": 2
+            }
+        }
+    }
+]

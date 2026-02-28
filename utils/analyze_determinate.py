@@ -2,9 +2,15 @@
 import time
 import re
 import os
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from llm_client import LLMClient
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(base_dir)
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
+from src.llm_client import LLMClient
 
 def extract_json(text):
     try:
@@ -118,14 +124,15 @@ def analyze_single(item, client):
                 return None
 
 
-def analyze_support_performance(input_file="dataset_clean.json", output_file="analysis_results.json"):
+def analyze_support_performance(input_filename="dataset_determinate.json", output_filename="analysis_results1.json"):
     client = LLMClient()
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(base_dir, input_filename)
 
-    with open(input_file, "r", encoding="utf-8") as f:
+    with open(input_path, "r", encoding="utf-8") as f:
         dataset = json.load(f)
 
     results = []
-
     batches = list(chunked(dataset, 5))
 
     with ThreadPoolExecutor(max_workers=3) as executor:
@@ -134,29 +141,15 @@ def analyze_support_performance(input_file="dataset_clean.json", output_file="an
             for item in batch:
                 futures.append(executor.submit(analyze_single, item, client))
 
-        total = len(futures)
-        done = 0
-
         for future in as_completed(futures):
             result = future.result()
             if result:
                 results.append(result)
-                done += 1
-                print(f"Processed: {done}/{total}", end="\r")
-
-                with open(output_file, "w", encoding="utf-8") as f:
-                    json.dump(results, f, ensure_ascii=False, indent=4)
 
     results.sort(key=lambda x: x["id"])
+    final_output_path = os.path.join(base_dir, output_filename)
 
-    output_folder = "data"
-    output_file = "analysis_results.json"
-
-    os.makedirs(output_folder, exist_ok=True)
-
-    full_path = os.path.join(output_folder, output_file)
-
-    with open(full_path, "w", encoding="utf-8") as f:
+    with open(final_output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
 

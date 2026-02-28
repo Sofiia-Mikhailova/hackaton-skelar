@@ -1,6 +1,7 @@
 ﻿import json
 import time
 import random
+import os
 from faker import Faker
 from llm_client import LLMClient
 
@@ -15,11 +16,11 @@ def generate_skelar_dataset(count=150):
     scenarios = [
         {"type": "success", "label": "satisfied", "mistake": "none"},
         {"type": "refund_success", "label": "satisfied", "mistake": "none"},
-        {"type": "hidden_dissatisfaction", "label": "hidden_dissatisfaction", "mistake": "no_resolution"},  # ← changed
+        {"type": "hidden_dissatisfaction", "label": "hidden_dissatisfaction", "mistake": "no_resolution"},
         {"type": "agent_error", "label": "unsatisfied", "mistake": "incorrect_info"},
         {"type": "rude_agent", "label": "unsatisfied", "mistake": "rude_tone"},
         {"type": "ignored_issue", "label": "unsatisfied", "mistake": "ignored_question"},
-        {"type": "unnecessary_escalation", "label": "neutral", "mistake": "unnecessary_escalation"},  # ← changed
+        {"type": "unnecessary_escalation", "label": "neutral", "mistake": "unnecessary_escalation"},
         {"type": "customer_silent", "label": "neutral", "mistake": "none"},
         {"type": "conflict_escalation", "label": "unsatisfied", "mistake": "none"},
         {"type": "aggressive_customer", "label": "satisfied", "mistake": "none"},
@@ -153,16 +154,26 @@ def generate_skelar_dataset(count=150):
                 dataset_clean.append(item)
                 dataset_reference.append(ref_item)
                 generated_count += 1
-                print(f"Chat #{generated_count} generated (2026)")
+                print(f"Chat #{generated_count} generated ")
 
         except Exception as e:
             if "429" in str(e):
                 time.sleep(60)
             continue
+        
+    dataset_path = "data"
+    reference_path = "utils"
 
-    with open("dataset_clean.json", "w", encoding="utf-8") as f:
+    if not os.path.exists(dataset_path):
+        os.makedirs(dataset_path)
+
+    with open(os.path.join(dataset_path, "dataset_clean.json"), "w", encoding="utf-8") as f:
         json.dump(dataset_clean, f, ensure_ascii=False, indent=4)
-    with open("dataset_reference.json", "w", encoding="utf-8") as f:
+        
+    if not os.path.exists(reference_path):
+        os.makedirs(reference_path)
+
+    with open(os.path.join(reference_path, "dataset_reference.json"), "w", encoding="utf-8") as f:
         json.dump(dataset_reference, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":

@@ -1,0 +1,882 @@
+[
+    {
+        "id": 108,
+        "customer_name": "Benjamin Perry PhD",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "I'm trying to access my account but it keeps saying my password is incorrect. Can you help me?",
+                "timestamp": "2026-02-28 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Sorry to hear that, Benjamin Perry PhD. Can you please try resetting your password?",
+                "timestamp": "2026-02-28 10:02:00"
+            },
+            {
+                "role": "customer",
+                "text": "I just tried resetting it and I'm still getting the same error message.",
+                "timestamp": "2026-02-28 10:05:00"
+            },
+            {
+                "role": "agent",
+                "text": "I see. It's possible that the system is experiencing some issues. Let me check on it for you.",
+                "timestamp": "2026-02-28 10:08:00"
+            },
+            {
+                "role": "agent",
+                "text": "Unfortunately, it seems like there's a problem with your account. I'm going to escalate this to my supervisor.",
+                "timestamp": "2026-02-28 10:12:00"
+            },
+            {
+                "role": "customer",
+                "text": "What?! This is ridiculous. I need help now.",
+                "timestamp": "2026-02-28 10:15:00"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize for the inconvenience, Benjamin Perry PhD. My supervisor will be with you shortly.",
+                "timestamp": "2026-02-28 10:18:00"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "customer_name": "Shannon Howell",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "My payment for the subscription didn't go through. Can you help me with that?",
+                "timestamp": "2026-02-28 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Good morning Shannon Howell. I'd be happy to assist you with the payment issue. Can you please check your payment method and try again?",
+                "timestamp": "2026-02-28 10:00:05"
+            },
+            {
+                "role": "customer",
+                "text": "I've already tried that. It still doesn't work. Can you refund me for the subscription?",
+                "timestamp": "2026-02-28 10:02:00"
+            },
+            {
+                "role": "agent",
+                "text": "I see that you've been charged for the subscription. Let me process the refund for you right away. This should take a few minutes to complete.",
+                "timestamp": "2026-02-28 10:02:10"
+            },
+            {
+                "role": "customer",
+                "text": "Cool. Thanks for your help!",
+                "timestamp": "2026-02-28 10:02:15"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome Shannon Howell. If you have any other issues in the future, feel free to reach out to us anytime.",
+                "timestamp": "2026-02-28 10:02:20"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "customer_name": "Kristin Callahan",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hey, I think my account is locked. Can you help me?",
+                "timestamp": "2026-02-25 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Good morning Kristin, I'd be happy to assist you with your account access. Can you please verify your account details?",
+                "timestamp": "2026-02-25 10:00:03"
+            },
+            {
+                "role": "customer",
+                "text": "Yeah, my account email is kristin.callahan@example.com. And I'm getting this error message",
+                "timestamp": "2026-02-25 10:00:07"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for providing that information, Kristin. However, I've checked your account and couldn't find any issues. Can you try logging in again?",
+                "timestamp": "2026-02-25 10:00:12"
+            },
+            {
+                "role": "customer",
+                "text": "Thanks, I'll try. But if it doesn't work, can you look into it further?",
+                "timestamp": "2026-02-25 10:00:18"
+            },
+            {
+                "role": "agent",
+                "text": "Yes, of course. But I just checked again and it seems that your account is accessible. Please try logging in and check if the issue persists.",
+                "timestamp": "2026-02-25 10:00:23"
+            },
+            {
+                "role": "customer",
+                "text": "Ok, thanks",
+                "timestamp": "2026-02-25 10:00:28"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "customer_name": "Jennifer Nguyen",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hi!",
+                "timestamp": "2026-02-28 12:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Jennifer Nguyen! How can I assist you today?",
+                "timestamp": "2026-02-28 12:00:03"
+            },
+            {
+                "role": "customer",
+                "text": "I have a problem with my account access.",
+                "timestamp": "2026-02-28 12:00:06"
+            },
+            {
+                "role": "agent",
+                "text": "I'd be happy to help you with that. Can you please provide more information about the issue you're experiencing with your account access?",
+                "timestamp": "2026-02-28 12:00:10"
+            },
+            {
+                "role": "customer",
+                "text": "I tried to log in but it's saying my password is incorrect.",
+                "timestamp": "2026-02-28 12:00:13"
+            },
+            {
+                "role": "agent",
+                "text": "I've checked on my end and there's no record of any issues with your account. It's possible that you may be using the wrong password or your account may be locked due to too many failed login attempts.",
+                "timestamp": "2026-02-28 12:00:18"
+            },
+            {
+                "role": "customer",
+                "text": "Thanks, I'll try resetting my password.",
+                "timestamp": "2026-02-28 12:00:21"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome Jennifer Nguyen. If you have any other questions or need further assistance, please don't hesitate to ask.",
+                "timestamp": "2026-02-28 12:00:25"
+            },
+            {
+                "role": "customer",
+                "text": "Alright, thx!",
+                "timestamp": "2026-02-28 12:00:28"
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "customer_name": "Rachel Mack",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "I need to cancel my subscription, I've been charged twice!",
+                "timestamp": "2026-02-27 10:30:00"
+            },
+            {
+                "role": "agent",
+                "text": "I'm so sorry to hear that, Rachel Mack. Can you please provide the order ID so I can assist you further?",
+                "timestamp": "2026-02-27 10:32:00"
+            },
+            {
+                "role": "customer",
+                "text": "IT'S 123456789",
+                "timestamp": "2026-02-27 10:34:00"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you, Rachel Mack. I've located the issue and your refund will be processed within 3-5 business days.",
+                "timestamp": "2026-02-27 10:36:00"
+            },
+            {
+                "role": "customer",
+                "text": "Thanks",
+                "timestamp": "2026-02-27 10:38:00"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, Rachel Mack. Is there anything else I can assist you with today?",
+                "timestamp": "2026-02-27 10:40:00"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "customer_name": "Dawn Webster",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hi, my email is not working on my phone! Help!",
+                "timestamp": "2026-02-15 12:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Dawn Webster, I'd be happy to assist you with your email issue. Can you please tell me more about the problem you're experiencing?",
+                "timestamp": "2026-02-15 12:02:00"
+            },
+            {
+                "role": "customer",
+                "text": "I sent a email to the support team, but they replied with wrong info!",
+                "timestamp": "2026-02-15 12:05:00"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize for the inconvenience, Dawn Webster. I'm checking on the issue now.",
+                "timestamp": "2026-02-15 12:08:00"
+            },
+            {
+                "role": "agent",
+                "text": "I've checked on the issue and it seems that the email sent to the support team was not received due to a mail server issue. I've escalated the issue to my supervisor and we will get it resolved ASAP.",
+                "timestamp": "2026-02-15 12:10:00"
+            },
+            {
+                "role": "customer",
+                "text": "Awesome, thx!",
+                "timestamp": "2026-02-15 12:12:00"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, Dawn Webster. I'm glad I could help resolve the issue for you.",
+                "timestamp": "2026-02-15 12:14:00"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "customer_name": "Craig Roberts",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "hi",
+                "timestamp": "2026-02-28 09:00:00"
+            },
+            {
+                "role": "customer",
+                "text": "i have a pricing plan issue",
+                "timestamp": "2026-02-28 09:00:05"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Craig Roberts, thank you for reaching out to us. I'm happy to assist you with your pricing plan issue.",
+                "timestamp": "2026-02-28 09:00:10"
+            },
+            {
+                "role": "customer",
+                "text": "cool",
+                "timestamp": "2026-02-28 09:00:15"
+            },
+            {
+                "role": "agent",
+                "text": "Great Craig Roberts! I understand that you have an issue with your pricing plan. Can you please provide more details so I can help you better?",
+                "timestamp": "2026-02-28 09:00:20"
+            },
+            {
+                "role": "customer",
+                "text": "yeah",
+                "timestamp": "2026-02-28 09:00:25"
+            },
+            {
+                "role": "agent",
+                "text": "I'm checking on that for you Craig Roberts. Please wait a moment while I check this for you.",
+                "timestamp": "2026-02-28 09:00:30"
+            },
+            {
+                "role": "agent",
+                "text": "Unfortunately, the pricing plan change you requested is not available. However, I can offer you an alternative plan that might suit your needs.",
+                "timestamp": "2026-02-28 09:00:35"
+            },
+            {
+                "role": "customer",
+                "text": "ok then",
+                "timestamp": "2026-02-28 09:00:40"
+            },
+            {
+                "role": "agent",
+                "text": "I've transferred you to our supervisor Craig Roberts as they will be able to assist you further.",
+                "timestamp": "2026-02-28 09:00:45"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "customer_name": "Robert Scott",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hey I'm trying to log in but it says my password is wrong",
+                "timestamp": "2026-02-28 09:00:01"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Robert Scott, thank you for reaching out. Can you please provide more details about the issue you're experiencing with your account?",
+                "timestamp": "2026-02-28 09:00:05"
+            },
+            {
+                "role": "customer",
+                "text": "I'm positive I'm using the right password, I just changed it yesterday",
+                "timestamp": "2026-02-28 09:00:08"
+            },
+            {
+                "role": "agent",
+                "text": "Noted, Robert Scott. I'm looking into this for you. Please wait a moment while I check this for you.",
+                "timestamp": "2026-02-28 09:00:10"
+            },
+            {
+                "role": "agent",
+                "text": "It seems like your password was not updated correctly. I'm going to go ahead and reset it for you. Please try logging in again with your usual credentials.",
+                "timestamp": "2026-02-28 09:00:14"
+            },
+            {
+                "role": "customer",
+                "text": "Finally! Thanks so much for your help Robert Scott",
+                "timestamp": "2026-02-28 09:00:16"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "customer_name": "Raymond Terrell",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "ARE YOU KIDDING ME WITH THIS CUSTOMER SUPPORT?! I DEMAND TO SPEAK WITH A SUPERVISOR NOW OR I'LL GO TO SOCIAL MEDIA!!!",
+                "timestamp": "2026-02-28 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Mr. Terrell, I apologize if the issue is not being handled to your satisfaction. Let me see what I can do to assist you further. Can you please provide more details about your issue?",
+                "timestamp": "2026-02-28 10:00:05"
+            },
+            {
+                "role": "customer",
+                "text": "FINE. SO YOU'RE TELLING ME I'LL HAVE TO WAIT FOR 2 WEEKS FOR MY ORDER TO ARRIVE?! AND YET YOU GUYS GUARANTEE 1 WEEK DELIVERY?! THAT'S RIDICULOUS!!!",
+                "timestamp": "2026-02-28 10:01:00"
+            },
+            {
+                "role": "agent",
+                "text": "I understand your frustration, Mr. Terrell. However, please note that the delivery time is stated in our terms and conditions. If you'd like, I can help you track your order and see if there's an issue with the shipping carrier. ",
+                "timestamp": "2026-02-28 10:01:10"
+            },
+            {
+                "role": "customer",
+                "text": "FINE. JUST TRACK IT THEN",
+                "timestamp": "2026-02-28 10:01:25"
+            },
+            {
+                "role": "agent",
+                "text": "I've tracked your order, Mr. Terrell. It seems that the shipping carrier has experienced some delays. However, your order is still in transit and is expected to arrive within the next 2-3 business days. You'll receive another update once it's delivered. ",
+                "timestamp": "2026-02-28 10:01:40"
+            },
+            {
+                "role": "customer",
+                "text": "OK THEN",
+                "timestamp": "2026-02-28 10:01:55"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "customer_name": "William Coffey",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "hi",
+                "timestamp": "2026-02-28 10:00:01"
+            },
+            {
+                "role": "agent",
+                "text": "Hello William Coffey, thank you for reaching out to our customer support team. How can I help you today?",
+                "timestamp": "2026-02-28 10:00:05"
+            },
+            {
+                "role": "customer",
+                "text": "i have a problem",
+                "timestamp": "2026-02-28 10:00:08"
+            },
+            {
+                "role": "agent",
+                "text": "Sorry to hear that you have an issue, William Coffey. Can you please tell me more about the problem you're experiencing with your payment?",
+                "timestamp": "2026-02-28 10:00:12"
+            },
+            {
+                "role": "customer",
+                "text": "i tried to make a payment but it wasn't accepted",
+                "timestamp": "2026-02-28 10:00:15"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for letting me know, William Coffey. I've checked your account and it seems that the payment method you used was not eligible for our system.",
+                "timestamp": "2026-02-28 10:00:20"
+            },
+            {
+                "role": "customer",
+                "text": "thats not right",
+                "timestamp": "2026-02-28 10:00:25"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize for the mistake, William Coffey. However, according to our system, the payment method you used was not valid.",
+                "timestamp": "2026-02-28 10:00:30"
+            },
+            {
+                "role": "customer",
+                "text": "ok then",
+                "timestamp": "2026-02-28 10:00:35"
+            },
+            {
+                "role": "agent",
+                "text": "I'm sorry to hear that we couldn't resolve the issue to your satisfaction, William Coffey. If you have any other questions or concerns, please don't hesitate to reach out to us.",
+                "timestamp": "2026-02-28 10:00:40"
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "customer_name": "Diana Walker",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hey, I'm not sure about the pricing plan, can you explain it to me?",
+                "timestamp": "2026-02-28 09:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Good morning Diana Walker, I'd be happy to explain our pricing plan to you. We have three tiers: basic, premium, and enterprise. Each tier has its own set of features and pricing.",
+                "timestamp": "2026-02-28 09:02:00"
+            },
+            {
+                "role": "customer",
+                "text": "Okay, that sounds good. Can you tell me more about the enterprise tier?",
+                "timestamp": "2026-02-28 09:04:00"
+            },
+            {
+                "role": "agent",
+                "text": "The enterprise tier is our most advanced plan, it includes all the features from the basic and premium tiers, plus additional features such as priority support and customized onboarding.",
+                "timestamp": "2026-02-28 09:06:00"
+            },
+            {
+                "role": "customer",
+                "text": "Okay, sounds good. Thanks!",
+                "timestamp": "2026-02-28 09:08:00"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, Diana Walker. Is there anything else I can help you with?",
+                "timestamp": "2026-02-28 09:10:00"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "customer_name": "Valerie Johnson",
+        "messages": [
+            {
+                "role": "agent",
+                "text": "Hello Valerie Johnson, thank you for reaching out to our customer support. How can I assist you today?",
+                "timestamp": "2026-02-28 10:30:00"
+            },
+            {
+                "role": "customer",
+                "text": "hello, my laptop won't turn on. help",
+                "timestamp": "2026-02-28 10:30:02"
+            },
+            {
+                "role": "agent",
+                "text": "Sorry to hear that Valerie. Can you please tell me more about the issue you're experiencing with your laptop not turning on? Is it a recent problem or has it been happening for a while?",
+                "timestamp": "2026-02-28 10:30:05"
+            },
+            {
+                "role": "customer",
+                "text": "recently. i was using it fine yesterday",
+                "timestamp": "2026-02-28 10:30:07"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize, but I'm having some trouble understanding the issue. Can you please confirm that the laptop is completely turned off and not just in sleep mode?",
+                "timestamp": "2026-02-28 10:30:10"
+            },
+            {
+                "role": "customer",
+                "text": "no. it's fully off",
+                "timestamp": "2026-02-28 10:30:12"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for confirming Valerie. In that case, I recommend that you try to charge your laptop for at least 30 minutes and then try turning it on again. If that doesn't work, please let me know and I'll be happy to assist you further.",
+                "timestamp": "2026-02-28 10:30:15"
+            },
+            {
+                "role": "customer",
+                "text": "ok",
+                "timestamp": "2026-02-28 10:30:17"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for trying that Valerie. If you're still having trouble, please feel free to reach out to us again and we'll do our best to assist you.",
+                "timestamp": "2026-02-28 10:30:20"
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "customer_name": "Leslie Reilly",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "I still haven't received my refund from last month's order. Can you help me?",
+                "timestamp": "2026-02-28 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Leslie Reilly, I'm happy to help you with that. Can you please provide me with the order number for the refund?",
+                "timestamp": "2026-02-28 10:02:00"
+            },
+            {
+                "role": "customer",
+                "text": "It's 123456. I've sent it to you multiple times.",
+                "timestamp": "2026-02-28 10:04:00"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for providing the order number. I've checked on it and it seems that the refund was processed correctly. However, it might take a few more days to reflect in your account.",
+                "timestamp": "2026-02-28 10:06:00"
+            },
+            {
+                "role": "customer",
+                "text": "I still haven't received it. Can I speak to your supervisor?",
+                "timestamp": "2026-02-28 10:08:00"
+            },
+            {
+                "role": "agent",
+                "text": "I understand your frustration Leslie Reilly. I'll escalate this to my supervisor. Please give me a moment.",
+                "timestamp": "2026-02-28 10:10:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Leslie Reilly, this is my supervisor. I've reviewed your case and it seems that the refund was indeed processed correctly. However, it might take a few more days to reflect in your account.",
+                "timestamp": "2026-02-28 10:12:00"
+            }
+        ]
+    },
+    {
+        "id": 146,
+        "customer_name": "Amber Taylor",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hi, I'm trying to decide between the premium and standard plan.",
+                "timestamp": "2026-02-28 10:00:00"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you for reaching out, Amber. Let me check on the pricing plans for you.",
+                "timestamp": "2026-02-28 10:00:02"
+            },
+            {
+                "role": "agent",
+                "text": "Our premium plan starts at $19.99/month, while our standard plan starts at $9.99/month.",
+                "timestamp": "2026-02-28 10:00:05"
+            },
+            {
+                "role": "agent",
+                "text": "Would you like to know more about the features included in each plan?",
+                "timestamp": "2026-02-28 10:00:08"
+            },
+            {
+                "role": "customer",
+                "text": "Yeah, that would be great.",
+                "timestamp": "2026-02-28 10:02:00"
+            },
+            {
+                "role": "agent",
+                "text": "The premium plan includes additional storage and advanced security features, while the standard plan includes basic storage and security.",
+                "timestamp": "2026-02-28 10:02:03"
+            },
+            {
+                "role": "customer",
+                "text": "That helps. Thanks.",
+                "timestamp": "2026-02-28 10:02:05"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, Amber.",
+                "timestamp": "2026-02-28 10:02:07"
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "customer_name": "David Davenport",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "My internet is down and I'm really angry! I demand to speak with a supervisor!",
+                "timestamp": "2026-02-27 14:30:00"
+            },
+            {
+                "role": "agent",
+                "text": "I understand that your internet is down, David Davenport. Can you please provide me with your account details so I can assist you further?",
+                "timestamp": "2026-02-27 14:30:02"
+            },
+            {
+                "role": "customer",
+                "text": "NO! I don't want to give you my password! I want to speak with your supervisor NOW!",
+                "timestamp": "2026-02-27 14:30:05"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize for the inconvenience, David Davenport. However, I must inform you that I'm not authorized to share your account details with anyone, including our supervisors. I can offer you a solution to resolve the issue, though.",
+                "timestamp": "2026-02-27 14:30:08"
+            },
+            {
+                "role": "customer",
+                "text": "Oh, great! Another unhelpful agent! Fine.",
+                "timestamp": "2026-02-27 14:30:10"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize if my previous response seemed unhelpful, David Davenport. I'm here to assist you. Can you please try restarting your router and see if that resolves the issue?",
+                "timestamp": "2026-02-27 14:30:12"
+            },
+            {
+                "role": "customer",
+                "text": "Okay, I tried it. It's still not working.",
+                "timestamp": "2026-02-27 14:30:15"
+            },
+            {
+                "role": "agent",
+                "text": "I'm going to troubleshoot the issue further, David Davenport. Can you please confirm that you're experiencing the issue on a wired connection as well?",
+                "timestamp": "2026-02-27 14:30:18"
+            },
+            {
+                "role": "customer",
+                "text": "Yes, it's still not working on a wired connection.",
+                "timestamp": "2026-02-27 14:30:20"
+            },
+            {
+                "role": "agent",
+                "text": "I've escalated this issue to our technical team, David Davenport. They will contact you within the next few hours to resolve the issue.",
+                "timestamp": "2026-02-27 14:30:22"
+            },
+            {
+                "role": "customer",
+                "text": "Thanks, I guess.",
+                "timestamp": "2026-02-27 14:30:25"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, David Davenport. I hope our technical team is able to resolve the issue for you soon.",
+                "timestamp": "2026-02-27 14:30:27"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "customer_name": "Heather Diaz",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "I'M SO FRUSTRATED THAT MY DEVICE WON'T TURN ON!!! I NEED HELP NOW!",
+                "timestamp": "2026-02-28 10:00:05"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Heather Diaz, I apologize for the issue with your device. Can you please provide me with the serial number so I can assist you further?",
+                "timestamp": "2026-02-28 10:00:10"
+            },
+            {
+                "role": "customer",
+                "text": "SERIAL NUMBER IS XYZ123",
+                "timestamp": "2026-02-28 10:00:15"
+            },
+            {
+                "role": "agent",
+                "text": "Thank you Heather Diaz for providing the serial number. I'm trying to troubleshoot the issue. Please wait a moment while I check this for you.",
+                "timestamp": "2026-02-28 10:00:20"
+            },
+            {
+                "role": "agent",
+                "text": "I've checked the serial number and it seems there is an issue with the device's hardware. I'm going to escalate this to my supervisor for further assistance.",
+                "timestamp": "2026-02-28 10:00:25"
+            },
+            {
+                "role": "customer",
+                "text": "ARE YOU KIDDING ME?! YOU'RE JUST GOING TO ESCALATE ME TO SOMEONE ELSE WITHOUT TRYING TO SOLVE THE ISSUE?",
+                "timestamp": "2026-02-28 10:00:30"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize for any inconvenience this may have caused Heather Diaz. My supervisor will contact you shortly to further assist you with the issue.",
+                "timestamp": "2026-02-28 10:00:35"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "customer_name": "Christina Eaton",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "hi",
+                "timestamp": "2026-02-28 09:00:00"
+            },
+            {
+                "role": "customer",
+                "text": "i have a problem with my account",
+                "timestamp": "2026-02-28 09:00:05"
+            },
+            {
+                "role": "agent",
+                "text": "Hello Christina Eaton, thank you for contacting our customer support. I'm here to help with your issue. Could you please provide more details about the problem you're experiencing with your account?",
+                "timestamp": "2026-02-28 09:00:10"
+            },
+            {
+                "role": "customer",
+                "text": "i cant access my account because of this policy thingy",
+                "timestamp": "2026-02-28 09:00:15"
+            },
+            {
+                "role": "agent",
+                "text": "I understand that you're having trouble accessing your account due to our policy. Unfortunately, our policy doesn't allow for exceptions in this case. However, I can offer you an alternative solution that might help you access your account.",
+                "timestamp": "2026-02-28 09:00:20"
+            },
+            {
+                "role": "customer",
+                "text": "no thanks",
+                "timestamp": "2026-02-28 09:00:25"
+            },
+            {
+                "role": "agent",
+                "text": "Is there anything else I can assist you with, Christina Eaton? I want to make sure you're taken care of.",
+                "timestamp": "2026-02-28 09:00:30"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "customer_name": "Lisa Cannon",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "Hey, I just signed up for a free trial. What are my pricing options?",
+                "timestamp": "2026-02-27 10:05:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hi there Lisa. Welcome to our service! We have three pricing plans: Basic, Premium and Enterprise. Which one are you interested in?",
+                "timestamp": "2026-02-27 10:05:05"
+            },
+            {
+                "role": "customer",
+                "text": "I'm interested in the Premium plan. How much does it cost?",
+                "timestamp": "2026-02-27 10:05:10"
+            },
+            {
+                "role": "agent",
+                "text": "Our Premium plan costs $49.99 per month. You can also pay annually for a discounted rate.",
+                "timestamp": "2026-02-27 10:05:15"
+            },
+            {
+                "role": "customer",
+                "text": "That sounds great. Thanks for your help!",
+                "timestamp": "2026-02-27 10:05:20"
+            },
+            {
+                "role": "agent",
+                "text": "You're welcome, Lisa. If you have any other questions or need further assistance, feel free to ask.",
+                "timestamp": "2026-02-27 10:05:25"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "customer_name": "Brenda Edwards",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "hi!!! i have a problem",
+                "timestamp": "2026-02-28 09:05:00"
+            },
+            {
+                "role": "customer",
+                "text": "i ordered the wrong product and i need a refund",
+                "timestamp": "2026-02-28 09:08:00"
+            },
+            {
+                "role": "agent",
+                "text": "Hi Brenda Edwards, thank you for reaching out to us. I'd be happy to help you with your issue.",
+                "timestamp": "2026-02-28 09:10:00"
+            },
+            {
+                "role": "agent",
+                "text": "Can you please provide me with your order number so I can look into this further?",
+                "timestamp": "2026-02-28 09:11:00"
+            },
+            {
+                "role": "customer",
+                "text": "no, just cancel it and refund me",
+                "timestamp": "2026-02-28 09:13:00"
+            },
+            {
+                "role": "agent",
+                "text": "I'm sorry but I can't just cancel your order without looking into the issue further. Can you please provide me with your order number?",
+                "timestamp": "2026-02-28 09:15:00"
+            },
+            {
+                "role": "customer",
+                "text": "are you kidding me?! it's the first time i've ever ordered from here!!!!!!!!",
+                "timestamp": "2026-02-28 09:17:00"
+            },
+            {
+                "role": "agent",
+                "text": "I apologize if my previous response came across as dismissive. However, I need to follow our company's refund policy.",
+                "timestamp": "2026-02-28 09:19:00"
+            },
+            {
+                "role": "customer",
+                "text": "fine",
+                "timestamp": "2026-02-28 09:21:00"
+            },
+            {
+                "role": "agent",
+                "text": "I'm sorry that we can't meet your expectations on this one. If you have any other questions or concerns, please don't hesitate to reach out.",
+                "timestamp": "2026-02-28 09:23:00"
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "customer_name": "Andrew Bennett",
+        "messages": [
+            {
+                "role": "customer",
+                "text": "WHY DID MY PRICING PLAN CHANGE?! I'VE BEEN PAYING THE SAME RATE FOR YEARS!",
+                "timestamp": "2026-02-28 10:05:00"
+            },
+            {
+                "role": "agent",
+                "text": "I apologies for the inconvenience, Andrew. Let me check on this for you.",
+                "timestamp": "2026-02-28 10:05:02"
+            },
+            {
+                "role": "agent",
+                "text": "According to our system, your pricing plan was changed due to a recent policy update. I can offer you a promotional rate for the next 6 months.",
+                "timestamp": "2026-02-28 10:05:07"
+            },
+            {
+                "role": "customer",
+                "text": "THAT'S NOT WHAT I WANTED TO HEAR. I WANT TO SPEAK TO YOUR MANAGER.",
+                "timestamp": "2026-02-28 10:05:10"
+            },
+            {
+                "role": "agent",
+                "text": "I understand your frustration, Andrew. I'll transfer you to our manager. Please hold for a moment.",
+                "timestamp": "2026-02-28 10:05:12"
+            }
+        ]
+    }
+]
