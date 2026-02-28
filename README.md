@@ -200,6 +200,7 @@ The analysis phase is strictly deterministic:
 - **Stability:** Implements exponential backoff to handle `429 Resource Exhausted` errors during bulk processing
 
 Determinism was validated in practice: the analyzer was run multiple times on the same randomly selected dialogues. Testing revealed only 1 discrepancy across 20 chats, corresponding to **~95% result stability** — a strong benchmark for an LLM-based system in a production environment.
+
 ---
 
 ### 2. Quality Scoring Rubric (1–5)
