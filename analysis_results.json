@@ -1,10 +1,23 @@
 [
     {
         "id": 1,
-        "customer_name": "Jessica Munoz",
+        "customer_name": "Dylan Vance",
         "analysis": {
             "id": 1,
             "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 2,
+        "customer_name": "Michael Robinson",
+        "analysis": {
+            "id": 2,
+            "intent": "payment_issue",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -13,37 +26,26 @@
         }
     },
     {
-        "id": 2,
-        "customer_name": "Madison Martin",
+        "id": 3,
+        "customer_name": "Leslie Jones",
         "analysis": {
-            "id": 2,
-            "intent": "refund_request",
+            "id": 3,
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 3,
             "agent_mistakes": [
-                "rude_tone",
-                "no_resolution",
-                "incorrect_info"
+                "no_resolution"
             ]
         }
     },
     {
-        "id": 3,
-        "customer_name": "Charles Hill",
-        "analysis": {
-            "id": 3,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
         "id": 4,
-        "customer_name": "Susan Hernandez",
+        "customer_name": "Katie Wilson",
         "analysis": {
             "id": 4,
             "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -51,45 +53,50 @@
     },
     {
         "id": 5,
-        "customer_name": "Zachary Vazquez",
+        "customer_name": "Teresa Young",
         "analysis": {
             "id": 5,
             "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 6,
-        "customer_name": "Stephanie Price",
-        "analysis": {
-            "id": 6,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
-            "agent_mistakes": [
-                "incorrect_info"
-            ]
-        }
-    },
-    {
-        "id": 7,
-        "customer_name": "Brenda Ho",
-        "analysis": {
-            "id": 7,
-            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 6,
+        "customer_name": "Cody Wright",
+        "analysis": {
+            "id": 6,
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 7,
+        "customer_name": "Robert Mooney",
+        "analysis": {
+            "id": 7,
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "incorrect_info"
+            ]
+        }
+    },
+    {
         "id": 8,
-        "customer_name": "Matthew Jackson",
+        "customer_name": "Erin Hinton",
         "analysis": {
             "id": 8,
             "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -97,10 +104,11 @@
     },
     {
         "id": 9,
-        "customer_name": "Jennifer Wallace",
+        "customer_name": "Miranda Woodward",
         "analysis": {
             "id": 9,
-            "intent": "account_access",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -108,125 +116,129 @@
     },
     {
         "id": 10,
-        "customer_name": "Cody Smith",
+        "customer_name": "Randy Esparza",
         "analysis": {
             "id": 10,
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "customer_name": "Wyatt Cummings",
+        "analysis": {
+            "id": 11,
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "customer_name": "Rachel Smith",
+        "analysis": {
+            "id": 12,
             "intent": "payment_issue",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
-        "id": 11,
-        "customer_name": "Sandra Landry",
-        "analysis": {
-            "id": 11,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored_question"
-            ]
-        }
-    },
-    {
-        "id": 12,
-        "customer_name": "Dawn Hicks",
-        "analysis": {
-            "id": 12,
-            "intent": "pricing_plan",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "incorrect_info"
-            ]
-        }
-    },
-    {
         "id": 13,
-        "customer_name": "Vincent White",
+        "customer_name": "Lindsey Allen",
         "analysis": {
             "id": 13,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "intent": "tech_error",
+            "scenario": "unnecessary_escalation",
+            "satisfaction": "neutral",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "unnecessary_escalation",
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 14,
-        "customer_name": "Jonathan Knapp",
+        "customer_name": "Richard Jones",
         "analysis": {
             "id": 14,
-            "intent": "payment_issue",
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "ignored_question",
-                "incorrect_info",
                 "no_resolution"
             ]
         }
     },
     {
         "id": 15,
-        "customer_name": "Teresa Rodriguez",
+        "customer_name": "Richard Fuller",
         "analysis": {
             "id": 15,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
+            "intent": "refund_request",
+            "scenario": "aggressive_customer",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
         "id": 16,
-        "customer_name": "Charles Duran",
+        "customer_name": "Seth Hall",
         "analysis": {
             "id": 16,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
+            "intent": "tech_error",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
         "id": 17,
-        "customer_name": "Zachary Arias",
+        "customer_name": "Troy Burton",
         "analysis": {
             "id": 17,
             "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored_question"
-            ]
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 18,
-        "customer_name": "William Hunter",
+        "customer_name": "David Davis",
         "analysis": {
             "id": 18,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "ignored side question about fairness of policy"
-            ]
+            "intent": "payment_issue",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 19,
-        "customer_name": "Craig Warren",
+        "customer_name": "Kenneth Wilson",
         "analysis": {
             "id": 19,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -234,54 +246,66 @@
     },
     {
         "id": 20,
-        "customer_name": "Jennifer Richardson",
+        "customer_name": "Martha Doyle",
         "analysis": {
             "id": 20,
             "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "scenario": "unnecessary_escalation",
+            "satisfaction": "neutral",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "unnecessary_escalation",
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 21,
-        "customer_name": "Jon Turner",
+        "customer_name": "Jordan Estrada",
         "analysis": {
             "id": 21,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 22,
-        "customer_name": "Nathaniel Sampson",
-        "analysis": {
-            "id": 22,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 23,
-        "customer_name": "Aaron Wilson",
-        "analysis": {
-            "id": 23,
             "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 22,
+        "customer_name": "Joseph Bell",
+        "analysis": {
+            "id": 22,
+            "intent": "payment_issue",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "customer_name": "Alexis Hess",
+        "analysis": {
+            "id": 23,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
         "id": 24,
-        "customer_name": "Renee Wade",
+        "customer_name": "Kimberly Harris MD",
         "analysis": {
             "id": 24,
-            "intent": "refund_request",
+            "intent": "payment_issue",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -289,43 +313,55 @@
     },
     {
         "id": 25,
-        "customer_name": "Charles Gonzalez",
+        "customer_name": "Jennifer Woodward",
         "analysis": {
             "id": 25,
-            "intent": "pricing_plan",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "tech_error",
+            "scenario": "aggressive_customer",
+            "satisfaction": "unsatisfied",
+            "quality_score": 2,
+            "agent_mistakes": [
+                "incorrect_info",
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 26,
-        "customer_name": "Barbara Ortiz",
+        "customer_name": "Jeffery Young MD",
         "analysis": {
             "id": 26,
             "intent": "pricing_plan",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 27,
-        "customer_name": "Guy Barnes",
+        "customer_name": "Russell Yates",
         "analysis": {
             "id": 27,
             "intent": "payment_issue",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
         }
     },
     {
         "id": 28,
-        "customer_name": "Cheryl Flores",
+        "customer_name": "Mark Mann",
         "analysis": {
             "id": 28,
-            "intent": "refund_request",
+            "intent": "payment_issue",
+            "scenario": "aggressive_customer",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -333,43 +369,51 @@
     },
     {
         "id": 29,
-        "customer_name": "Shawn Bryant",
+        "customer_name": "Jaclyn Beasley",
         "analysis": {
             "id": 29,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
+            "intent": "payment_issue",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
         "id": 30,
-        "customer_name": "Sarah Smith",
+        "customer_name": "Mrs. Jasmin Herrera",
         "analysis": {
             "id": 30,
-            "intent": "tech_error",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 31,
-        "customer_name": "Dylan Sanchez",
+        "customer_name": "Christopher Simmons",
         "analysis": {
             "id": 31,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 32,
-        "customer_name": "Arthur Crosby",
+        "customer_name": "Brad Brown",
         "analysis": {
             "id": 32,
-            "intent": "account_access",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -377,10 +421,11 @@
     },
     {
         "id": 33,
-        "customer_name": "Christopher Callahan",
+        "customer_name": "Teresa Wallace",
         "analysis": {
             "id": 33,
-            "intent": "account_access",
+            "intent": "refund_request",
+            "scenario": "aggressive_customer",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -388,60 +433,63 @@
     },
     {
         "id": 34,
-        "customer_name": "Charles Bishop",
+        "customer_name": "Laura Martinez",
         "analysis": {
             "id": 34,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "aggressive_customer",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "customer_name": "Andrew Valenzuela",
+        "analysis": {
+            "id": 35,
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
-        "id": 35,
-        "customer_name": "Mary Welch",
-        "analysis": {
-            "id": 35,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "no_resolution"
-            ]
-        }
-    },
-    {
         "id": 36,
-        "customer_name": "Mr. Lance Hall",
+        "customer_name": "Savannah Douglas",
         "analysis": {
             "id": 36,
             "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 37,
-        "customer_name": "Paige Bell",
+        "customer_name": "Dana Martin",
         "analysis": {
             "id": 37,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "incorrect_info",
-                "no_resolution"
-            ]
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 38,
-        "customer_name": "Scott Downs",
+        "customer_name": "Craig James",
         "analysis": {
             "id": 38,
-            "intent": "pricing_plan",
+            "intent": "tech_error",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -449,36 +497,41 @@
     },
     {
         "id": 39,
-        "customer_name": "Amanda Rivera",
+        "customer_name": "David Wyatt",
         "analysis": {
             "id": 39,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info",
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "customer_name": "Terry Baker",
+        "analysis": {
+            "id": 40,
+            "intent": "payment_issue",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 1,
+            "agent_mistakes": [
+                "rude_tone",
                 "no_resolution",
                 "unnecessary_escalation"
             ]
         }
     },
     {
-        "id": 40,
-        "customer_name": "Connor Miller",
-        "analysis": {
-            "id": 40,
-            "intent": "account_access",
-            "satisfaction": "neutral",
-            "quality_score": 3,
-            "agent_mistakes": []
-        }
-    },
-    {
         "id": 41,
-        "customer_name": "Frederick Adams",
+        "customer_name": "Paul Miller",
         "analysis": {
             "id": 41,
-            "intent": "refund_request",
+            "intent": "account_access",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -486,49 +539,49 @@
     },
     {
         "id": 42,
-        "customer_name": "Deborah Martin",
+        "customer_name": "Julia Owens",
         "analysis": {
             "id": 42,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "unnecessary_escalation"
-            ]
-        }
-    },
-    {
-        "id": 43,
-        "customer_name": "Ashley Little",
-        "analysis": {
-            "id": 43,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "incorrect_info"
-            ]
-        }
-    },
-    {
-        "id": 44,
-        "customer_name": "Jimmy Stanley",
-        "analysis": {
-            "id": 44,
             "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 43,
+        "customer_name": "Rebecca Rowe",
+        "analysis": {
+            "id": 43,
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 44,
+        "customer_name": "Ian Davis",
+        "analysis": {
+            "id": 44,
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
         "id": 45,
-        "customer_name": "Kathleen Hammond",
+        "customer_name": "Mr. Dennis Davenport",
         "analysis": {
             "id": 45,
-            "intent": "refund_request",
+            "intent": "tech_error",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -536,10 +589,53 @@
     },
     {
         "id": 46,
-        "customer_name": "Patrick Thompson",
+        "customer_name": "Matthew Nixon",
         "analysis": {
             "id": 46,
             "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 2,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "customer_name": "William Haynes",
+        "analysis": {
+            "id": 47,
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "customer_name": "Christopher Young",
+        "analysis": {
+            "id": 48,
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 4,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 49,
+        "customer_name": "Jackie Goodman",
+        "analysis": {
+            "id": 49,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -548,51 +644,15 @@
         }
     },
     {
-        "id": 47,
-        "customer_name": "Kayla Warren",
-        "analysis": {
-            "id": 47,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 48,
-        "customer_name": "Veronica White",
-        "analysis": {
-            "id": 48,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "policy_clash"
-            ]
-        }
-    },
-    {
-        "id": 49,
-        "customer_name": "Dawn Henson",
-        "analysis": {
-            "id": 49,
-            "intent": "account_access",
-            "satisfaction": "neutral",
-            "quality_score": 4,
-            "agent_mistakes": []
-        }
-    },
-    {
         "id": 50,
-        "customer_name": "Maureen Ballard",
+        "customer_name": "Daniel Anderson",
         "analysis": {
             "id": 50,
-            "intent": "pricing_plan",
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info",
                 "no_resolution",
                 "unnecessary_escalation"
             ]
@@ -600,38 +660,38 @@
     },
     {
         "id": 51,
-        "customer_name": "Joshua Shields",
+        "customer_name": "Angel Winters",
         "analysis": {
             "id": 51,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 1,
-            "agent_mistakes": [
-                "rude_tone",
-                "no_resolution"
-            ]
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 52,
-        "customer_name": "Patrick Mathis",
+        "customer_name": "John Klein",
         "analysis": {
             "id": 52,
             "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info",
+                "no_resolution",
                 "unnecessary_escalation"
             ]
         }
     },
     {
         "id": 53,
-        "customer_name": "John Ortiz",
+        "customer_name": "Karen Randall",
         "analysis": {
             "id": 53,
-            "intent": "other",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -639,24 +699,23 @@
     },
     {
         "id": 54,
-        "customer_name": "Andrew Jordan",
+        "customer_name": "Chad Odonnell",
         "analysis": {
             "id": 54,
-            "intent": "other",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "unnecessary_escalation"
-            ]
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 55,
-        "customer_name": "Jaime Marks",
+        "customer_name": "Sharon Reyes",
         "analysis": {
             "id": 55,
             "intent": "payment_issue",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -664,51 +723,53 @@
     },
     {
         "id": 56,
-        "customer_name": "Joshua Harris",
+        "customer_name": "Amanda Jones",
         "analysis": {
             "id": 56,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "intent": "refund_request",
+            "scenario": "unnecessary_escalation",
+            "satisfaction": "neutral",
+            "quality_score": 3,
             "agent_mistakes": [
-                "no_resolution",
-                "unnecessary_escalation"
+                "unnecessary_escalation",
+                "no_resolution_before_escalation"
             ]
         }
     },
     {
         "id": 57,
-        "customer_name": "Patrick Valencia",
+        "customer_name": "Christopher Long",
         "analysis": {
             "id": 57,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
-            "agent_mistakes": [
-                "no_resolution"
-            ]
+            "intent": "pricing_plan",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 58,
-        "customer_name": "Garrett Armstrong",
+        "customer_name": "Mr. Aaron Cooper",
         "analysis": {
             "id": 58,
             "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "ignored_question",
-                "no_resolution"
+                "no_resolution",
+                "incorrect_info"
             ]
         }
     },
     {
         "id": 59,
-        "customer_name": "Gabriel Kane",
+        "customer_name": "Courtney Rogers",
         "analysis": {
             "id": 59,
-            "intent": "refund_request",
+            "intent": "account_access",
+            "scenario": "aggressive_customer",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -716,10 +777,47 @@
     },
     {
         "id": 60,
-        "customer_name": "Heidi Holmes",
+        "customer_name": "Jesse Lyons",
         "analysis": {
             "id": 60,
             "intent": "tech_error",
+            "scenario": "aggressive_customer",
+            "satisfaction": "satisfied",
+            "quality_score": 4,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 61,
+        "customer_name": "Desiree Humphrey",
+        "analysis": {
+            "id": 61,
+            "intent": "account_access",
+            "scenario": "aggressive_customer",
+            "satisfaction": "satisfied",
+            "quality_score": 4,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 62,
+        "customer_name": "Daniel Blair",
+        "analysis": {
+            "id": 62,
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 63,
+        "customer_name": "Calvin Schneider",
+        "analysis": {
+            "id": 63,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -728,54 +826,12 @@
         }
     },
     {
-        "id": 61,
-        "customer_name": "Becky Fleming",
-        "analysis": {
-            "id": 61,
-            "intent": "pricing_plan",
-            "satisfaction": "unsatisfied",
-            "quality_score": 1,
-            "agent_mistakes": [
-                "rude_tone",
-                "no_resolution",
-                "ignored_question"
-            ]
-        }
-    },
-    {
-        "id": 62,
-        "customer_name": "Daniel Thomas",
-        "analysis": {
-            "id": 62,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 1,
-            "agent_mistakes": [
-                "incorrect_info",
-                "no_resolution"
-            ]
-        }
-    },
-    {
-        "id": 63,
-        "customer_name": "Christopher Thompson",
-        "analysis": {
-            "id": 63,
-            "intent": "payment_issue",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "incorrect_info",
-                "unnecessary_escalation"
-            ]
-        }
-    },
-    {
         "id": 64,
-        "customer_name": "Melanie Russell",
+        "customer_name": "Joanne Arroyo",
         "analysis": {
             "id": 64,
-            "intent": "account_access",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -783,46 +839,53 @@
     },
     {
         "id": 65,
-        "customer_name": "Jon Rodriguez",
+        "customer_name": "Ryan Morgan",
         "analysis": {
             "id": 65,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 66,
-        "customer_name": "Jennifer Steele",
+        "customer_name": "Fernando Lee",
         "analysis": {
             "id": 66,
-            "intent": "tech_error",
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "no_resolution",
-                "unnecessary_escalation"
+                "no_resolution"
             ]
         }
     },
     {
         "id": 67,
-        "customer_name": "Nicholas Gay",
+        "customer_name": "Peter Holt",
         "analysis": {
             "id": 67,
             "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 68,
-        "customer_name": "Kristen Rivera",
+        "customer_name": "Joseph Obrien",
         "analysis": {
             "id": 68,
             "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -832,12 +895,28 @@
     },
     {
         "id": 69,
-        "customer_name": "Cynthia Roberts",
+        "customer_name": "Regina Murray",
         "analysis": {
             "id": 69,
-            "intent": "pricing_plan",
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 70,
+        "customer_name": "Elizabeth Valenzuela",
+        "analysis": {
+            "id": 70,
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
             "agent_mistakes": [
                 "incorrect_info",
                 "no_resolution"
@@ -845,22 +924,12 @@
         }
     },
     {
-        "id": 70,
-        "customer_name": "Laura Weber",
-        "analysis": {
-            "id": 70,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
         "id": 71,
-        "customer_name": "Nicholas Freeman",
+        "customer_name": "Cheryl Wilson",
         "analysis": {
             "id": 71,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -868,35 +937,37 @@
     },
     {
         "id": 72,
-        "customer_name": "Mary Dean",
+        "customer_name": "James Palmer",
         "analysis": {
             "id": 72,
             "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 73,
+        "customer_name": "Randall Thomas",
+        "analysis": {
+            "id": 73,
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
-        "id": 73,
-        "customer_name": "Maxwell Patel",
-        "analysis": {
-            "id": 73,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "incorrect_info",
-                "unnecessary_escalation"
-            ]
-        }
-    },
-    {
         "id": 74,
-        "customer_name": "Sheila Mckay",
+        "customer_name": "Mark Lopez",
         "analysis": {
             "id": 74,
             "intent": "account_access",
+            "scenario": "aggressive_customer",
             "satisfaction": "unsatisfied",
             "quality_score": 2,
             "agent_mistakes": [
@@ -907,56 +978,28 @@
     },
     {
         "id": 75,
-        "customer_name": "Alice Bell",
+        "customer_name": "Joseph Stokes",
         "analysis": {
             "id": 75,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
+            "intent": "pricing_plan",
+            "scenario": "aggressive_customer",
+            "satisfaction": "unsatisfied",
+            "quality_score": 1,
+            "agent_mistakes": [
+                "security_violation",
+                "unnecessary_escalation"
+            ]
         }
     },
     {
         "id": 76,
-        "customer_name": "Michelle Robertson",
+        "customer_name": "Timothy Collins",
         "analysis": {
             "id": 76,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 77,
-        "customer_name": "Nathan Jenkins",
-        "analysis": {
-            "id": 77,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 78,
-        "customer_name": "Justin Nelson",
-        "analysis": {
-            "id": 78,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 79,
-        "customer_name": "Tiffany Bell",
-        "analysis": {
-            "id": 79,
-            "intent": "tech_error",
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
                 "no_resolution",
                 "unnecessary_escalation"
@@ -964,11 +1007,48 @@
         }
     },
     {
+        "id": 77,
+        "customer_name": "Sabrina Carlson",
+        "analysis": {
+            "id": 77,
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 78,
+        "customer_name": "Michael Roberts",
+        "analysis": {
+            "id": 78,
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 79,
+        "customer_name": "Mrs. Sandra Lewis",
+        "analysis": {
+            "id": 79,
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
         "id": 80,
-        "customer_name": "Michael Barnett",
+        "customer_name": "Matthew Hinton",
         "analysis": {
             "id": 80,
-            "intent": "account_access",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -976,46 +1056,51 @@
     },
     {
         "id": 81,
-        "customer_name": "Denise Pruitt",
+        "customer_name": "Ernest White",
         "analysis": {
             "id": 81,
-            "intent": "pricing_plan",
-            "satisfaction": "unsatisfied",
-            "quality_score": 1,
-            "agent_mistakes": [
-                "incorrect_info",
-                "rude_tone"
-            ]
-        }
-    },
-    {
-        "id": 82,
-        "customer_name": "Jeffery Nguyen",
-        "analysis": {
-            "id": 82,
-            "intent": "payment_issue",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 82,
+        "customer_name": "Jordan Padilla",
+        "analysis": {
+            "id": 82,
+            "intent": "account_access",
+            "scenario": "rude_agent",
+            "satisfaction": "unsatisfied",
+            "quality_score": 1,
+            "agent_mistakes": [
+                "rude_tone",
+                "no_resolution",
+                "wrong_customer_tone"
+            ]
+        }
+    },
+    {
         "id": 83,
-        "customer_name": "Mr. Anthony Jackson",
+        "customer_name": "Christopher Evans",
         "analysis": {
             "id": 83,
-            "intent": "payment_issue",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 4,
             "agent_mistakes": []
         }
     },
     {
         "id": 84,
-        "customer_name": "Deborah King",
+        "customer_name": "Cody Figueroa",
         "analysis": {
             "id": 84,
             "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1023,75 +1108,11 @@
     },
     {
         "id": 85,
-        "customer_name": "Charles Lutz",
+        "customer_name": "Christine Stephens",
         "analysis": {
             "id": 85,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "incorrect_info"
-            ]
-        }
-    },
-    {
-        "id": 86,
-        "customer_name": "Diane Murillo",
-        "analysis": {
-            "id": 86,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "ignored_question",
-                "unnecessary_escalation_refusal",
-                "no_resolution"
-            ]
-        }
-    },
-    {
-        "id": 87,
-        "customer_name": "Barbara Randolph",
-        "analysis": {
-            "id": 87,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 88,
-        "customer_name": "Keith Cummings",
-        "analysis": {
-            "id": 88,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 89,
-        "customer_name": "James White",
-        "analysis": {
-            "id": 89,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "no_resolution"
-            ]
-        }
-    },
-    {
-        "id": 90,
-        "customer_name": "Anna Shelton",
-        "analysis": {
-            "id": 90,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -1100,25 +1121,90 @@
         }
     },
     {
+        "id": 86,
+        "customer_name": "Teresa Sims",
+        "analysis": {
+            "id": 86,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 87,
+        "customer_name": "Angela Howard",
+        "analysis": {
+            "id": 87,
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 88,
+        "customer_name": "Lynn Wilson",
+        "analysis": {
+            "id": 88,
+            "intent": "other",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 89,
+        "customer_name": "Nicole Thomas",
+        "analysis": {
+            "id": 89,
+            "intent": "pricing_plan",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
+        "id": 90,
+        "customer_name": "Jennifer Vega",
+        "analysis": {
+            "id": 90,
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
+        }
+    },
+    {
         "id": 91,
-        "customer_name": "Helen Graham",
+        "customer_name": "Joseph Davis",
         "analysis": {
             "id": 91,
-            "intent": "payment_issue",
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 1,
             "agent_mistakes": [
+                "rude_tone",
                 "no_resolution",
-                "incorrect_info"
+                "ignored_question"
             ]
         }
     },
     {
         "id": 92,
-        "customer_name": "William Miller",
+        "customer_name": "Karen Steele",
         "analysis": {
             "id": 92,
-            "intent": "account_access",
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -1128,21 +1214,26 @@
     },
     {
         "id": 93,
-        "customer_name": "Christopher Smith",
+        "customer_name": "Theodore Rodriguez",
         "analysis": {
             "id": 93,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "tech_error",
+            "scenario": "escalation",
+            "satisfaction": "neutral",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
         }
     },
     {
         "id": 94,
-        "customer_name": "Donald Hernandez",
+        "customer_name": "Eduardo Stanton",
         "analysis": {
             "id": 94,
-            "intent": "account_access",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1150,10 +1241,11 @@
     },
     {
         "id": 95,
-        "customer_name": "Troy Mack",
+        "customer_name": "Kimberly Williams",
         "analysis": {
             "id": 95,
-            "intent": "tech_error",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1161,10 +1253,41 @@
     },
     {
         "id": 96,
-        "customer_name": "Tyler Thompson",
+        "customer_name": "Brian Kennedy",
         "analysis": {
             "id": 96,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 97,
+        "customer_name": "Shawna Harris",
+        "analysis": {
+            "id": 97,
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "unnecessary_escalation"
+            ]
+        }
+    },
+    {
+        "id": 98,
+        "customer_name": "William Tucker",
+        "analysis": {
+            "id": 98,
             "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -1173,123 +1296,107 @@
         }
     },
     {
-        "id": 97,
-        "customer_name": "David Holder",
-        "analysis": {
-            "id": 97,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 98,
-        "customer_name": "Dana Maynard",
-        "analysis": {
-            "id": 98,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
-            "agent_mistakes": []
-        }
-    },
-    {
         "id": 99,
-        "customer_name": "Kenneth Arnold",
+        "customer_name": "Lauren Acosta",
         "analysis": {
             "id": 99,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info",
                 "no_resolution"
             ]
         }
     },
     {
         "id": 100,
-        "customer_name": "Michael Kelley",
+        "customer_name": "Heather Middleton",
         "analysis": {
             "id": 100,
             "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution",
+                "incorrect_info"
+            ]
+        }
+    },
+    {
+        "id": 101,
+        "customer_name": "Adam Robbins",
+        "analysis": {
+            "id": 101,
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
-        "id": 101,
-        "customer_name": "Joseph Nielsen",
-        "analysis": {
-            "id": 101,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "incorrect_info",
-                "unnecessary_escalation"
-            ]
-        }
-    },
-    {
         "id": 102,
-        "customer_name": "Gary Thornton",
+        "customer_name": "Robert Good",
         "analysis": {
             "id": 102,
             "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info",
-                "ignored_question",
                 "no_resolution"
             ]
         }
     },
     {
         "id": 103,
-        "customer_name": "Gabriel Berry",
+        "customer_name": "Krystal Waters",
         "analysis": {
             "id": 103,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 104,
-        "customer_name": "Zachary Dunlap",
+        "customer_name": "Michael Simmons",
         "analysis": {
             "id": 104,
-            "intent": "refund_request",
+            "intent": "tech_error",
+            "scenario": "aggressive_customer",
             "satisfaction": "satisfied",
-            "quality_score": 5,
+            "quality_score": 4,
             "agent_mistakes": []
         }
     },
     {
         "id": 105,
-        "customer_name": "Michelle Horton",
+        "customer_name": "James Salazar",
         "analysis": {
             "id": 105,
-            "intent": "tech_error",
+            "intent": "payment_issue",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored side question"
+                "no_resolution"
             ]
         }
     },
     {
         "id": 106,
-        "customer_name": "Robert Tate",
+        "customer_name": "Kenneth Castro",
         "analysis": {
             "id": 106,
             "intent": "payment_issue",
+            "scenario": "aggressive_customer",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
@@ -1299,21 +1406,23 @@
     },
     {
         "id": 107,
-        "customer_name": "Thomas Hardy",
+        "customer_name": "Steven Gray",
         "analysis": {
             "id": 107,
-            "intent": "refund_request",
-            "satisfaction": "unsatisfied",
-            "quality_score": 4,
+            "intent": "tech_error",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
         "id": 108,
-        "customer_name": "Richard Singleton",
+        "customer_name": "Jo Chung",
         "analysis": {
             "id": 108,
-            "intent": "payment_issue",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1321,12 +1430,13 @@
     },
     {
         "id": 109,
-        "customer_name": "Crystal Thomas",
+        "customer_name": "Jeffrey Beasley",
         "analysis": {
             "id": 109,
-            "intent": "payment_issue",
+            "intent": "other",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
                 "no_resolution",
                 "unnecessary_escalation"
@@ -1335,59 +1445,67 @@
     },
     {
         "id": 110,
-        "customer_name": "Janice Harris",
+        "customer_name": "Jacqueline Turner",
         "analysis": {
             "id": 110,
-            "intent": "account_access",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
-            "agent_mistakes": [
-                "ignored_question"
-            ]
+            "intent": "refund_request",
+            "scenario": "aggressive_customer",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 111,
-        "customer_name": "Melanie Jenkins",
+        "customer_name": "Kimberly Smith",
         "analysis": {
             "id": 111,
             "intent": "refund_request",
+            "scenario": "aggressive_customer",
             "satisfaction": "unsatisfied",
             "quality_score": 2,
             "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored_question"
+                "ignored_question",
+                "unnecessary_escalation"
             ]
         }
     },
     {
         "id": 112,
-        "customer_name": "Dawn Perez",
+        "customer_name": "Mary Lyons",
         "analysis": {
             "id": 112,
             "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 113,
-        "customer_name": "Dale Quinn",
+        "customer_name": "Amy Compton",
         "analysis": {
             "id": 113,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "incorrect_info",
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 114,
-        "customer_name": "Ann Lewis",
+        "customer_name": "Jeanette Nguyen",
         "analysis": {
             "id": 114,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1395,10 +1513,11 @@
     },
     {
         "id": 115,
-        "customer_name": "Ryan Davis",
+        "customer_name": "Melanie Martin",
         "analysis": {
             "id": 115,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1406,47 +1525,54 @@
     },
     {
         "id": 116,
-        "customer_name": "Zachary Jones",
+        "customer_name": "Timothy Anderson",
         "analysis": {
             "id": 116,
-            "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 117,
-        "customer_name": "Mr. Lawrence Roman DDS",
+        "customer_name": "Jose Dillon",
         "analysis": {
             "id": 117,
             "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 2,
             "agent_mistakes": [
-                "incorrect_info",
                 "no_resolution",
-                "rude_tone"
+                "unnecessary_escalation"
             ]
         }
     },
     {
         "id": 118,
-        "customer_name": "Alexandra Porter",
+        "customer_name": "Karen Brewer",
         "analysis": {
             "id": 118,
-            "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 119,
-        "customer_name": "Robert Hunt",
+        "customer_name": "Larry Roth",
         "analysis": {
             "id": 119,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1454,21 +1580,26 @@
     },
     {
         "id": 120,
-        "customer_name": "Mr. Jonathan Allen",
+        "customer_name": "Elizabeth King",
         "analysis": {
             "id": 120,
-            "intent": "refund_request",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 2,
+            "agent_mistakes": [
+                "incorrect_info",
+                "no_resolution"
+            ]
         }
     },
     {
         "id": 121,
-        "customer_name": "Sarah Shaw",
+        "customer_name": "Erica Arellano",
         "analysis": {
             "id": 121,
-            "intent": "account_access",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1476,10 +1607,11 @@
     },
     {
         "id": 122,
-        "customer_name": "Austin Jefferson DDS",
+        "customer_name": "Tammy Allen",
         "analysis": {
             "id": 122,
-            "intent": "pricing_plan",
+            "intent": "payment_issue",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1487,111 +1619,121 @@
     },
     {
         "id": 123,
-        "customer_name": "Jennifer Snow",
+        "customer_name": "Jesse Humphrey",
         "analysis": {
             "id": 123,
-            "intent": "account_access",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 124,
-        "customer_name": "Mary Jenkins",
-        "analysis": {
-            "id": 124,
-            "intent": "pricing_plan",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "no_resolution",
-                "unnecessary_escalation"
-            ]
-        }
-    },
-    {
-        "id": 125,
-        "customer_name": "Margaret Henry",
-        "analysis": {
-            "id": 125,
-            "intent": "pricing_plan",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 124,
+        "customer_name": "Briana Wilson",
+        "analysis": {
+            "id": 124,
+            "intent": "account_access",
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 125,
+        "customer_name": "Amy Vazquez",
+        "analysis": {
+            "id": 125,
+            "intent": "refund_request",
+            "scenario": "unnecessary_escalation",
+            "satisfaction": "unsatisfied",
+            "quality_score": 2,
+            "agent_mistakes": [
+                "unnecessary_escalation",
+                "no_resolution"
+            ]
+        }
+    },
+    {
         "id": 126,
-        "customer_name": "Leah Hebert",
+        "customer_name": "Paul Johnson",
         "analysis": {
             "id": 126,
-            "intent": "refund_request",
+            "intent": "tech_error",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 3,
             "agent_mistakes": [
-                "rude_tone",
                 "no_resolution"
             ]
         }
     },
     {
         "id": 127,
-        "customer_name": "Jacob Hardy",
+        "customer_name": "David Shaw",
         "analysis": {
             "id": 127,
-            "intent": "pricing_plan",
+            "intent": "payment_issue",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 3,
             "agent_mistakes": [
-                "ignored_question",
                 "no_resolution",
-                "rude_tone"
-            ]
-        }
-    },
-    {
-        "id": 128,
-        "customer_name": "Heather Salinas",
-        "analysis": {
-            "id": 128,
-            "intent": "tech_error",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
-        }
-    },
-    {
-        "id": 129,
-        "customer_name": "James Parker",
-        "analysis": {
-            "id": 129,
-            "intent": "pricing_plan",
-            "satisfaction": "satisfied",
-            "quality_score": 4,
-            "agent_mistakes": [
-                "incorrect_info",
                 "unnecessary_escalation"
             ]
         }
     },
     {
-        "id": 130,
-        "customer_name": "Billy Torres",
+        "id": 128,
+        "customer_name": "Nancy Ward",
         "analysis": {
-            "id": 130,
-            "intent": "pricing_plan",
+            "id": 128,
+            "intent": "refund_request",
+            "scenario": "aggressive_customer",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
+        "id": 129,
+        "customer_name": "Mckenzie Jones",
+        "analysis": {
+            "id": 129,
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
+        "id": 130,
+        "customer_name": "Isabella Holt",
+        "analysis": {
+            "id": 130,
+            "intent": "pricing_plan",
+            "scenario": "aggressive_customer",
+            "satisfaction": "unsatisfied",
+            "quality_score": 3,
+            "agent_mistakes": [
+                "no_resolution"
+            ]
+        }
+    },
+    {
         "id": 131,
-        "customer_name": "Nicholas Snyder",
+        "customer_name": "Andrew Lucas",
         "analysis": {
             "id": 131,
-            "intent": "account_access",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1599,10 +1741,11 @@
     },
     {
         "id": 132,
-        "customer_name": "Kerry Martin",
+        "customer_name": "Joseph Perry",
         "analysis": {
             "id": 132,
             "intent": "account_access",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1610,21 +1753,23 @@
     },
     {
         "id": 133,
-        "customer_name": "Randy Price",
+        "customer_name": "Anthony Wheeler",
         "analysis": {
             "id": 133,
-            "intent": "payment_issue",
+            "intent": "tech_error",
+            "scenario": "success",
             "satisfaction": "satisfied",
-            "quality_score": 4,
+            "quality_score": 5,
             "agent_mistakes": []
         }
     },
     {
         "id": 134,
-        "customer_name": "Stephanie Leonard",
+        "customer_name": "Jesse Harris",
         "analysis": {
             "id": 134,
-            "intent": "account_access",
+            "intent": "payment_issue",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1632,10 +1777,11 @@
     },
     {
         "id": 135,
-        "customer_name": "Joseph Rodriguez",
+        "customer_name": "Diane Tran",
         "analysis": {
             "id": 135,
-            "intent": "tech_error",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1643,10 +1789,11 @@
     },
     {
         "id": 136,
-        "customer_name": "Sandy Smith",
+        "customer_name": "Michael Rodriguez",
         "analysis": {
             "id": 136,
-            "intent": "payment_issue",
+            "intent": "account_access",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1654,10 +1801,11 @@
     },
     {
         "id": 137,
-        "customer_name": "Antonio Garcia",
+        "customer_name": "Mrs. Alexis Meadows MD",
         "analysis": {
             "id": 137,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1665,10 +1813,11 @@
     },
     {
         "id": 138,
-        "customer_name": "David Thomas",
+        "customer_name": "Carlos Andersen",
         "analysis": {
             "id": 138,
-            "intent": "account_access",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1676,21 +1825,26 @@
     },
     {
         "id": 139,
-        "customer_name": "Alexandra Hatfield",
+        "customer_name": "Jacob Lee",
         "analysis": {
             "id": 139,
             "intent": "payment_issue",
-            "satisfaction": "satisfied",
-            "quality_score": 5,
-            "agent_mistakes": []
+            "scenario": "hidden_dissatisfaction",
+            "satisfaction": "unsatisfied",
+            "quality_score": 2,
+            "agent_mistakes": [
+                "incorrect_info",
+                "unnecessary_escalation"
+            ]
         }
     },
     {
         "id": 140,
-        "customer_name": "Blake Parker",
+        "customer_name": "Darren Henderson",
         "analysis": {
             "id": 140,
             "intent": "account_access",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1698,10 +1852,11 @@
     },
     {
         "id": 141,
-        "customer_name": "Steve Hernandez",
+        "customer_name": "Victoria Kaufman",
         "analysis": {
             "id": 141,
-            "intent": "account_access",
+            "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1709,39 +1864,38 @@
     },
     {
         "id": 142,
-        "customer_name": "Travis Ramirez",
+        "customer_name": "Terry Odom",
         "analysis": {
             "id": 142,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 3,
-            "agent_mistakes": [
-                "no_resolution"
-            ]
+            "intent": "refund_request",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 143,
-        "customer_name": "Eric Adkins",
+        "customer_name": "Michelle Gilbert",
         "analysis": {
             "id": 143,
-            "intent": "payment_issue",
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 3,
             "agent_mistakes": [
-                "ignored_question",
-                "incorrect_info",
                 "no_resolution",
-                "unnecessary_escalation"
+                "incorrect_info"
             ]
         }
     },
     {
         "id": 144,
-        "customer_name": "Michelle Wright",
+        "customer_name": "Tami Luna",
         "analysis": {
             "id": 144,
-            "intent": "refund_request",
+            "intent": "account_access",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1749,10 +1903,11 @@
     },
     {
         "id": 145,
-        "customer_name": "Angela Lindsey",
+        "customer_name": "Ryan Delgado",
         "analysis": {
             "id": 145,
             "intent": "refund_request",
+            "scenario": "success",
             "satisfaction": "satisfied",
             "quality_score": 5,
             "agent_mistakes": []
@@ -1760,67 +1915,67 @@
     },
     {
         "id": 146,
-        "customer_name": "Tiffany Norman",
+        "customer_name": "Chelsea Dennis",
         "analysis": {
             "id": 146,
             "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
             "quality_score": 3,
             "agent_mistakes": [
-                "incorrect_info"
+                "no_resolution"
             ]
         }
     },
     {
         "id": 147,
-        "customer_name": "Colleen Baker",
+        "customer_name": "Laura Miller",
         "analysis": {
             "id": 147,
             "intent": "pricing_plan",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 1,
+            "quality_score": 3,
             "agent_mistakes": [
-                "rude_tone",
                 "no_resolution"
             ]
         }
     },
     {
         "id": 148,
-        "customer_name": "Christina Roach",
+        "customer_name": "Aaron May",
         "analysis": {
             "id": 148,
-            "intent": "tech_error",
-            "satisfaction": "unsatisfied",
-            "quality_score": 2,
-            "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored_question"
-            ]
+            "intent": "account_access",
+            "scenario": "success",
+            "satisfaction": "satisfied",
+            "quality_score": 5,
+            "agent_mistakes": []
         }
     },
     {
         "id": 149,
-        "customer_name": "David Mendoza",
+        "customer_name": "David Knight",
         "analysis": {
             "id": 149,
-            "intent": "payment_issue",
+            "intent": "refund_request",
+            "scenario": "hidden_dissatisfaction",
             "satisfaction": "unsatisfied",
-            "quality_score": 2,
+            "quality_score": 3,
             "agent_mistakes": [
-                "unnecessary_escalation",
-                "ignored_question"
+                "no_resolution"
             ]
         }
     },
     {
         "id": 150,
-        "customer_name": "Rick Smith",
+        "customer_name": "Dylan Butler",
         "analysis": {
             "id": 150,
-            "intent": "refund_request",
+            "intent": "pricing_plan",
+            "scenario": "success",
             "satisfaction": "satisfied",
-            "quality_score": 4,
+            "quality_score": 5,
             "agent_mistakes": []
         }
     }

@@ -42,6 +42,7 @@ def generate_skelar_dataset(count=150):
         topic = random.choice(topics)
         customer_name = fake.name()
         is_messenger = random.choice([True, False])
+        should_split = random.choice([True, False]) if is_messenger else False
 
         prompt = f"""
         Generate a unique customer support chat.
@@ -61,30 +62,37 @@ def generate_skelar_dataset(count=150):
 
         QUALITY SCORE (1-5) CALCULATION:
         1 - Rude agent, or zero help provided.
-        2 - Major mistakes (wrong info, ignored 50% of questions, unnecessary escalation) or very slow.
-        3 - Issue solved but agent was robotic, slow, or ignored a side question.
+        2 - Major mistakes (wrong info, ignored 50% of questions, unnecessary escalation, asking for passwords, or calling customer by WRONG name).
+        3 - Issue didn`t solved but agent was helpful. or the tone was robotic, slow, or ignored a side question.
         4 - Good service, solved the main issue quickly, but maybe missed a tiny detail.
         5 - Perfect! Fast responses, all questions (even side ones) answered, polite.
         
         CONFLICT & PROBLEM LOGIC:
         - If 'conflict_escalation': Customer is extremely frustrated, uses CAPS, and demands to speak with a supervisor/manager. Agent must stay calm and follow protocol.
-        - If 'aggressive_customer': Customer uses passive-aggressive comments, threats (social media, legal, or leaving for a competitor).  IMPORTANT: Aggressive tone alone does NOT mean unsatisfied. If the issue is fully resolved, final satisfaction can still be 'satisfied'.
+        - If 'aggressive_customer': Customer MUST be truly aggressive (threats to leave, legal action, insults, "I'll go to social media"). IMPORTANT: Aggressive tone alone does NOT mean unsatisfied. If the issue is fully resolved, final satisfaction can still be 'satisfied'.
         - If 'policy_clash': Customer wants a refund or feature that is explicitly against company policy. The conflict arises from the agent saying "No" professionally.
         
         CUSTOMER RULES:
         1. BE HUMAN: Use slang, casual language, emotional punctuation (!!!, ?). 
         2. NO REPETITION: Do NOT use "I appreciate it" or "I guess". Use: "cool", "fine", "noted", "thx", "ok then", "finally".
-        3. SPLIT MESSAGES: Frequently send 2-3 short messages instead of one long block. If Messenger style, always start with "hi" and the issue separately.
+        3. SPLIT MESSAGES: {"ACTIVATE SPLIT: The customer MUST send greeting and the problem as 2-3 separate messages (e.g. 'hi' then 'i have a problem')." if should_split else "Keep messages as single blocks."}
         4. STYLE: {"Messenger (typos, no caps, short)" if is_messenger else "Informal but clear"}.
+        5. TIMESTAMPS: Year is 2026. Use YYYY-MM-DD HH:MM:SS. If messages are split, interval is 2-5 seconds.
 
         AGENT RULES:
-        1. PROFESSIONAL TONE: Always polite, formal, and helpful (UNLESS 'rude_tone' is specified). No slang/abbreviations.
-        2. NO "(pause)". If agent needs time, they write: "Please wait a moment while I check this for you." and then provide the actual answer in a NEW separate message.
-        3. INACTIVITY LOGIC: If scenario is 'customer_silent':
-           - Agent asks if user is there.
-           - If no reply, agent warns: "I haven't heard from you. I will close this chat in 2 minutes if there's no interaction."
-           - If still no reply, agent professionally closes the chat.
-        4. MULTI-QUESTION: If the customer asks a side question, agent must answer it sequentially.
+        1. PROFESSIONAL TONE: Always polite, formal, and helpful (UNLESS 'rude_tone' is specified).
+        2. GRAMMAR: Agent ALWAYS uses proper capitalization (starts sentences with Upper Case). NO SLANG.
+        3. SECURITY: Agent NEVER asks for passwords or sensitive credentials.
+        4. IDENTITY: Agent MUST address the customer only as {customer_name}.
+        5. ESCALATION: If agent transfers to supervisor without trying to solve the issue first, the label is 'neutral' and quality_score is 2.
+        6. NO "(pause)". If agent needs time, they write: "Please wait a moment while I check this for you." and then provide the actual answer in a NEW separate message.
+        7. INACTIVITY LOGIC: If scenario is 'customer_silent':
+           - The customer MUST send exactly 1-2 messages and then STOP responding.
+           - Agent asks if user is there, warns about closing, then closes.
+        8. MULTI-QUESTION: If the customer asks a side question, agent must answer it sequentially.
+
+        STRICT JSON RULES:
+        - Message objects MUST only contain "role", "text", and "timestamp".
 
         Return ONLY JSON:
         {{
@@ -92,8 +100,8 @@ def generate_skelar_dataset(count=150):
             "customer_name": "{customer_name}",
             "quality_score": 1-5,
             "messages": [
-                {{"role": "customer", "text": "...", "timestamp": "..."}},
-                {{"role": "agent", "text": "...", "timestamp": "..."}}
+                {{"role": "customer", "text": "...", "timestamp": "2026-..."}},
+                {{"role": "agent", "text": "...", "timestamp": "2026-..."}}
             ]
         }}
         """
@@ -106,7 +114,14 @@ def generate_skelar_dataset(count=150):
             )
             
             if isinstance(chat_data, dict) and chat_data.get("messages"):
-                valid_messages = [m for m in chat_data["messages"] if isinstance(m, dict) and "text" in m]
+                valid_messages = []
+                for m in chat_data["messages"]:
+                    if isinstance(m, dict) and "text" in m:
+                        valid_messages.append({
+                            "role": m.get("role"),
+                            "text": m.get("text"),
+                            "timestamp": m.get("timestamp")
+                        })
                 
                 if not valid_messages:
                     continue
@@ -130,7 +145,7 @@ def generate_skelar_dataset(count=150):
                 dataset_clean.append(item)
                 dataset_reference.append(ref_item)
                 generated_count += 1
-                print(f"Chat #{generated_count} generated")
+                print(f"Chat #{generated_count} generated (2026)")
 
         except Exception as e:
             if "429" in str(e):
