@@ -1,0 +1,1270 @@
+[
+    {
+        "chat_id": 1,
+        "query": "cool, finally. thanks",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 2,
+        "query": "Alright, I updated my payment info and tried again. It worked! Thanks so much for your help!",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 3,
+        "query": "Cool. Thanks, I guess.",
+        "intent": "issue resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 4,
+        "query": "fine",
+        "intent": "Request Refund",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 5,
+        "query": "But I know my password is right. Can you please just try again?",
+        "intent": "password reset",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 6,
+        "query": "thx",
+        "intent": "Order Delivery Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 7,
+        "query": "Cool, thx! That's finally sorted.",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 8,
+        "query": "Finally! Thanks so much for your help Robert Scott",
+        "intent": "Password Reset Successful",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 9,
+        "query": "I'll take the refund, please.",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 10,
+        "query": "okay, thx",
+        "intent": "Order Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 11,
+        "query": "No, it's fine, I'll just pay full price then.",
+        "intent": "Customer Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 12,
+        "query": "thx, finally",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 13,
+        "query": "UNACCEPTABLE!!! I DEMAND TO SPEAK WITH A SUPERVISOR NOW!",
+        "intent": "Payment Issue Escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 14,
+        "query": "Ok then.",
+        "intent": "Account Access Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 15,
+        "query": "Thx, finally I can print!",
+        "intent": "Technical Support",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 16,
+        "query": "Ok, thanks",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 17,
+        "query": "Cool, thanks!",
+        "intent": "Order Status Inquiry",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 18,
+        "query": "Ok then.",
+        "intent": "Technical Support",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 19,
+        "query": "Wait, I thought you were going to help me?",
+        "intent": "password reset assistance",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 20,
+        "query": "Hey, just got my refund for the subscription. Thanks!",
+        "intent": "post-refund confirmation",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 21,
+        "query": "Cool, thanks!",
+        "intent": "Plan Upgrade",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 22,
+        "query": "ok",
+        "intent": "Pricing Plan Issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 23,
+        "query": "Ok.",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 24,
+        "query": "Hey, just got my refund! Thanks for your help.",
+        "intent": "Customer Appreciation",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 25,
+        "query": "It worked! Thanks!",
+        "intent": "Payment Issue Resolved",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 26,
+        "query": "ARE YOU KIDDING ME?? I DEMAND TO SPEAK TO YOUR MANAGER!!!!",
+        "intent": "Billing Dispute and Account Cancellation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 27,
+        "query": "thx",
+        "intent": "price plan update",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 28,
+        "query": "Awesome, thx!",
+        "intent": "issue_resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 29,
+        "query": "Thanks, I appreciate it!",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 30,
+        "query": "Finally! Thanks so much for your help.",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 31,
+        "query": "ARE YOU KIDDING ME?! YOU'RE JUST GOING TO ESCALATE ME TO SOMEONE ELSE WITHOUT TRYING TO SOLVE THE ISSUE?",
+        "intent": "Device Hardware Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 32,
+        "query": "no thanks",
+        "intent": "account access issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 33,
+        "query": "Ok, thanks",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 34,
+        "query": "Fine, thanks for trying, I guess",
+        "intent": "password reset",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 35,
+        "query": "OK THEN",
+        "intent": "Order Status and Delivery Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 36,
+        "query": "Yay! Thanks so much! You're amazing!",
+        "intent": "Payment Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 37,
+        "query": "ok",
+        "intent": "Technical Support - Laptop Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 38,
+        "query": "fine",
+        "intent": "request for refund",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 39,
+        "query": "Thanks, finally.",
+        "intent": "Technical Support",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 40,
+        "query": "This issue still isn't resolved.",
+        "intent": "Frustration and need for resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 41,
+        "query": "that's perfect, thank you so much!",
+        "intent": "Plan Change Request",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 42,
+        "query": "NO I DONT WANT TO!!!",
+        "intent": "Account Access Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 43,
+        "query": "Cool, thanks!",
+        "intent": "Password Reset",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 44,
+        "query": "Thanks so much for letting me know!",
+        "intent": "return_order",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 45,
+        "query": "thanks for nothing",
+        "intent": "Payment Issue Escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 46,
+        "query": "thx",
+        "intent": "Payment and Discount Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 47,
+        "query": "ok thanks",
+        "intent": "Refund Status Inquiry",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 48,
+        "query": "",
+        "intent": "account access issue resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 49,
+        "query": "Fine, go ahead and escalate it then",
+        "intent": "Request for Discount",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 50,
+        "query": "Thank you so much! That's all I needed.",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 51,
+        "query": "My order number is #12345. Thanks!",
+        "intent": "Refund Status",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 52,
+        "query": "THANK YOU!!!",
+        "intent": "Account Access Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 53,
+        "query": "Wait, no...I thought we were going to fix it today?",
+        "intent": "Laptop Hardware Issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 54,
+        "query": "Great, thank you for your help! I really appreciate it.",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 55,
+        "query": "Yeah, it's all good now. Thanks for your help!",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 56,
+        "query": "Fine.",
+        "intent": "password reset assistance",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 57,
+        "query": "That sounds great, thanks!",
+        "intent": "Customer Satisfaction",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 58,
+        "query": "That makes sense, okay, thanks.",
+        "intent": "Pricing Plan Inquiry",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 59,
+        "query": "Never mind, can you just check if my subscription is active?",
+        "intent": "Subscription Status Inquiry",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 60,
+        "query": "Great, thanks!",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 61,
+        "query": "Thanks, I guess.",
+        "intent": "password reset",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 62,
+        "query": "Cool, thanks for helping me out! Account unlocked, all good now.",
+        "intent": "Account Login Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 63,
+        "query": "Cool, it's working now! Thanks for your help.",
+        "intent": "Technical Support",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 64,
+        "query": "cool thanks!",
+        "intent": "Cancellation and Refund",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 65,
+        "query": "thanks... I guess.",
+        "intent": "account access issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 66,
+        "query": "Thank you so much! I appreciate it.",
+        "intent": "password reset issue resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 67,
+        "query": "Noted. Can I get a refund for the order then?",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 68,
+        "query": "OK. THANKS.",
+        "intent": "Frustration and need for resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 69,
+        "query": "awesome, thanks again!",
+        "intent": "Refund Confirmation",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 70,
+        "query": "This is ridiculous. I'm going to go to social media and report this.",
+        "intent": "payment issue resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 71,
+        "query": "Thx so much!",
+        "intent": "Payment Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 72,
+        "query": "No that's all.",
+        "intent": "Customer Support - Refund",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 73,
+        "query": "That sounds good, thanks!",
+        "intent": "Refund Status Inquiry",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 74,
+        "query": "FINALLY!",
+        "intent": "escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 75,
+        "query": "That's great, thanks!",
+        "intent": "Refund Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 76,
+        "query": "I guess I'll just have to start over.",
+        "intent": "password reset",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 77,
+        "query": "Finally! Yeah, just give me a refund.",
+        "intent": "Request for Refund",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 78,
+        "query": "Thanks!",
+        "intent": "Order Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 79,
+        "query": "ok then",
+        "intent": "Pricing Plan Issue Resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 80,
+        "query": "ok thank you",
+        "intent": "account access issue resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 81,
+        "query": "That worked! Thank you so much!",
+        "intent": "Account Access Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 82,
+        "query": "I don't think we're on the same page here. Can I just get my email account fixed?",
+        "intent": "password reset issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 83,
+        "query": "cool",
+        "intent": "payment issue resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 84,
+        "query": "That sounds fine, I guess.",
+        "intent": "request for cheaper plan",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 85,
+        "query": "Thanks, I guess.",
+        "intent": "requesting discount",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 86,
+        "query": "Thanks!",
+        "intent": "Account Suspension Resolution",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 87,
+        "query": "Okay, thanks.",
+        "intent": "Tracking Order Status",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 88,
+        "query": "ok, thanks!",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 89,
+        "query": "cool, thx",
+        "intent": "Payment Issue Resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 90,
+        "query": "Ok.",
+        "intent": "account access issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 91,
+        "query": "Finally!",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 92,
+        "query": "Okay, fine.",
+        "intent": "Payment Issue Resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 93,
+        "query": "Cool, I see it was processed. Thanks for your help, I appreciate it.",
+        "intent": "Refund Status Inquiry",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 94,
+        "query": "ok...fine",
+        "intent": "issue_resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 95,
+        "query": "That worked! Thanks so much for your help!",
+        "intent": "Account Access Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 96,
+        "query": "Cool thanks for helping me with that",
+        "intent": "Account Access Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 97,
+        "query": "cool, thanks",
+        "intent": "Refund Status",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 98,
+        "query": "Cool. Thanks for your help!",
+        "intent": "Payment Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 99,
+        "query": "Ok, thank you for letting me know.",
+        "intent": "Refund Status Inquiry",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 100,
+        "query": "Thanks",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 101,
+        "query": "this is not my email address. i never had that email account",
+        "intent": "password reset issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 102,
+        "query": "ok then",
+        "intent": "payment issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 103,
+        "query": "Fine, escalate it then.",
+        "intent": "Cancellation Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 104,
+        "query": "Alright, thx!",
+        "intent": "Account Access Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 105,
+        "query": "Thanks for letting me know. I really appreciate it. ",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 106,
+        "query": "Cool, finally!",
+        "intent": "Refund Status",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 107,
+        "query": "Thanks for your help.",
+        "intent": "account_access_issue",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 108,
+        "query": "What?! This is ridiculous. I need help now.",
+        "intent": "account access issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 109,
+        "query": "This is ridiculous. I demand to speak to your supervisor.",
+        "intent": "Dispute and Request for Assistance",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 110,
+        "query": "That sounds great. Thanks for your help!",
+        "intent": "Pricing Inquiry",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 111,
+        "query": "That's what I was trying to tell you! Thanks for finally getting it right.",
+        "intent": "Refund Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 112,
+        "query": "I DON'T HAVE TIME FOR THIS. I DEMAND TO SPEAK TO YOUR SUPERVISOR!!!",
+        "intent": "Request for Refund and Escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 113,
+        "query": "Fine.",
+        "intent": "account access issue due to policy clash",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 114,
+        "query": "That's not good enough. I need my refund now. I'm going to report this to my bank.",
+        "intent": "Request Refund Expedite",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 115,
+        "query": "Okay, cool. Thanks for helping me out!",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 116,
+        "query": "Thanks, that seemed to work",
+        "intent": "Technical Issue Resolved with Workaround",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 117,
+        "query": "Cool, thx! I appreciate it.",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 118,
+        "query": "I just got a refund for my subscription! Thanks so much for your help.",
+        "intent": "Customer Satisfaction",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 119,
+        "query": "FINE",
+        "intent": "Payment Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 120,
+        "query": "Awesome, thanks so much for taking care of this for me!",
+        "intent": "Order Issue Resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 121,
+        "query": "Fine, but I better get my refund today!",
+        "intent": "Refund Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 122,
+        "query": "Great, thank you!",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 123,
+        "query": "Fine, thanks for trying",
+        "intent": "clarify pricing and discounts",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 124,
+        "query": "THAT'S NOT WHAT I WANTED TO HEAR. I WANT TO SPEAK TO YOUR MANAGER.",
+        "intent": "Complaint about pricing plan change",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 125,
+        "query": "Awesome! Thanks again for your help.",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 126,
+        "query": "Ok then, thanks I guess",
+        "intent": "Pricing Plan Upgrade Issue",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 127,
+        "query": "no",
+        "intent": "Account Access Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 128,
+        "query": "Nope that's all, thanks!",
+        "intent": "customer support completion",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 129,
+        "query": "",
+        "intent": "Technical Support",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 130,
+        "query": "This is ridiculous. I demand to speak with a supervisor.",
+        "intent": "Dispute Charge",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 131,
+        "query": "ORDER #123456! NOW CAN I SPEAK WITH A SUPERSVISOR OR WHAT?!?!",
+        "intent": "escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 132,
+        "query": "No, that's all for now. Thanks again!",
+        "intent": "Upgrade Plan",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 133,
+        "query": "thx",
+        "intent": "Account Access Issue Resolved",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 134,
+        "query": "THIS IS RIDICULOUS!!! I DEMAND TO SPEAK TO YOUR MANAGER!!!",
+        "intent": "Payment Issue Escalation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 135,
+        "query": "What? That's not helpful at all.",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 136,
+        "query": "ok",
+        "intent": "account access issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Reset Password"
+    },
+    {
+        "chat_id": 137,
+        "query": "Okay, sounds good. Thanks!",
+        "intent": "Pricing Plan Inquiry",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 138,
+        "query": "Thanks",
+        "intent": "Cancellation and Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 139,
+        "query": "FINALLY!!! THANK YOU, STEVEN!!!",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 140,
+        "query": "Thanks for helping me out. I finally got the issue resolved!",
+        "intent": "issue_resolution",
+        "status": "Learning Mode",
+        "source": "New Scenario (Tier-2)",
+        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+    },
+    {
+        "chat_id": 141,
+        "query": "Oh, that worked! Thank you so much for your help.",
+        "intent": "Account Login Issue Resolved",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 142,
+        "query": "ok",
+        "intent": "Payment Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 143,
+        "query": "Hey, I just got the refund confirmation for my cancelled order. Thanks for your help!",
+        "intent": "Refund Confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    },
+    {
+        "chat_id": 144,
+        "query": "Thanks, I guess.",
+        "intent": "Technical Issue Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+    },
+    {
+        "chat_id": 145,
+        "query": "Ok, thanks.",
+        "intent": "Refund Request",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 146,
+        "query": "That helps. Thanks.",
+        "intent": "Plan Comparison",
+        "status": "Ready for Automation",
+        "source": "Learned from Human (Tier-2)",
+        "resolution_steps": [
+            "1. Agent verified customer identity via secure token.",
+            "2. Manual override of subscription status applied.",
+            "3. Compensation discount (15%) sent via email API."
+        ]
+    },
+    {
+        "chat_id": 147,
+        "query": "I still haven't received it. Can I speak to your supervisor?",
+        "intent": "Refund Issue",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 148,
+        "query": "FINALLY! THANK YOU SO MUCH! That's really appreciated.",
+        "intent": "Billing Error Resolution",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 149,
+        "query": "ok then",
+        "intent": "Return Order",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Initiate Refund"
+    },
+    {
+        "chat_id": 150,
+        "query": "I just got a refund for my order. Thanks!",
+        "intent": "post-refund confirmation",
+        "status": "Verified",
+        "source": "AI Autonomous (Tier-1)",
+        "resolution_steps": "Triggered system: Check Transaction Status"
+    }
+]

@@ -1,0 +1,527 @@
+[
+    {
+        "chat_id": 1,
+        "customer_name": "Ray Anderson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Ray Anderson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 3,
+        "customer_name": "David Erickson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi David Erickson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 4,
+        "customer_name": "Brenda Edwards",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Brenda Edwards! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 5,
+        "customer_name": "Leslie Miles",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Leslie Miles! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 9,
+        "customer_name": "Dr. Catherine Hahn",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Dr. Catherine Hahn! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 12,
+        "customer_name": "Julia Smith",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Julia Smith! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 13,
+        "customer_name": "Paul Smith",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Paul Smith! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 17,
+        "customer_name": "John Lambert",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi John Lambert! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 18,
+        "customer_name": "Anne Newman",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Anne Newman! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 19,
+        "customer_name": "Donna Powell",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Donna Powell! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 23,
+        "customer_name": "Samuel Shea",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Samuel Shea! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 25,
+        "customer_name": "Jennifer Guerrero",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jennifer Guerrero! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 26,
+        "customer_name": "Dorothy Walker",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Dorothy Walker! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 30,
+        "customer_name": "Jonathan Thompson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jonathan Thompson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 31,
+        "customer_name": "Heather Diaz",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Heather Diaz! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 35,
+        "customer_name": "Raymond Terrell",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Raymond Terrell! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 37,
+        "customer_name": "Valerie Johnson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Valerie Johnson! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 38,
+        "customer_name": "Clifford Diaz",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Clifford Diaz! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 42,
+        "customer_name": "James Walker",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi James Walker! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 43,
+        "customer_name": "Jason Obrien",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jason Obrien! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 44,
+        "customer_name": "David Owens",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi David Owens! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 45,
+        "customer_name": "Jason James",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jason James! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 46,
+        "customer_name": "David Cole",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi David Cole! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 47,
+        "customer_name": "Adam Carrillo",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Adam Carrillo! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 49,
+        "customer_name": "James Mcintyre",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi James Mcintyre! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 50,
+        "customer_name": "Abigail Ross",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Abigail Ross! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 51,
+        "customer_name": "Pamela Lin",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Pamela Lin! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 54,
+        "customer_name": "Jonathan Reynolds MD",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jonathan Reynolds MD! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 56,
+        "customer_name": "Joseph Davis",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Joseph Davis! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 60,
+        "customer_name": "Jose Oneill",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jose Oneill! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 61,
+        "customer_name": "Ryan Guerra IV",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Ryan Guerra IV! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 64,
+        "customer_name": "Amy Lewis",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Amy Lewis! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 67,
+        "customer_name": "Holly Adams",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Holly Adams! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 68,
+        "customer_name": "Danielle Jones",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Danielle Jones! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 73,
+        "customer_name": "Amanda Moreno",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Amanda Moreno! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 74,
+        "customer_name": "Alexander Murray",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Alexander Murray! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 76,
+        "customer_name": "Courtney Little",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Courtney Little! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 77,
+        "customer_name": "Antonio Brown",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Antonio Brown! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 78,
+        "customer_name": "Crystal Lewis",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Crystal Lewis! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 82,
+        "customer_name": "Joshua Morrison",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Joshua Morrison! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 87,
+        "customer_name": "Jennifer Dodson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jennifer Dodson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 88,
+        "customer_name": "Tami Martin",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Tami Martin! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 91,
+        "customer_name": "Jessica Hamilton",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jessica Hamilton! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 93,
+        "customer_name": "Robyn Miller",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Robyn Miller! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 97,
+        "customer_name": "Jessica Edwards",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jessica Edwards! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 98,
+        "customer_name": "Shannon Howell",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Shannon Howell! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 99,
+        "customer_name": "Robert Vasquez",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Robert Vasquez! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 101,
+        "customer_name": "Erik Foster",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Erik Foster! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 103,
+        "customer_name": "Peter Long",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Peter Long! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 104,
+        "customer_name": "Jennifer Nguyen",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Jennifer Nguyen! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 105,
+        "customer_name": "Gregory Ortiz",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Gregory Ortiz! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 108,
+        "customer_name": "Benjamin Perry PhD",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Benjamin Perry PhD! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 109,
+        "customer_name": "Brian Phillips",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Brian Phillips! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 112,
+        "customer_name": "Brittney Velez",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Brittney Velez! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 115,
+        "customer_name": "Alexis Jackson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Alexis Jackson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 117,
+        "customer_name": "Lori Clark",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Lori Clark! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 121,
+        "customer_name": "Nicole Francis",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Nicole Francis! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 122,
+        "customer_name": "Monica Hill",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Monica Hill! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 125,
+        "customer_name": "Luke Clayton",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Luke Clayton! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 129,
+        "customer_name": "Julie Parker",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Julie Parker! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 130,
+        "customer_name": "Pam Padilla",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Pam Padilla! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 131,
+        "customer_name": "Brett Holloway",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Brett Holloway! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 134,
+        "customer_name": "Mark Campbell",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Mark Campbell! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 135,
+        "customer_name": "Danny Nelson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Danny Nelson! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 136,
+        "customer_name": "Emma Smith",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Emma Smith! This is Skelar Support. We noticed your Reset Password was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 138,
+        "customer_name": "Rachel Mack",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Rachel Mack! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 139,
+        "customer_name": "Steven Thompson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Steven Thompson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 142,
+        "customer_name": "Frank Moore",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Frank Moore! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 143,
+        "customer_name": "Anne Wilson",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Anne Wilson! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 144,
+        "customer_name": "David Davenport",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi David Davenport! This is Skelar Support. We noticed your Escalate to Tier-3 Engineering was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 145,
+        "customer_name": "Michele Ward",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Michele Ward! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 147,
+        "customer_name": "Leslie Reilly",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Leslie Reilly! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 148,
+        "customer_name": "Anthony Calhoun",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Anthony Calhoun! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 149,
+        "customer_name": "Gregory Nguyen",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Gregory Nguyen! This is Skelar Support. We noticed your Initiate Refund was processed recently. Was your issue fully resolved?"
+    },
+    {
+        "chat_id": 150,
+        "customer_name": "Taylor Tucker",
+        "status": "Scheduled",
+        "scheduled_at": "2026-03-15 19:06",
+        "content": "Hi Taylor Tucker! This is Skelar Support. We noticed your Check Transaction Status was processed recently. Was your issue fully resolved?"
+    }
+]
