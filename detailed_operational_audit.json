@@ -1,0 +1,3002 @@
+[
+    {
+        "chat_id": 1,
+        "customer_name": "Ray Anderson",
+        "last_customer_input": "cool, finally. thanks",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:43:50"
+        }
+    },
+    {
+        "chat_id": 2,
+        "customer_name": "Emily Franco",
+        "last_customer_input": "Alright, I updated my payment info and tried again. It worked! Thanks so much for your help!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:50"
+        }
+    },
+    {
+        "chat_id": 3,
+        "customer_name": "David Erickson",
+        "last_customer_input": "Cool. Thanks, I guess.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "issue resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:43:51"
+        }
+    },
+    {
+        "chat_id": 4,
+        "customer_name": "Brenda Edwards",
+        "last_customer_input": "fine",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Request Refund",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:43:51"
+        }
+    },
+    {
+        "chat_id": 5,
+        "customer_name": "Leslie Miles",
+        "last_customer_input": "But I know my password is right. Can you please just try again?",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "password reset",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:43:52"
+        }
+    },
+    {
+        "chat_id": 6,
+        "customer_name": "John Miller",
+        "last_customer_input": "thx",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 70
+        },
+        "copilot_analysis": {
+            "intent": "Order Delivery Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:52"
+        }
+    },
+    {
+        "chat_id": 7,
+        "customer_name": "Erica Patterson",
+        "last_customer_input": "Cool, thx! That's finally sorted.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:52"
+        }
+    },
+    {
+        "chat_id": 8,
+        "customer_name": "Robert Scott",
+        "last_customer_input": "Finally! Thanks so much for your help Robert Scott",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Password Reset Successful",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:52"
+        }
+    },
+    {
+        "chat_id": 9,
+        "customer_name": "Dr. Catherine Hahn",
+        "last_customer_input": "I'll take the refund, please.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:43:53"
+        }
+    },
+    {
+        "chat_id": 10,
+        "customer_name": "Sharon Watts",
+        "last_customer_input": "okay, thx",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "Order Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:53"
+        }
+    },
+    {
+        "chat_id": 11,
+        "customer_name": "Adam Whitaker",
+        "last_customer_input": "No, it's fine, I'll just pay full price then.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Customer Issue Resolution",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:43:53"
+        }
+    },
+    {
+        "chat_id": 12,
+        "customer_name": "Julia Smith",
+        "last_customer_input": "thx, finally",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:43:54"
+        }
+    },
+    {
+        "chat_id": 13,
+        "customer_name": "Paul Smith",
+        "last_customer_input": "UNACCEPTABLE!!! I DEMAND TO SPEAK WITH A SUPERVISOR NOW!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:43:55"
+        }
+    },
+    {
+        "chat_id": 14,
+        "customer_name": "Michele Mccullough",
+        "last_customer_input": "Ok then.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:43:55"
+        }
+    },
+    {
+        "chat_id": 15,
+        "customer_name": "Lindsey Morales",
+        "last_customer_input": "Thx, finally I can print!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:55"
+        }
+    },
+    {
+        "chat_id": 16,
+        "customer_name": "Kristin Callahan",
+        "last_customer_input": "Ok, thanks",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:43:55"
+        }
+    },
+    {
+        "chat_id": 17,
+        "customer_name": "John Lambert",
+        "last_customer_input": "Cool, thanks!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Order Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:43:56"
+        }
+    },
+    {
+        "chat_id": 18,
+        "customer_name": "Anne Newman",
+        "last_customer_input": "Ok then.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:43:57"
+        }
+    },
+    {
+        "chat_id": 19,
+        "customer_name": "Donna Powell",
+        "last_customer_input": "Wait, I thought you were going to help me?",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "password reset assistance",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:43:58"
+        }
+    },
+    {
+        "chat_id": 20,
+        "customer_name": "Danielle Carrillo",
+        "last_customer_input": "Hey, just got my refund for the subscription. Thanks!",
+        "prioritization": {
+            "level": "LOW",
+            "score": 5
+        },
+        "copilot_analysis": {
+            "intent": "post-refund confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:43:58"
+        }
+    },
+    {
+        "chat_id": 21,
+        "customer_name": "Alexandra Valdez",
+        "last_customer_input": "Cool, thanks!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Plan Upgrade",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:58"
+        }
+    },
+    {
+        "chat_id": 22,
+        "customer_name": "Julie Nguyen",
+        "last_customer_input": "ok",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Plan Issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:43:58"
+        }
+    },
+    {
+        "chat_id": 23,
+        "customer_name": "Samuel Shea",
+        "last_customer_input": "Ok.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:43:59"
+        }
+    },
+    {
+        "chat_id": 24,
+        "customer_name": "Mike Briggs",
+        "last_customer_input": "Hey, just got my refund! Thanks for your help.",
+        "prioritization": {
+            "level": "LOW",
+            "score": 5
+        },
+        "copilot_analysis": {
+            "intent": "Customer Appreciation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:43:59"
+        }
+    },
+    {
+        "chat_id": 25,
+        "customer_name": "Jennifer Guerrero",
+        "last_customer_input": "It worked! Thanks!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:00"
+        }
+    },
+    {
+        "chat_id": 26,
+        "customer_name": "Dorothy Walker",
+        "last_customer_input": "ARE YOU KIDDING ME?? I DEMAND TO SPEAK TO YOUR MANAGER!!!!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Billing Dispute and Account Cancellation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:01"
+        }
+    },
+    {
+        "chat_id": 27,
+        "customer_name": "Hector Sanchez",
+        "last_customer_input": "thx",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "price plan update",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:01"
+        }
+    },
+    {
+        "chat_id": 28,
+        "customer_name": "Dawn Webster",
+        "last_customer_input": "Awesome, thx!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "issue_resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:01"
+        }
+    },
+    {
+        "chat_id": 29,
+        "customer_name": "Heather Castillo",
+        "last_customer_input": "Thanks, I appreciate it!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:01"
+        }
+    },
+    {
+        "chat_id": 30,
+        "customer_name": "Jonathan Thompson",
+        "last_customer_input": "Finally! Thanks so much for your help.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:02"
+        }
+    },
+    {
+        "chat_id": 31,
+        "customer_name": "Heather Diaz",
+        "last_customer_input": "ARE YOU KIDDING ME?! YOU'RE JUST GOING TO ESCALATE ME TO SOMEONE ELSE WITHOUT TRYING TO SOLVE THE ISSUE?",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Device Hardware Issue",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:03"
+        }
+    },
+    {
+        "chat_id": 32,
+        "customer_name": "Christina Eaton",
+        "last_customer_input": "no thanks",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "account access issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:03"
+        }
+    },
+    {
+        "chat_id": 33,
+        "customer_name": "Melissa Cummings",
+        "last_customer_input": "Ok, thanks",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:03"
+        }
+    },
+    {
+        "chat_id": 34,
+        "customer_name": "Justin Smith",
+        "last_customer_input": "Fine, thanks for trying, I guess",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "password reset",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:03"
+        }
+    },
+    {
+        "chat_id": 35,
+        "customer_name": "Raymond Terrell",
+        "last_customer_input": "OK THEN",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Order Status and Delivery Issue",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:04"
+        }
+    },
+    {
+        "chat_id": 36,
+        "customer_name": "Tracey Merritt",
+        "last_customer_input": "Yay! Thanks so much! You're amazing!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:04"
+        }
+    },
+    {
+        "chat_id": 37,
+        "customer_name": "Valerie Johnson",
+        "last_customer_input": "ok",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support - Laptop Issue",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:05"
+        }
+    },
+    {
+        "chat_id": 38,
+        "customer_name": "Clifford Diaz",
+        "last_customer_input": "fine",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "request for refund",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:05"
+        }
+    },
+    {
+        "chat_id": 39,
+        "customer_name": "Jeffrey Woods",
+        "last_customer_input": "Thanks, finally.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:05"
+        }
+    },
+    {
+        "chat_id": 40,
+        "customer_name": "Angela Hart",
+        "last_customer_input": "This issue still isn't resolved.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Frustration and need for resolution",
+            "confidence": "80%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:05"
+        }
+    },
+    {
+        "chat_id": 41,
+        "customer_name": "Alicia Sanchez",
+        "last_customer_input": "that's perfect, thank you so much!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Plan Change Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:05"
+        }
+    },
+    {
+        "chat_id": 42,
+        "customer_name": "James Walker",
+        "last_customer_input": "NO I DONT WANT TO!!!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:06"
+        }
+    },
+    {
+        "chat_id": 43,
+        "customer_name": "Jason Obrien",
+        "last_customer_input": "Cool, thanks!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Password Reset",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:07"
+        }
+    },
+    {
+        "chat_id": 44,
+        "customer_name": "David Owens",
+        "last_customer_input": "Thanks so much for letting me know!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "return_order",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:08"
+        }
+    },
+    {
+        "chat_id": 45,
+        "customer_name": "Jason James",
+        "last_customer_input": "thanks for nothing",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:09"
+        }
+    },
+    {
+        "chat_id": 46,
+        "customer_name": "David Cole",
+        "last_customer_input": "thx",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment and Discount Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:10"
+        }
+    },
+    {
+        "chat_id": 47,
+        "customer_name": "Adam Carrillo",
+        "last_customer_input": "ok thanks",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:11"
+        }
+    },
+    {
+        "chat_id": 48,
+        "customer_name": "Stephanie Anderson",
+        "last_customer_input": "",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "account access issue resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:11"
+        }
+    },
+    {
+        "chat_id": 49,
+        "customer_name": "James Mcintyre",
+        "last_customer_input": "Fine, go ahead and escalate it then",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Request for Discount",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:12"
+        }
+    },
+    {
+        "chat_id": 50,
+        "customer_name": "Abigail Ross",
+        "last_customer_input": "Thank you so much! That's all I needed.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "100%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:13"
+        }
+    },
+    {
+        "chat_id": 51,
+        "customer_name": "Pamela Lin",
+        "last_customer_input": "My order number is #12345. Thanks!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:14"
+        }
+    },
+    {
+        "chat_id": 52,
+        "customer_name": "Rachel Padilla",
+        "last_customer_input": "THANK YOU!!!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:14"
+        }
+    },
+    {
+        "chat_id": 53,
+        "customer_name": "Becky Morrow",
+        "last_customer_input": "Wait, no...I thought we were going to fix it today?",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Laptop Hardware Issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:14"
+        }
+    },
+    {
+        "chat_id": 54,
+        "customer_name": "Jonathan Reynolds MD",
+        "last_customer_input": "Great, thank you for your help! I really appreciate it.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:15"
+        }
+    },
+    {
+        "chat_id": 55,
+        "customer_name": "Christian Merritt",
+        "last_customer_input": "Yeah, it's all good now. Thanks for your help!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:15"
+        }
+    },
+    {
+        "chat_id": 56,
+        "customer_name": "Joseph Davis",
+        "last_customer_input": "Fine.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "password reset assistance",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:16"
+        }
+    },
+    {
+        "chat_id": 57,
+        "customer_name": "Emily Hammond",
+        "last_customer_input": "That sounds great, thanks!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "Customer Satisfaction",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:16"
+        }
+    },
+    {
+        "chat_id": 58,
+        "customer_name": "Sean Rodriguez",
+        "last_customer_input": "That makes sense, okay, thanks.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Plan Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:16"
+        }
+    },
+    {
+        "chat_id": 59,
+        "customer_name": "Daniel Reed",
+        "last_customer_input": "Never mind, can you just check if my subscription is active?",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 20
+        },
+        "copilot_analysis": {
+            "intent": "Subscription Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:16"
+        }
+    },
+    {
+        "chat_id": 60,
+        "customer_name": "Jose Oneill",
+        "last_customer_input": "Great, thanks!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:17"
+        }
+    },
+    {
+        "chat_id": 61,
+        "customer_name": "Ryan Guerra IV",
+        "last_customer_input": "Thanks, I guess.",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "password reset",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:18"
+        }
+    },
+    {
+        "chat_id": 62,
+        "customer_name": "Wendy Juarez",
+        "last_customer_input": "Cool, thanks for helping me out! Account unlocked, all good now.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Login Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:18"
+        }
+    },
+    {
+        "chat_id": 63,
+        "customer_name": "Kayla Williams",
+        "last_customer_input": "Cool, it's working now! Thanks for your help.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:18"
+        }
+    },
+    {
+        "chat_id": 64,
+        "customer_name": "Amy Lewis",
+        "last_customer_input": "cool thanks!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Cancellation and Refund",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:19"
+        }
+    },
+    {
+        "chat_id": 65,
+        "customer_name": "Christine Vasquez",
+        "last_customer_input": "thanks... I guess.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "account access issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:19"
+        }
+    },
+    {
+        "chat_id": 66,
+        "customer_name": "Bethany Padilla",
+        "last_customer_input": "Thank you so much! I appreciate it.",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "password reset issue resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:19"
+        }
+    },
+    {
+        "chat_id": 67,
+        "customer_name": "Holly Adams",
+        "last_customer_input": "Noted. Can I get a refund for the order then?",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:19"
+        }
+    },
+    {
+        "chat_id": 68,
+        "customer_name": "Danielle Jones",
+        "last_customer_input": "OK. THANKS.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Frustration and need for resolution",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:20"
+        }
+    },
+    {
+        "chat_id": 69,
+        "customer_name": "Heidi Mcgee",
+        "last_customer_input": "awesome, thanks again!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:20"
+        }
+    },
+    {
+        "chat_id": 70,
+        "customer_name": "Justin Knapp",
+        "last_customer_input": "This is ridiculous. I'm going to go to social media and report this.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "payment issue resolution",
+            "confidence": "80%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:20"
+        }
+    },
+    {
+        "chat_id": 71,
+        "customer_name": "Katrina Barnes",
+        "last_customer_input": "Thx so much!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:20"
+        }
+    },
+    {
+        "chat_id": 72,
+        "customer_name": "Mrs. Samantha Montes",
+        "last_customer_input": "No that's all.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Customer Support - Refund",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None - Issue Resolved"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "None - Issue Resolved",
+            "timestamp": "2026-03-14 17:44:20"
+        }
+    },
+    {
+        "chat_id": 73,
+        "customer_name": "Amanda Moreno",
+        "last_customer_input": "That sounds good, thanks!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:21"
+        }
+    },
+    {
+        "chat_id": 74,
+        "customer_name": "Alexander Murray",
+        "last_customer_input": "FINALLY!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:22"
+        }
+    },
+    {
+        "chat_id": 75,
+        "customer_name": "Jeffrey Jones",
+        "last_customer_input": "That's great, thanks!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 20
+        },
+        "copilot_analysis": {
+            "intent": "Refund Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:22"
+        }
+    },
+    {
+        "chat_id": 76,
+        "customer_name": "Courtney Little",
+        "last_customer_input": "I guess I'll just have to start over.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "password reset",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:23"
+        }
+    },
+    {
+        "chat_id": 77,
+        "customer_name": "Antonio Brown",
+        "last_customer_input": "Finally! Yeah, just give me a refund.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Request for Refund",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:24"
+        }
+    },
+    {
+        "chat_id": 78,
+        "customer_name": "Crystal Lewis",
+        "last_customer_input": "Thanks!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Order Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:25"
+        }
+    },
+    {
+        "chat_id": 79,
+        "customer_name": "Craig Roberts",
+        "last_customer_input": "ok then",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Plan Issue Resolution",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:25"
+        }
+    },
+    {
+        "chat_id": 80,
+        "customer_name": "Nathan Douglas",
+        "last_customer_input": "ok thank you",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "account access issue resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:25"
+        }
+    },
+    {
+        "chat_id": 81,
+        "customer_name": "Karen Wallace",
+        "last_customer_input": "That worked! Thank you so much!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "100%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:25"
+        }
+    },
+    {
+        "chat_id": 82,
+        "customer_name": "Joshua Morrison",
+        "last_customer_input": "I don't think we're on the same page here. Can I just get my email account fixed?",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "password reset issue",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:26"
+        }
+    },
+    {
+        "chat_id": 83,
+        "customer_name": "Patrick Kelley",
+        "last_customer_input": "cool",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "payment issue resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:26"
+        }
+    },
+    {
+        "chat_id": 84,
+        "customer_name": "Jeremy Lowe",
+        "last_customer_input": "That sounds fine, I guess.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "request for cheaper plan",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:26"
+        }
+    },
+    {
+        "chat_id": 85,
+        "customer_name": "Jonathan Richards",
+        "last_customer_input": "Thanks, I guess.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "requesting discount",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:26"
+        }
+    },
+    {
+        "chat_id": 86,
+        "customer_name": "Jennifer Cardenas",
+        "last_customer_input": "Thanks!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Account Suspension Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:26"
+        }
+    },
+    {
+        "chat_id": 87,
+        "customer_name": "Jennifer Dodson",
+        "last_customer_input": "Okay, thanks.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Tracking Order Status",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:27"
+        }
+    },
+    {
+        "chat_id": 88,
+        "customer_name": "Tami Martin",
+        "last_customer_input": "ok, thanks!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:28"
+        }
+    },
+    {
+        "chat_id": 89,
+        "customer_name": "Daryl Stevens",
+        "last_customer_input": "cool, thx",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:28"
+        }
+    },
+    {
+        "chat_id": 90,
+        "customer_name": "Robin Long",
+        "last_customer_input": "Ok.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "account access issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:28"
+        }
+    },
+    {
+        "chat_id": 91,
+        "customer_name": "Jessica Hamilton",
+        "last_customer_input": "Finally!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:29"
+        }
+    },
+    {
+        "chat_id": 92,
+        "customer_name": "Briana Green",
+        "last_customer_input": "Okay, fine.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:29"
+        }
+    },
+    {
+        "chat_id": 93,
+        "customer_name": "Robyn Miller",
+        "last_customer_input": "Cool, I see it was processed. Thanks for your help, I appreciate it.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:30"
+        }
+    },
+    {
+        "chat_id": 94,
+        "customer_name": "Christine Spence",
+        "last_customer_input": "ok...fine",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "issue_resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:30"
+        }
+    },
+    {
+        "chat_id": 95,
+        "customer_name": "Paula Maddox",
+        "last_customer_input": "That worked! Thanks so much for your help!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:30"
+        }
+    },
+    {
+        "chat_id": 96,
+        "customer_name": "Christine Burke",
+        "last_customer_input": "Cool thanks for helping me with that",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:30"
+        }
+    },
+    {
+        "chat_id": 97,
+        "customer_name": "Jessica Edwards",
+        "last_customer_input": "cool, thanks",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:31"
+        }
+    },
+    {
+        "chat_id": 98,
+        "customer_name": "Shannon Howell",
+        "last_customer_input": "Cool. Thanks for your help!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:32"
+        }
+    },
+    {
+        "chat_id": 99,
+        "customer_name": "Robert Vasquez",
+        "last_customer_input": "Ok, thank you for letting me know.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:33"
+        }
+    },
+    {
+        "chat_id": 100,
+        "customer_name": "Alexis Mcdonald",
+        "last_customer_input": "Thanks",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:33"
+        }
+    },
+    {
+        "chat_id": 101,
+        "customer_name": "Erik Foster",
+        "last_customer_input": "this is not my email address. i never had that email account",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "password reset issue",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:33"
+        }
+    },
+    {
+        "chat_id": 102,
+        "customer_name": "William Coffey",
+        "last_customer_input": "ok then",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "payment issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:33"
+        }
+    },
+    {
+        "chat_id": 103,
+        "customer_name": "Peter Long",
+        "last_customer_input": "Fine, escalate it then.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Cancellation Request",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:34"
+        }
+    },
+    {
+        "chat_id": 104,
+        "customer_name": "Jennifer Nguyen",
+        "last_customer_input": "Alright, thx!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:35"
+        }
+    },
+    {
+        "chat_id": 105,
+        "customer_name": "Gregory Ortiz",
+        "last_customer_input": "Thanks for letting me know. I really appreciate it. ",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:36"
+        }
+    },
+    {
+        "chat_id": 106,
+        "customer_name": "Marcus Olsen",
+        "last_customer_input": "Cool, finally!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Status",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:36"
+        }
+    },
+    {
+        "chat_id": 107,
+        "customer_name": "Courtney Cobb",
+        "last_customer_input": "Thanks for your help.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "account_access_issue",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:36"
+        }
+    },
+    {
+        "chat_id": 108,
+        "customer_name": "Benjamin Perry PhD",
+        "last_customer_input": "What?! This is ridiculous. I need help now.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "account access issue",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:37"
+        }
+    },
+    {
+        "chat_id": 109,
+        "customer_name": "Brian Phillips",
+        "last_customer_input": "This is ridiculous. I demand to speak to your supervisor.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Dispute and Request for Assistance",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:38"
+        }
+    },
+    {
+        "chat_id": 110,
+        "customer_name": "Lisa Cannon",
+        "last_customer_input": "That sounds great. Thanks for your help!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:38"
+        }
+    },
+    {
+        "chat_id": 111,
+        "customer_name": "Alexis Banks",
+        "last_customer_input": "That's what I was trying to tell you! Thanks for finally getting it right.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:38"
+        }
+    },
+    {
+        "chat_id": 112,
+        "customer_name": "Brittney Velez",
+        "last_customer_input": "I DON'T HAVE TIME FOR THIS. I DEMAND TO SPEAK TO YOUR SUPERVISOR!!!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Request for Refund and Escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:39"
+        }
+    },
+    {
+        "chat_id": 113,
+        "customer_name": "Elizabeth Horn",
+        "last_customer_input": "Fine.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 60
+        },
+        "copilot_analysis": {
+            "intent": "account access issue due to policy clash",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:39"
+        }
+    },
+    {
+        "chat_id": 114,
+        "customer_name": "Christopher Nelson",
+        "last_customer_input": "That's not good enough. I need my refund now. I'm going to report this to my bank.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "Request Refund Expedite",
+            "confidence": "80%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:39"
+        }
+    },
+    {
+        "chat_id": 115,
+        "customer_name": "Alexis Jackson",
+        "last_customer_input": "Okay, cool. Thanks for helping me out!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:40"
+        }
+    },
+    {
+        "chat_id": 116,
+        "customer_name": "Michael Cameron",
+        "last_customer_input": "Thanks, that seemed to work",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Technical Issue Resolved with Workaround",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:40"
+        }
+    },
+    {
+        "chat_id": 117,
+        "customer_name": "Lori Clark",
+        "last_customer_input": "Cool, thx! I appreciate it.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:41"
+        }
+    },
+    {
+        "chat_id": 118,
+        "customer_name": "Amber Lee PhD",
+        "last_customer_input": "I just got a refund for my subscription! Thanks so much for your help.",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "Customer Satisfaction",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:41"
+        }
+    },
+    {
+        "chat_id": 119,
+        "customer_name": "Rachel Gutierrez",
+        "last_customer_input": "FINE",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:41"
+        }
+    },
+    {
+        "chat_id": 120,
+        "customer_name": "Larry Cook",
+        "last_customer_input": "Awesome, thanks so much for taking care of this for me!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Order Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:41"
+        }
+    },
+    {
+        "chat_id": 121,
+        "customer_name": "Nicole Francis",
+        "last_customer_input": "Fine, but I better get my refund today!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Refund Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:42"
+        }
+    },
+    {
+        "chat_id": 122,
+        "customer_name": "Monica Hill",
+        "last_customer_input": "Great, thank you!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:43"
+        }
+    },
+    {
+        "chat_id": 123,
+        "customer_name": "Lisa Kirby",
+        "last_customer_input": "Fine, thanks for trying",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "clarify pricing and discounts",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:43"
+        }
+    },
+    {
+        "chat_id": 124,
+        "customer_name": "Andrew Bennett",
+        "last_customer_input": "THAT'S NOT WHAT I WANTED TO HEAR. I WANT TO SPEAK TO YOUR MANAGER.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Complaint about pricing plan change",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "None from the list, as the customer has already been escalated to a manager"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "None from the list, as the customer has already been escalated to a manager",
+            "timestamp": "2026-03-14 17:44:43"
+        }
+    },
+    {
+        "chat_id": 125,
+        "customer_name": "Luke Clayton",
+        "last_customer_input": "Awesome! Thanks again for your help.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:44"
+        }
+    },
+    {
+        "chat_id": 126,
+        "customer_name": "Michelle Bailey",
+        "last_customer_input": "Ok then, thanks I guess",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Plan Upgrade Issue",
+            "confidence": "80%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:44"
+        }
+    },
+    {
+        "chat_id": 127,
+        "customer_name": "Daniel Lynch",
+        "last_customer_input": "no",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:44"
+        }
+    },
+    {
+        "chat_id": 128,
+        "customer_name": "Stacey Chen",
+        "last_customer_input": "Nope that's all, thanks!",
+        "prioritization": {
+            "level": "LOW",
+            "score": 5
+        },
+        "copilot_analysis": {
+            "intent": "customer support completion",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:44"
+        }
+    },
+    {
+        "chat_id": 129,
+        "customer_name": "Julie Parker",
+        "last_customer_input": "",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 70
+        },
+        "copilot_analysis": {
+            "intent": "Technical Support",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:45"
+        }
+    },
+    {
+        "chat_id": 130,
+        "customer_name": "Pam Padilla",
+        "last_customer_input": "This is ridiculous. I demand to speak with a supervisor.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Dispute Charge",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:46"
+        }
+    },
+    {
+        "chat_id": 131,
+        "customer_name": "Brett Holloway",
+        "last_customer_input": "ORDER #123456! NOW CAN I SPEAK WITH A SUPERSVISOR OR WHAT?!?!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 98
+        },
+        "copilot_analysis": {
+            "intent": "escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:47"
+        }
+    },
+    {
+        "chat_id": 132,
+        "customer_name": "Oscar Townsend",
+        "last_customer_input": "No, that's all for now. Thanks again!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Upgrade Plan",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:47"
+        }
+    },
+    {
+        "chat_id": 133,
+        "customer_name": "Anthony Wolfe",
+        "last_customer_input": "thx",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Access Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:47"
+        }
+    },
+    {
+        "chat_id": 134,
+        "customer_name": "Mark Campbell",
+        "last_customer_input": "THIS IS RIDICULOUS!!! I DEMAND TO SPEAK TO YOUR MANAGER!!!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Escalation",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:47"
+        }
+    },
+    {
+        "chat_id": 135,
+        "customer_name": "Danny Nelson",
+        "last_customer_input": "What? That's not helpful at all.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "high",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:48"
+        }
+    },
+    {
+        "chat_id": 136,
+        "customer_name": "Emma Smith",
+        "last_customer_input": "ok",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "account access issue",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Reset Password"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Reset Password",
+            "timestamp": "2026-03-14 17:44:49"
+        }
+    },
+    {
+        "chat_id": 137,
+        "customer_name": "Diana Walker",
+        "last_customer_input": "Okay, sounds good. Thanks!",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Pricing Plan Inquiry",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:49"
+        }
+    },
+    {
+        "chat_id": 138,
+        "customer_name": "Rachel Mack",
+        "last_customer_input": "Thanks",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Cancellation and Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:50"
+        }
+    },
+    {
+        "chat_id": 139,
+        "customer_name": "Steven Thompson",
+        "last_customer_input": "FINALLY!!! THANK YOU, STEVEN!!!",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:51"
+        }
+    },
+    {
+        "chat_id": 140,
+        "customer_name": "Kimberly Scott",
+        "last_customer_input": "Thanks for helping me out. I finally got the issue resolved!",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "issue_resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "none"
+        },
+        "system_execution": {
+            "status": "Execution Failed",
+            "action_taken": "none",
+            "timestamp": "2026-03-14 17:44:51"
+        }
+    },
+    {
+        "chat_id": 141,
+        "customer_name": "Patricia Williams",
+        "last_customer_input": "Oh, that worked! Thank you so much for your help.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Account Login Issue Resolved",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "None"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "None",
+            "timestamp": "2026-03-14 17:44:51"
+        }
+    },
+    {
+        "chat_id": 142,
+        "customer_name": "Frank Moore",
+        "last_customer_input": "ok",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Payment Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:52"
+        }
+    },
+    {
+        "chat_id": 143,
+        "customer_name": "Anne Wilson",
+        "last_customer_input": "Hey, I just got the refund confirmation for my cancelled order. Thanks for your help!",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "Refund Confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:53"
+        }
+    },
+    {
+        "chat_id": 144,
+        "customer_name": "David Davenport",
+        "last_customer_input": "Thanks, I guess.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Technical Issue Resolution",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Escalate to Tier-3 Engineering"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Escalate to Tier-3 Engineering",
+            "timestamp": "2026-03-14 17:44:54"
+        }
+    },
+    {
+        "chat_id": 145,
+        "customer_name": "Michele Ward",
+        "last_customer_input": "Ok, thanks.",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Request",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:55"
+        }
+    },
+    {
+        "chat_id": 146,
+        "customer_name": "Amber Taylor",
+        "last_customer_input": "That helps. Thanks.",
+        "prioritization": {
+            "level": "MEDIUM",
+            "score": 40
+        },
+        "copilot_analysis": {
+            "intent": "Plan Comparison",
+            "confidence": "80%",
+            "risk_level": "low",
+            "recommendation": "Send Pricing Comparison"
+        },
+        "system_execution": {
+            "status": "Skipped (Low Confidence)",
+            "action_taken": "Send Pricing Comparison",
+            "timestamp": "2026-03-14 17:44:55"
+        }
+    },
+    {
+        "chat_id": 147,
+        "customer_name": "Leslie Reilly",
+        "last_customer_input": "I still haven't received it. Can I speak to your supervisor?",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 95
+        },
+        "copilot_analysis": {
+            "intent": "Refund Issue",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:56"
+        }
+    },
+    {
+        "chat_id": 148,
+        "customer_name": "Anthony Calhoun",
+        "last_customer_input": "FINALLY! THANK YOU SO MUCH! That's really appreciated.",
+        "prioritization": {
+            "level": "HIGH",
+            "score": 80
+        },
+        "copilot_analysis": {
+            "intent": "Billing Error Resolution",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:57"
+        }
+    },
+    {
+        "chat_id": 149,
+        "customer_name": "Gregory Nguyen",
+        "last_customer_input": "ok then",
+        "prioritization": {
+            "level": "CRITICAL",
+            "score": 90
+        },
+        "copilot_analysis": {
+            "intent": "Return Order",
+            "confidence": "90%",
+            "risk_level": "medium",
+            "recommendation": "Initiate Refund"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Initiate Refund",
+            "timestamp": "2026-03-14 17:44:58"
+        }
+    },
+    {
+        "chat_id": 150,
+        "customer_name": "Taylor Tucker",
+        "last_customer_input": "I just got a refund for my order. Thanks!",
+        "prioritization": {
+            "level": "LOW",
+            "score": 10
+        },
+        "copilot_analysis": {
+            "intent": "post-refund confirmation",
+            "confidence": "90%",
+            "risk_level": "low",
+            "recommendation": "Check Transaction Status"
+        },
+        "system_execution": {
+            "status": "Executed Automatically",
+            "action_taken": "Check Transaction Status",
+            "timestamp": "2026-03-14 17:44:59"
+        }
+    }
+]
