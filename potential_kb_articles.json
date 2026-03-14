@@ -1,1270 +1,1904 @@
 [
     {
         "chat_id": 1,
-        "query": "cool, finally. thanks",
+        "query": "I'm so sick of this payment issue, I've been waiting for three days and nothing has been done! I'm going to leave a negative review on social media if this isn't fixed NOW!",
         "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer's concern and apologize for the inconvenience",
+            "Request and verify the customer's order number",
+            "Investigate the issue using the provided order number",
+            "Identify the root cause of the issue (e.g., technical issue with payment processor)",
+            "Escalate the issue to the relevant team (e.g., technical team) for immediate resolution",
+            "Inform the customer of the expected resolution timeframe and provide a clear point of contact for further questions or concerns"
+        ]
     },
     {
         "chat_id": 2,
-        "query": "Alright, I updated my payment info and tried again. It worked! Thanks so much for your help!",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I had a weird issue with my account. Can you help me?",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer account information",
+            "Identify potential issues with billing information",
+            "Request customer to update billing information",
+            "Confirm updated payment information resolves the issue"
+        ]
     },
     {
         "chat_id": 3,
-        "query": "Cool. Thanks, I guess.",
-        "intent": "issue resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "I just got charged twice for my subscription! This is ridiculous!!!",
+        "intent": "Double Charge Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Initiate the refund process for the duplicate charge",
+            "Inform the customer of the refund timeline"
+        ]
     },
     {
         "chat_id": 4,
-        "query": "fine",
-        "intent": "Request Refund",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "hi!!! i have a problem",
+        "intent": "Refund for Wrong Product",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request order number from customer",
+            "Explain company's refund policy",
+            "Follow company's refund policy to process refund"
+        ]
     },
     {
         "chat_id": 5,
-        "query": "But I know my password is right. Can you please just try again?",
-        "intent": "password reset",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "Hey, I'm trying to access my account but it says my password is incorrect. Can you help me?",
+        "intent": "Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request account ID confirmation from the customer",
+            "Explain security reasons for not accessing account information directly",
+            "Escalate the issue to a supervisor for further assistance"
+        ]
     },
     {
         "chat_id": 6,
-        "query": "thx",
-        "intent": "Order Delivery Issue Resolved",
+        "query": "hi",
+        "intent": "Order Delivery Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather order information from the customer",
+            "Verify the order details and identify the issue",
+            "Resend the order or take corrective action to resolve the issue",
+            "Inform the customer of the resolution and provide an estimated delivery time"
         ]
     },
     {
         "chat_id": 7,
-        "query": "Cool, thx! That's finally sorted.",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "WTF, my payment isn't going through! I just tried to pay again and it's still not working!",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the payment issue from the customer",
+            "Investigate the issue",
+            "Resolve the issue, potentially involving payment reprocessing"
+        ]
     },
     {
         "chat_id": 8,
-        "query": "Finally! Thanks so much for your help Robert Scott",
-        "intent": "Password Reset Successful",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey I'm trying to log in but it says my password is wrong",
+        "intent": "Password Reset Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's account details and password",
+            "Investigate potential issues with password update",
+            "Reset customer's password if necessary",
+            "Request customer to try logging in again with updated credentials"
+        ]
     },
     {
         "chat_id": 9,
-        "query": "I'll take the refund, please.",
-        "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "I ordered a product on 2026-02-15 10:00:00 but it hasn't arrived yet. Can I get a refund?",
+        "intent": "Refund for Undelivered Product",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Check the status of the order",
+            "Offer replacement or refund options to the customer",
+            "Process the chosen resolution (refund or replacement)"
+        ]
     },
     {
         "chat_id": 10,
-        "query": "okay, thx",
-        "intent": "Order Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Missing Order Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer's issue and apologize for the inconvenience",
+            "Investigate the order status to identify the root cause of the issue",
+            "Reship the order if the issue is related to shipping",
+            "Provide the customer with an estimated delivery time frame"
+        ]
     },
     {
         "chat_id": 11,
-        "query": "No, it's fine, I'll just pay full price then.",
-        "intent": "Customer Issue Resolution",
+        "query": "Hey, I've been trying to get my discount on a product but every time I go to checkout it says it's not available. Can you help?",
+        "intent": "Discount Eligibility Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Verify customer's discount eligibility",
+            "Check product-specific discount policies",
+            "Offer alternative options if discount is not applicable",
+            "Provide assistance with full-price purchase if needed"
         ]
     },
     {
         "chat_id": 12,
-        "query": "thx, finally",
-        "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "hey, i'm having an issue with my account. i ordered a subscription, but it didn't arrive on time",
+        "intent": "Delayed Subscription Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer information",
+            "Attempt to retrieve order number",
+            "Escalate issue to supervisor if order number is unavailable",
+            "Verify subscription delay",
+            "Process refund"
+        ]
     },
     {
         "chat_id": 13,
-        "query": "UNACCEPTABLE!!! I DEMAND TO SPEAK WITH A SUPERVISOR NOW!",
-        "intent": "Payment Issue Escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'm having an issue with my payment. I paid for the service on Feb 20, 2026, but it still says pending. Can you help me?",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Investigate the payment status",
+            "Identify the cause of the payment issue",
+            "Escalate the issue to a supervisor if necessary",
+            "Transfer the customer to a supervisor for further assistance"
+        ]
     },
     {
         "chat_id": 14,
-        "query": "Ok then.",
-        "intent": "Account Access Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "My account has been locked and I can't access it. Help!",
+        "intent": "Account Lockout Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm customer account information",
+            "Investigate the cause of the account lockout",
+            "Reset the account if the issue is temporary",
+            "Escalate the issue to a supervisor for further review"
+        ]
     },
     {
         "chat_id": 15,
-        "query": "Thx, finally I can print!",
-        "intent": "Technical Support",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "OMG my printer is still not working!!!",
+        "intent": "HP LaserJet Pro Toner Empty Error",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Unplug the printer, wait for 30 seconds, and then plug it back in",
+            "Verify the toner cartridge is correctly installed",
+            "Grant remote access to the support agent for firmware troubleshooting"
+        ]
     },
     {
         "chat_id": 16,
-        "query": "Ok, thanks",
-        "intent": "Account Access Issue",
-        "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "query": "Hey, I think my account is locked. Can you help me?",
+        "intent": "Account Lockout Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Verify account details",
+            "Check account status",
+            "Attempt login again"
         ]
     },
     {
         "chat_id": 17,
-        "query": "Cool, thanks!",
-        "intent": "Order Status Inquiry",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Hey, I'm having an issue with my order. It says it's shipped but I haven't received it yet.",
+        "intent": "Missing Shipment",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm order number with customer",
+            "Check order status in system",
+            "Investigate shipping delay if applicable",
+            "Provide estimated delivery time frame"
+        ]
     },
     {
         "chat_id": 18,
-        "query": "Ok then.",
-        "intent": "Technical Support",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'm having some issues with my laptop. It's freezing and I'm worried I'm gonna lose all my files.",
+        "intent": "Laptop Freezing Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Restart the laptop",
+            "Check for software updates",
+            "Boot in safe mode to isolate the issue",
+            "Escalate to technical team for further assistance"
+        ]
     },
     {
         "chat_id": 19,
-        "query": "Wait, I thought you were going to help me?",
-        "intent": "password reset assistance",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "I'm trying to reset my password but it's not working. Can you help me?",
+        "intent": "Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm customer's account information",
+            "Attempt to resolve the issue directly",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 20,
         "query": "Hey, just got my refund for the subscription. Thanks!",
-        "intent": "post-refund confirmation",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "intent": "Refund Confirmation",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer requests refund",
+            "Agent processes refund",
+            "Refund is successfully issued to customer"
+        ]
     },
     {
         "chat_id": 21,
-        "query": "Cool, thanks!",
-        "intent": "Plan Upgrade",
+        "query": "Hi, I'm having trouble understanding the pricing plans. Can you help me out?",
+        "intent": "Pricing Plan Upgrade",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Identify customer's current plan and requirements",
+            "Recommend suitable plans based on customer's needs",
+            "Compare plan features and costs with the customer",
+            "Upgrade the customer's plan as per their selection",
+            "Notify the customer about the plan change and new costs via email"
         ]
     },
     {
         "chat_id": 22,
-        "query": "ok",
-        "intent": "Pricing Plan Issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Pricing Plan Discount Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's pricing plan details",
+            "Check for any policy changes affecting the discount",
+            "Offer alternative plans if the discount is no longer applicable",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 23,
-        "query": "Ok.",
-        "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "My credit card was declined and I'm trying to get a refund.",
+        "intent": "Double Charge Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm customer account information",
+            "Review account for policy clashes or duplicate charges",
+            "Offer partial refund if full refund is not possible",
+            "Process refund and inform customer of processing time"
+        ]
     },
     {
         "chat_id": 24,
         "query": "Hey, just got my refund! Thanks for your help.",
-        "intent": "Customer Appreciation",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "intent": "Refund Assistance",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer initiated refund request",
+            "Agent provided assistance with the refund process",
+            "Refund was successfully processed"
+        ]
     },
     {
         "chat_id": 25,
-        "query": "It worked! Thanks!",
-        "intent": "Payment Issue Resolved",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "My payment wasn't processed last night and now my account is frozen!",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm payment information and order number",
+            "Identify the cause of payment decline (e.g., invalid CVV number)",
+            "Update payment information if necessary",
+            "Attempt payment again with updated information"
+        ]
     },
     {
         "chat_id": 26,
-        "query": "ARE YOU KIDDING ME?? I DEMAND TO SPEAK TO YOUR MANAGER!!!!",
-        "intent": "Billing Dispute and Account Cancellation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "OMG I just got a bill for $500 for something I DIDNT ORDER!! Help!!",
+        "intent": "Disputed Charge Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the disputed bill",
+            "Explain refund and cancellation policies to the customer",
+            "Escalate the issue to a manager if the customer is not satisfied"
+        ]
     },
     {
         "chat_id": 27,
-        "query": "thx",
-        "intent": "price plan update",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Price Plan Update",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's current price plan",
+            "Inform customer about available plan options and discounts",
+            "Update customer's account to the new plan if requested"
+        ]
     },
     {
         "chat_id": 28,
-        "query": "Awesome, thx!",
-        "intent": "issue_resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi, my email is not working on my phone! Help!",
+        "intent": "Email Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the customer's email issue",
+            "Investigate the issue by checking the email and mail server",
+            "Escalate the issue to a supervisor if necessary",
+            "Provide a resolution or update to the customer"
+        ]
     },
     {
         "chat_id": 29,
-        "query": "Thanks, I appreciate it!",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm having a payment issue, my money hasn't been credited to my account!",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the issue from the customer",
+            "Investigate the issue by checking the payment processing status",
+            "Identify the root cause of the issue (e.g., payment processing issue)",
+            "Take corrective action to resolve the issue (e.g., manually process the payment)"
+        ]
     },
     {
         "chat_id": 30,
-        "query": "Finally! Thanks so much for your help.",
-        "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Hey, I'm trying to get a refund for a product that I received 2 weeks ago. Can you help me with that?",
+        "intent": "Refund Request",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the order details and status",
+            "Process the refund if eligible"
+        ]
     },
     {
         "chat_id": 31,
-        "query": "ARE YOU KIDDING ME?! YOU'RE JUST GOING TO ESCALATE ME TO SOMEONE ELSE WITHOUT TRYING TO SOLVE THE ISSUE?",
-        "intent": "Device Hardware Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'M SO FRUSTRATED THAT MY DEVICE WON'T TURN ON!!! I NEED HELP NOW!",
+        "intent": "Device Won't Turn On",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather device serial number",
+            "Troubleshoot issue using serial number",
+            "Escalate to supervisor if necessary"
+        ]
     },
     {
         "chat_id": 32,
-        "query": "no thanks",
-        "intent": "account access issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Account Access Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the customer's issue",
+            "Explain the relevant policy to the customer",
+            "Offer alternative solutions if policy exceptions are not possible",
+            "Provide additional assistance if the initial solution is declined"
+        ]
     },
     {
         "chat_id": 33,
-        "query": "Ok, thanks",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi",
+        "intent": "Payment Refund Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the payment issue from the customer",
+            "Request and confirm the order number associated with the payment",
+            "Investigate the payment status",
+            "Inform the customer of the payment refund status and expected resolution time"
+        ]
     },
     {
         "chat_id": 34,
-        "query": "Fine, thanks for trying, I guess",
-        "intent": "password reset",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I'm trying to log in but it says my password is incorrect. Help!",
+        "intent": "Password Login Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm account information",
+            "Verify login credentials",
+            "Escalate to supervisor if technical issue is suspected"
+        ]
     },
     {
         "chat_id": 35,
-        "query": "OK THEN",
-        "intent": "Order Status and Delivery Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "ARE YOU KIDDING ME WITH THIS CUSTOMER SUPPORT?! I DEMAND TO SPEAK WITH A SUPERVISOR NOW OR I'LL GO TO SOCIAL MEDIA!!!",
+        "intent": "Delayed Order Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer frustration and apologize for the inconvenience",
+            "Provide context and clarify terms and conditions regarding delivery times",
+            "Offer assistance with tracking the order",
+            "Investigate and provide an update on the order status",
+            "Provide an estimated delivery time based on the updated order status"
+        ]
     },
     {
         "chat_id": 36,
-        "query": "Yay! Thanks so much! You're amazing!",
-        "intent": "Payment Issue Resolved",
+        "query": "Hiiii, I'm stuck with a payment issue! I paid $25 for my subscription, but it still says unpaid.",
+        "intent": "Payment Issue Resolution",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Request order number from customer",
+            "Verify payment status using the provided order number",
+            "Confirm successful payment processing and update subscription status"
         ]
     },
     {
         "chat_id": 37,
-        "query": "ok",
-        "intent": "Technical Support - Laptop Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "Hello Valerie Johnson, thank you for reaching out to our customer support. How can I assist you today?",
+        "intent": "Laptop Won't Turn On",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm laptop is completely turned off and not in sleep mode",
+            "Charge laptop for at least 30 minutes",
+            "Attempt to turn laptop on again"
+        ]
     },
     {
         "chat_id": 38,
-        "query": "fine",
-        "intent": "request for refund",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "hi",
+        "intent": "Order Cancellation",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information (order number)",
+            "Check order status",
+            "Determine if order can be canceled based on its current status",
+            "If not possible, offer alternative solutions such as a refund"
+        ]
     },
     {
         "chat_id": 39,
-        "query": "Thanks, finally.",
-        "intent": "Technical Support",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I'm having some issues with my account. I'm getting a weird error message saying my subscription is expired.",
+        "intent": "Expired Subscription Glitch",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's subscription status",
+            "Check for any potential glitches or errors",
+            "Reset the customer's subscription if necessary"
+        ]
     },
     {
         "chat_id": 40,
-        "query": "This issue still isn't resolved.",
-        "intent": "Frustration and need for resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "CAN YOU FIX THIS ALREADY?! I'VE BEEN WAITING FOR HOURS!!!",
+        "intent": "Escalation Procedure",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer frustration",
+            "Set clear expectations for communication",
+            "Apologize for any perceived rudeness",
+            "Reiterate commitment to resolving the issue",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 41,
-        "query": "that's perfect, thank you so much!",
-        "intent": "Plan Change Request",
+        "query": "i'm so frustrated with my current pricing plan. i need to change it but the button is not working.",
+        "intent": "Pricing Plan Change Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather information about the issue",
+            "Check for conflicting active subscriptions or plans",
+            "Manually assist with switching to a different plan"
         ]
     },
     {
         "chat_id": 42,
-        "query": "NO I DONT WANT TO!!!",
-        "intent": "Account Access Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "MY PASSWORD ISNT WORKING I CANT ACCESS MY ACCOUNT!! I DONT CARE ABOUT ANYTHING ELSE I DEMAND TO SPOKE WITH MY SUPERVISOR!!",
+        "intent": "Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Attempt to reset password",
+            "Escalate issue to supervisor if customer is unwilling to reset password",
+            "Transfer customer to supervisor for further assistance"
+        ]
     },
     {
         "chat_id": 43,
-        "query": "Cool, thanks!",
+        "query": "Hey, I've been trying to log in to my account but I keep getting an 'Incorrect password' message. Can you help me?",
         "intent": "Password Reset",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm user's email address associated with their account",
+            "Send a password reset link to the confirmed email address",
+            "Instruct the user to follow the password reset instructions in the email"
+        ]
     },
     {
         "chat_id": 44,
-        "query": "Thanks so much for letting me know!",
-        "intent": "return_order",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "Hi, I just received my order and it's not what I ordered. Can you help me out?",
+        "intent": "Return and Refund Process",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Inform the customer about the return policy",
+            "Guide the customer through the return process if desired",
+            "Process the return or exchange"
+        ]
     },
     {
         "chat_id": 45,
-        "query": "thanks for nothing",
+        "query": "Hi",
         "intent": "Payment Issue Escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer's payment issue",
+            "Request additional details about the payment",
+            "Apologize for the inconvenience and empathize with the customer",
+            "Transfer the customer to a supervisor if the issue is not resolved"
+        ]
     },
     {
         "chat_id": 46,
-        "query": "thx",
-        "intent": "Payment and Discount Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "hey, my payment didn't go through and i still haven't received the discount i was promised. what's up with that?",
+        "intent": "Discount Code Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the discount",
+            "Confirm order number",
+            "Verify the issue with the website's discount code",
+            "Provide a new discount code via email"
+        ]
     },
     {
         "chat_id": 47,
-        "query": "ok thanks",
-        "intent": "Refund Status Inquiry",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "hi",
+        "intent": "Refund Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Review customer's account to verify refund status",
+            "Check if refund was processed successfully",
+            "Inform customer of potential delay in refund visibility in bank statement",
+            "Reconfirm refund processing and expected timeline for visibility in bank account"
+        ]
     },
     {
         "chat_id": 48,
-        "query": "",
-        "intent": "account access issue resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi, I've been having trouble accessing my account.",
+        "intent": "Account Lockout Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Attempt to reset password using password reset page",
+            "Verify account status with support agent",
+            "Unlock account due to multiple failed login attempts if necessary"
+        ]
     },
     {
         "chat_id": 49,
-        "query": "Fine, go ahead and escalate it then",
-        "intent": "Request for Discount",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "Hey, I just signed up for the premium plan, but I still don't see the discount you advertise on your website",
+        "intent": "Discount Eligibility",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's sign-up date and promotional period eligibility",
+            "Check if the customer is eligible for the advertised discount",
+            "Offer alternative discounts or promotions if the customer is not eligible",
+            "Escalate the issue to a supervisor if the customer is not satisfied with the alternative solution"
+        ]
     },
     {
         "chat_id": 50,
-        "query": "Thank you so much! That's all I needed.",
+        "query": "Hi, I'd like to request a refund for my purchase last week. Could you help me with that?",
         "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the order status and cancellation request",
+            "Process a refund if the order was shipped despite cancellation"
+        ]
     },
     {
         "chat_id": 51,
-        "query": "My order number is #12345. Thanks!",
-        "intent": "Refund Status",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Ugh, I'm still waiting for my refund from last week's purchase.",
+        "intent": "Refund Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Apologize for the delay and offer assistance",
+            "Request order number to expedite refund process",
+            "Process refund and provide estimated time for reflection in customer's account",
+            "Inform customer of email confirmation for refund"
+        ]
     },
     {
         "chat_id": 52,
-        "query": "THANK YOU!!!",
-        "intent": "Account Access Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "OMG, I'm still not able to access my account!!!",
+        "intent": "Account Lockout Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather username from the customer",
+            "Check account status in the system",
+            "Identify the cause of the lockout (e.g., security concern)",
+            "Unlock the account if the issue is temporary"
+        ]
     },
     {
         "chat_id": 53,
-        "query": "Wait, no...I thought we were going to fix it today?",
-        "intent": "Laptop Hardware Issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey! My laptop's been freezing for like an hour now and I've tried restarting it multiple times. Can you help me?",
+        "intent": "Laptop Freezing Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Check for proper ventilation and dust buildup on the fans",
+            "Inspect laptop hardware for potential issues",
+            "Escalate to hardware team for replacement of faulty parts if necessary"
+        ]
     },
     {
         "chat_id": 54,
-        "query": "Great, thank you for your help! I really appreciate it.",
-        "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "I'm having issues with my latest payment. Can you help me?",
+        "intent": "Payment Delay Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify payment status in the system",
+            "Identify the cause of the delay",
+            "Process a refund if payment was sent to the wrong account",
+            "Retry the payment and confirm the new payment status"
+        ]
     },
     {
         "chat_id": 55,
-        "query": "Yeah, it's all good now. Thanks for your help!",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I just tried to make a payment and it didn't go through. I'm getting an error saying “insufficient funds”. Can you help me with this?",
+        "intent": "Payment Failure Due to Expired Payment Method",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's account information",
+            "Check the status of the customer's payment method",
+            "Update the payment method if it has expired",
+            "Have the customer attempt the payment again"
+        ]
     },
     {
         "chat_id": 56,
-        "query": "Fine.",
-        "intent": "password reset assistance",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "Hey there, I'm having some trouble accessing my account. I think my password is incorrect but I'm not sure.",
+        "intent": "Password Expiration Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify the customer's account information",
+            "Check the account's password expiration status",
+            "Inform the customer about the password expiration",
+            "Guide the customer through the password reset process"
+        ]
     },
     {
         "chat_id": 57,
-        "query": "That sounds great, thanks!",
-        "intent": "Customer Satisfaction",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm so frustrated with this pricing plan! It's way too expensive!",
+        "intent": "Pricing Plan Upgrade",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Identify customer concerns about the current pricing plan",
+            "Request and review the customer's account dashboard for potential upgrades",
+            "Determine eligibility for a premium plan that meets the customer's needs",
+            "Offer to switch the customer to the premium plan",
+            "Update the customer's account to reflect the changes"
+        ]
     },
     {
         "chat_id": 58,
-        "query": "That makes sense, okay, thanks.",
+        "query": "Hey, I'm trying to figure out my pricing plan for the new service. Can you help me?",
         "intent": "Pricing Plan Inquiry",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer information and requirements",
+            "Explain available pricing plans and their features",
+            "Determine customer eligibility for discounts or promotions",
+            "Provide comparisons between different plans to aid in decision-making",
+            "Address any additional questions or concerns"
+        ]
     },
     {
         "chat_id": 59,
-        "query": "Never mind, can you just check if my subscription is active?",
-        "intent": "Subscription Status Inquiry",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I need a question answered but I'm kinda in a rush, can you make it quick?",
+        "intent": "Subscription Status Check",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer requests a quick answer to their question",
+            "Agent offers to help and asks for more information",
+            "Customer requests a subscription status check",
+            "Agent checks the subscription status",
+            "Agent confirms the subscription is active"
+        ]
     },
     {
         "chat_id": 60,
-        "query": "Great, thanks!",
+        "query": "I need a refund for my order #1234.",
         "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify payment method and order details",
+            "Process refund immediately",
+            "Inform customer of refund timeline"
+        ]
     },
     {
         "chat_id": 61,
-        "query": "Thanks, I guess.",
-        "intent": "password reset",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "Hi, I want to change my password.",
+        "intent": "Password Change",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm account information",
+            "Escalate issue to supervisor if necessary"
+        ]
     },
     {
         "chat_id": 62,
-        "query": "Cool, thanks for helping me out! Account unlocked, all good now.",
-        "intent": "Account Login Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, what's going on? I'm having issues logging into my account.",
+        "intent": "Account Lockout Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the issue from the customer",
+            "Investigate the account status to determine the cause of the issue",
+            "Check for temporary account lock due to multiple login attempts",
+            "Unlock the account if it is temporarily locked"
+        ]
     },
     {
         "chat_id": 63,
-        "query": "Cool, it's working now! Thanks for your help.",
-        "intent": "Technical Support",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey I'm having a tech error with my account. Can you help me?",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the issue from the customer",
+            "Check the system for temporary issues",
+            "Reset the customer's account if necessary"
+        ]
     },
     {
         "chat_id": 64,
-        "query": "cool thanks!",
-        "intent": "Cancellation and Refund",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "hey i need to cancel my subscription",
+        "intent": "Subscription Cancellation and Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer's subscription details, including email and order number",
+            "Verify the customer's information to initiate the refund process",
+            "Process the refund for the last period",
+            "Inform the customer of the refund processing timeline"
+        ]
     },
     {
         "chat_id": 65,
-        "query": "thanks... I guess.",
-        "intent": "account access issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "omg, this is ridiculous! I cant even get into my account!",
+        "intent": "Account Access Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify account details with the customer",
+            "Check the account status internally",
+            "Request the customer to try accessing the account again",
+            "If issue persists, investigate further and provide a solution"
+        ]
     },
     {
         "chat_id": 66,
-        "query": "Thank you so much! I appreciate it.",
-        "intent": "password reset issue resolved",
+        "query": "Hi, I have a question about my account.",
+        "intent": "Password Reset",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Direct customer to account settings to reset password",
+            "If issue persists, ask customer to retry resetting password",
+            "If still unsuccessful, manually reset customer's password"
         ]
     },
     {
         "chat_id": 67,
-        "query": "Noted. Can I get a refund for the order then?",
-        "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "I ordered a product on Jan 10th, 2026, but it didn't arrive yet. I need a refund.",
+        "intent": "Refund for Undelivered Product",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's order status",
+            "Check for any processing delays or shipping issues",
+            "If issue is confirmed, process refund for the customer",
+            "Inform customer of refund processing and expected receipt time"
+        ]
     },
     {
         "chat_id": 68,
-        "query": "OK. THANKS.",
-        "intent": "Frustration and need for resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "ARE YOU KIDDING ME?! I'VE BEEN TRYING TO GET HELP FOR THIS ISSUE FOR WEEKS AND NO ONE HAS BEEN ABLE TO RESOLVE IT!",
+        "intent": "Escalation of Frustrating Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer frustration and apologize",
+            "Request additional information about the issue if necessary",
+            "Escalate the issue to a supervisor if unable to resolve",
+            "Provide a timeframe for the supervisor to review and respond",
+            "Express gratitude and offer further assistance"
+        ]
     },
     {
         "chat_id": 69,
-        "query": "awesome, thanks again!",
-        "intent": "Refund Confirmation",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Refund Status Inquiry",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's identity and order details",
+            "Check the status of the order in the system",
+            "Inform the customer about the refund status"
+        ]
     },
     {
         "chat_id": 70,
-        "query": "This is ridiculous. I'm going to go to social media and report this.",
-        "intent": "payment issue resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm trying to make a payment but it's not working.",
+        "intent": "Payment Issue Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the payment issue",
+            "Verify card expiration date and update if necessary",
+            "Investigate account billing information",
+            "Escalate issue to supervisor if necessary"
+        ]
     },
     {
         "chat_id": 71,
-        "query": "Thx so much!",
-        "intent": "Payment Issue Resolved",
+        "query": "Hey I have an issue with my payment",
+        "intent": "Payment Decline Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather information about the payment issue from the customer",
+            "Investigate the cause of the payment decline",
+            "Check for temporary issues with the customer's bank servers",
+            "Resolve the issue by verifying the payment information or contacting the bank"
         ]
     },
     {
         "chat_id": 72,
-        "query": "No that's all.",
-        "intent": "Customer Support - Refund",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi",
+        "intent": "Faulty Product Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer information and order details",
+            "Apologize for the inconvenience and empathize with the customer",
+            "Request the order number to investigate the issue further",
+            "Initiate a refund for the faulty product",
+            "Inform the customer of the refund processing time frame"
+        ]
     },
     {
         "chat_id": 73,
-        "query": "That sounds good, thanks!",
+        "query": "Oh no, my refund is still pending! Can you please check on it?",
         "intent": "Refund Status Inquiry",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm order number associated with the refund",
+            "Check the status of the refund in the system",
+            "Provide an estimated timeframe for the refund to be processed",
+            "Inform the customer about the email notification upon completion"
+        ]
     },
     {
         "chat_id": 74,
-        "query": "FINALLY!",
-        "intent": "escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "MY ACCOUNT IS LOCKED AND I CAN'T ACCESS IT THIS IS RIDICULOUS!",
+        "intent": "Account Lockout Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer account details",
+            "Clarify account information mismatch",
+            "Offer assistance in unlocking the account",
+            "Escalate issue to a manager if necessary"
+        ]
     },
     {
         "chat_id": 75,
-        "query": "That's great, thanks!",
-        "intent": "Refund Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi",
+        "intent": "Refund Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify the customer's refund status",
+            "Check if the refund has been processed in the customer's account",
+            "Investigate the refund on the agent's end",
+            "Inform the customer to allow a few more minutes for the transaction to process"
+        ]
     },
     {
         "chat_id": 76,
-        "query": "I guess I'll just have to start over.",
-        "intent": "password reset",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "I've been having issues with my account, I'm getting an error saying my password is incorrect but I know I'm using the right one!",
+        "intent": "Password Expiration Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer's browser and device information",
+            "Verify account information",
+            "Check account status for potential issues such as password expiration",
+            "Confirm password expiration and guide customer through password reset process"
+        ]
     },
     {
         "chat_id": 77,
-        "query": "Finally! Yeah, just give me a refund.",
-        "intent": "Request for Refund",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "I'm so sick of your company! I ordered a product and it didn't show up yet!",
+        "intent": "Missing Order Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Check the status of the order",
+            "Offer alternative solutions (refund or replacement)",
+            "Process the chosen solution (refund or replacement)"
+        ]
     },
     {
         "chat_id": 78,
-        "query": "Thanks!",
-        "intent": "Order Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Hi",
+        "intent": "Payment and Order Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify payment status",
+            "Investigate order processing status",
+            "Expedite shipping if necessary"
+        ]
     },
     {
         "chat_id": 79,
-        "query": "ok then",
+        "query": "hi",
         "intent": "Pricing Plan Issue Resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer information and issue details",
+            "Check availability of requested pricing plan change",
+            "Offer alternative plan if requested change is not available",
+            "Escalate issue to supervisor if necessary"
+        ]
     },
     {
         "chat_id": 80,
-        "query": "ok thank you",
-        "intent": "account access issue resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm account credentials are correct",
+            "Investigate temporary account access issues",
+            "Reset password if necessary"
+        ]
     },
     {
         "chat_id": 81,
-        "query": "That worked! Thank you so much!",
-        "intent": "Account Access Issue Resolved",
+        "query": "Hi",
+        "intent": "Account Access Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Verify account activity",
+            "Attempt password reset",
+            "Manually reset password by support agent if necessary"
         ]
     },
     {
         "chat_id": 82,
-        "query": "I don't think we're on the same page here. Can I just get my email account fixed?",
-        "intent": "password reset issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "I'm trying to access my email but it keeps saying my password is incorrect. I've tried resetting it multiple times.",
+        "intent": "Email Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request account details from the customer",
+            "Verify customer information",
+            "Attempt password reset",
+            "Escalate issue to supervisor if necessary"
+        ]
     },
     {
         "chat_id": 83,
-        "query": "cool",
-        "intent": "payment issue resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the order status",
+            "Confirm successful payment processing",
+            "Inform the customer of expected email confirmation"
+        ]
     },
     {
         "chat_id": 84,
-        "query": "That sounds fine, I guess.",
-        "intent": "request for cheaper plan",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'M FED UP WITH THIS PRICING PLAN! IT'S TOO EXPENSIVE!",
+        "intent": "Pricing Plan Adjustment",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer frustration and gather information about their concerns",
+            "Explain the benefits of alternative plans, focusing on long-term cost-effectiveness",
+            "Offer a suitable plan upgrade based on customer needs and preferences",
+            "Implement the plan change and confirm the update with the customer"
+        ]
     },
     {
         "chat_id": 85,
-        "query": "Thanks, I guess.",
-        "intent": "requesting discount",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi, I wanted to review my pricing plan and see if I can get a discount.",
+        "intent": "Pricing Plan Discount Request",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer's request and provide a clear explanation of pricing plan policies",
+            "Offer alternative solutions, such as a free trial for premium features",
+            "Reiterate pricing plan terms and conditions, and inform the customer of their cancellation options"
+        ]
     },
     {
         "chat_id": 86,
-        "query": "Thanks!",
+        "query": "I'm having some issues with my account, not sure what's going on.",
         "intent": "Account Suspension Resolution",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather information about the issue from the customer",
+            "Investigate the account status to determine the cause of the suspension",
+            "Resolve the technical issue causing the suspension",
+            "Notify the customer of the resolution"
         ]
     },
     {
         "chat_id": 87,
-        "query": "Okay, thanks.",
-        "intent": "Tracking Order Status",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "I ordered this product last week but still haven't received it. Can you help me?",
+        "intent": "Missing Order",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm order number with customer",
+            "Apologize for the delay",
+            "Escalate issue to supervisor"
+        ]
     },
     {
         "chat_id": 88,
-        "query": "ok, thanks!",
-        "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "hi, i need a refund for my purchase on 2026-02-10. thanks!",
+        "intent": "Refund Request",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer provides order number",
+            "Agent processes refund",
+            "Agent informs customer of refund timeline"
+        ]
     },
     {
         "chat_id": 89,
-        "query": "cool, thx",
+        "query": "hi",
         "intent": "Payment Issue Resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the payment issue from the customer",
+            "Request the customer to check their order status and provide the order number",
+            "Investigate the order status using the provided order number",
+            "Provide an update to the customer on the status of their order"
+        ]
     },
     {
         "chat_id": 90,
-        "query": "Ok.",
-        "intent": "account access issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I'm having some trouble accessing my account. Can you help?",
+        "intent": "Account Access Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Try resetting password",
+            "Escalate to supervisor if password reset fails"
+        ]
     },
     {
         "chat_id": 91,
-        "query": "Finally!",
-        "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "HELP! My payment isn't going through! What's going on?!",
+        "intent": "Payment Gateway Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's bank details",
+            "Investigate the payment gateway for potential issues",
+            "Escalate the issue to a supervisor for further resolution"
+        ]
     },
     {
         "chat_id": 92,
-        "query": "Okay, fine.",
+        "query": "Hey, I'm trying to make a payment but it keeps failing. Can you help?",
         "intent": "Payment Issue Resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather payment information from the customer",
+            "Investigate the payment issue",
+            "Check for issues with the payment method",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 93,
-        "query": "Cool, I see it was processed. Thanks for your help, I appreciate it.",
+        "query": "I requested a refund for my order #R001, but it still hasn't been processed. Can you help me with this?",
         "intent": "Refund Status Inquiry",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's order number and refund request details",
+            "Check the status of the refund in the system",
+            "Confirm the refund processing date and advise the customer to check their bank account"
+        ]
     },
     {
         "chat_id": 94,
-        "query": "ok...fine",
-        "intent": "issue_resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I just got billed TWICE for my subscription...this is NOT okay!!!",
+        "intent": "Duplicate Charge Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer subscription details",
+            "Investigate account for duplicate charges",
+            "Identify cause of error (internal or external)",
+            "Credit excess amount back to customer's account",
+            "Send email confirmation to customer"
+        ]
     },
     {
         "chat_id": 95,
-        "query": "That worked! Thanks so much for your help!",
-        "intent": "Account Access Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm having trouble accessing my account. Can you help me?",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm username with the customer",
+            "Check account for potential issues",
+            "Reset password if necessary",
+            "Verify successful login"
+        ]
     },
     {
         "chat_id": 96,
-        "query": "Cool thanks for helping me with that",
-        "intent": "Account Access Issue Resolved",
+        "query": "Hi I'm trying to access my account but it says I'm locked out what do I do?",
+        "intent": "Account Lockout Resolution",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Try resetting password using the forgot password option",
+            "If issue persists, investigate account for multiple failed login attempts",
+            "Unlock account if multiple failed login attempts are the cause"
         ]
     },
     {
         "chat_id": 97,
-        "query": "cool, thanks",
-        "intent": "Refund Status",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "hi",
+        "intent": "Refund Status Inquiry",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's identity and refund request details",
+            "Check the status of the refund request in the system",
+            "Confirm the refund has been processed and provide an estimated time for email confirmation"
+        ]
     },
     {
         "chat_id": 98,
-        "query": "Cool. Thanks for your help!",
-        "intent": "Payment Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "My payment for the subscription didn't go through. Can you help me with that?",
+        "intent": "Payment Refund Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's payment method",
+            "Attempt to re-process payment",
+            "Process refund if payment fails again"
+        ]
     },
     {
         "chat_id": 99,
-        "query": "Ok, thank you for letting me know.",
-        "intent": "Refund Status Inquiry",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Hi, I'm trying to return my purchase from last week. Can I get a refund?",
+        "intent": "Refund Request",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's return status",
+            "Check refund processing status",
+            "Provide refund timeline to customer"
+        ]
     },
     {
         "chat_id": 100,
-        "query": "Thanks",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi",
+        "intent": "Payment Refund Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Investigate the payment issue using the provided order number",
+            "Process a refund if a payment issue is found"
+        ]
     },
     {
         "chat_id": 101,
-        "query": "this is not my email address. i never had that email account",
-        "intent": "password reset issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "hi",
+        "intent": "Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request customer's username and email address",
+            "Check email inbox for confirmation email",
+            "Send new email with password reset link if email not received",
+            "Escalate issue to supervisor if email address is incorrect or not recognized"
+        ]
     },
     {
         "chat_id": 102,
-        "query": "ok then",
-        "intent": "payment issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Payment Method Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's payment method",
+            "Check system eligibility for the payment method",
+            "Inform customer of payment method validity",
+            "Offer alternative solutions or assistance"
+        ]
     },
     {
         "chat_id": 103,
-        "query": "Fine, escalate it then.",
-        "intent": "Cancellation Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'm trying to cancel my subscription but the website says I have to pay for another month. That's crazy!",
+        "intent": "Subscription Cancellation",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Check the subscription policy to see if cancellation is allowed within the current timeframe",
+            "Offer a refund for the remaining months if cancellation is not possible",
+            "Escalate the issue to a supervisor if the customer is not satisfied with the refund offer",
+            "Transfer the customer to a supervisor for further assistance with the cancellation request"
+        ]
     },
     {
         "chat_id": 104,
-        "query": "Alright, thx!",
+        "query": "Hi!",
         "intent": "Account Access Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify account status",
+            "Check for password errors or account lockouts",
+            "Attempt password reset"
+        ]
     },
     {
         "chat_id": 105,
-        "query": "Thanks for letting me know. I really appreciate it. ",
+        "query": "I need a refund for the order I placed last week.",
         "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the order number and check the refund status",
+            "Provide the customer with an estimated timeframe for the refund to be processed"
+        ]
     },
     {
         "chat_id": 106,
-        "query": "Cool, finally!",
-        "intent": "Refund Status",
+        "query": "Hi",
+        "intent": "Refund Status Inquiry",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather refund ID from customer",
+            "Verify refund status using the provided ID",
+            "Inform customer of refund status and expected receipt timeframe"
         ]
     },
     {
         "chat_id": 107,
-        "query": "Thanks for your help.",
-        "intent": "account_access_issue",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm having trouble accessing my account. Can you help me?",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Try resetting password",
+            "If password reset fails, investigate account for potential issues",
+            "Resolve any identified account issues"
+        ]
     },
     {
         "chat_id": 108,
-        "query": "What?! This is ridiculous. I need help now.",
-        "intent": "account access issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'm trying to access my account but it keeps saying my password is incorrect. Can you help me?",
+        "intent": "Password Reset Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Try resetting password",
+            "Check system for issues",
+            "Escalate to supervisor if issue persists"
+        ]
     },
     {
         "chat_id": 109,
-        "query": "This is ridiculous. I demand to speak to your supervisor.",
-        "intent": "Dispute and Request for Assistance",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I just paid $100 for a subscription but it's not showing up in my account.",
+        "intent": "Subscription Dispute Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's subscription status in the system",
+            "Check for any cancellation records",
+            "Investigate potential system errors or discrepancies",
+            "Escalate the issue to a supervisor if necessary",
+            "Manually update the customer's subscription status if an error is found"
+        ]
     },
     {
         "chat_id": 110,
-        "query": "That sounds great. Thanks for your help!",
-        "intent": "Pricing Inquiry",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I just signed up for a free trial. What are my pricing options?",
+        "intent": "Pricing Plan Inquiry",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Identify customer's plan of interest",
+            "Provide pricing details for the selected plan",
+            "Offer additional payment options (e.g., monthly, annually)",
+            "Address any further questions or concerns"
+        ]
     },
     {
         "chat_id": 111,
-        "query": "That's what I was trying to tell you! Thanks for finally getting it right.",
-        "intent": "Refund Issue Resolved",
+        "query": "I'm trying to get a refund for my order #1234 but your system says it's not eligible. This is ridiculous!",
+        "intent": "Refund Eligibility Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather order details from the customer",
+            "Check the order status in the system",
+            "Identify the root cause of the issue (e.g., payment failure, cancellation)",
+            "Provide alternative solutions (e.g., contacting support team directly) for refund requests"
         ]
     },
     {
         "chat_id": 112,
-        "query": "I DON'T HAVE TIME FOR THIS. I DEMAND TO SPEAK TO YOUR SUPERVISOR!!!",
-        "intent": "Request for Refund and Escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I WANT MY REFUND NOW OR I'LL REPORT YOU TO THE BETTER BUSINESS BUREAU!!!",
+        "intent": "Escalation to Supervisor",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer frustration",
+            "Offer to investigate the issue",
+            "Comply with customer demand to speak to a supervisor"
+        ]
     },
     {
         "chat_id": 113,
-        "query": "Fine.",
-        "intent": "account access issue due to policy clash",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I need help with my account access. I think there's a policy clash going on.",
+        "intent": "Account Access Policy Clash",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer concern and explain policy",
+            "Offer alternative solutions or resources",
+            "Follow protocol for escalating issues (if necessary)",
+            "Provide clear and concise information about policy limitations"
+        ]
     },
     {
         "chat_id": 114,
-        "query": "That's not good enough. I need my refund now. I'm going to report this to my bank.",
-        "intent": "Request Refund Expedite",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Why haven't I received my refund yet? I paid for the service on 2026-02-20 14:30:00.",
+        "intent": "Refund Issue Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Check refund status",
+            "Provide refund processing timeline",
+            "Apologize for inconvenience and reiterate refund processing timeline"
+        ]
     },
     {
         "chat_id": 115,
-        "query": "Okay, cool. Thanks for helping me out!",
-        "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "I'm trying to order something but it keeps saying I don't have enough funds. Can you help?",
+        "intent": "Payment Glitch Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm order number with the customer",
+            "Verify payment processing status",
+            "Investigate potential temporary system glitches",
+            "Provide assistance and resolve the issue"
+        ]
     },
     {
         "chat_id": 116,
-        "query": "Thanks, that seemed to work",
-        "intent": "Technical Issue Resolved with Workaround",
+        "query": "I'M FURIOUS WITH YOUR TECH SUPPORT!!! EVERY TIME I TRY TO CONNECT TO THE WIFI IN MY APARTMENT BUILDING, I GET A TECHNICAL ERROR MESSAGE!!!",
+        "intent": "Wi-Fi Connection Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Restart the router and reconnect to the network",
+            "Escalate the issue to the network team for further investigation",
+            "Apply a temporary workaround by changing the DNS server to recommended settings"
         ]
     },
     {
         "chat_id": 117,
-        "query": "Cool, thx! I appreciate it.",
-        "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "I ordered a refund for a defective product. Can you help me?",
+        "intent": "Refund for Defective Product",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the order number and refund status",
+            "Inform the customer of the refund processing and expected timeline"
+        ]
     },
     {
         "chat_id": 118,
         "query": "I just got a refund for my subscription! Thanks so much for your help.",
-        "intent": "Customer Satisfaction",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "intent": "Refund Assistance",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer requested refund",
+            "Agent processed refund",
+            "Refund was successfully issued to customer"
+        ]
     },
     {
         "chat_id": 119,
-        "query": "FINE",
-        "intent": "Payment Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hİ",
+        "intent": "Duplicate Charge Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer concern and apologize for the inconvenience",
+            "Investigate the issue to identify the cause of the duplicate charge",
+            "Verify the error and confirm the duplicate charge",
+            "Credit the customer's account for the incorrect charge",
+            "Explain the resolution process and internal procedures to the customer"
+        ]
     },
     {
         "chat_id": 120,
-        "query": "Awesome, thanks so much for taking care of this for me!",
-        "intent": "Order Issue Resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey I had an issue with my last order. I was supposed to get a free t-shirt but it didn't arrive. Can you help me out?",
+        "intent": "Missing Free Item",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Investigate the order status using the provided order number",
+            "Identify the cause of the issue (e.g., packing error)",
+            "Provide a resolution (e.g., send a replacement item)"
+        ]
     },
     {
         "chat_id": 121,
-        "query": "Fine, but I better get my refund today!",
+        "query": "I still haven't received my refund from my last purchase! Can you please look into this?",
         "intent": "Refund Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer account and transaction status",
+            "Investigate discrepancy if initial verification shows no issue",
+            "Cancel transaction if necessary",
+            "Inform customer of expected refund timeline"
+        ]
     },
     {
         "chat_id": 122,
-        "query": "Great, thank you!",
+        "query": "Hi, I'd like a refund for my recent purchase.",
         "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer eligibility for refund",
+            "Confirm refund amount and percentage",
+            "Process refund immediately"
+        ]
     },
     {
         "chat_id": 123,
-        "query": "Fine, thanks for trying",
-        "intent": "clarify pricing and discounts",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hi, I have a question about the pricing plan. Can you tell me more about the discounts for long-term subscribers?",
+        "intent": "Pricing Plan Discount Clarification",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's claim of a discount",
+            "Check the company's database for any record of the claimed discount",
+            "Refer to the official discount policy stated on the company's website",
+            "Communicate the findings clearly to the customer"
+        ]
     },
     {
         "chat_id": 124,
-        "query": "THAT'S NOT WHAT I WANTED TO HEAR. I WANT TO SPEAK TO YOUR MANAGER.",
-        "intent": "Complaint about pricing plan change",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "WHY DID MY PRICING PLAN CHANGE?! I'VE BEEN PAYING THE SAME RATE FOR YEARS!",
+        "intent": "Pricing Plan Change Dispute",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Acknowledge customer concern and apologize for the inconvenience",
+            "Investigate the cause of the pricing plan change",
+            "Offer alternative solutions or promotions",
+            "Escalate the issue to a manager if the customer is not satisfied"
+        ]
     },
     {
         "chat_id": 125,
-        "query": "Awesome! Thanks again for your help.",
-        "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "Hi there! I'm trying to get a refund for my order #1234. Can you help me with that?",
+        "intent": "Refund Order",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm order number with customer",
+            "Verify order details",
+            "Process refund"
+        ]
     },
     {
         "chat_id": 126,
-        "query": "Ok then, thanks I guess",
+        "query": "Hey, I'm trying to change my pricing plan but it's saying my current plan doesn't qualify. Can you help me?",
         "intent": "Pricing Plan Upgrade Issue",
-        "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "status": "Needs Review",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Check current plan details",
+            "Verify active subscription requirements",
+            "Escalate issue to supervisor if technical problem is suspected"
         ]
     },
     {
         "chat_id": 127,
-        "query": "no",
-        "intent": "Account Access Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I'm having trouble accessing my account. It says my password is incorrect.",
+        "intent": "Password Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's account email address",
+            "Check the status of the customer's password",
+            "Confirm if the password has been updated successfully"
+        ]
     },
     {
         "chat_id": 128,
-        "query": "Nope that's all, thanks!",
-        "intent": "customer support completion",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Haha I finally got my refund! Thanks for helping me with that Stacey Chen!",
+        "intent": "Refund Assistance",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer initiates refund request",
+            "Agent (Stacey Chen) assists with refund process",
+            "Refund is successfully processed"
+        ]
     },
     {
         "chat_id": 129,
-        "query": "",
-        "intent": "Technical Support",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "hi",
+        "intent": "Screen Glitching Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather information about the issue from the customer",
+            "Determine if the issue is hardware-related",
+            "Escalate the issue to the technical team if necessary",
+            "Assign a technical team member to contact the customer for further assistance"
+        ]
     },
     {
         "chat_id": 130,
-        "query": "This is ridiculous. I demand to speak with a supervisor.",
-        "intent": "Dispute Charge",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "Hey I think I was charged the wrong amount for my premium plan. I got an email saying I was downgraded to basic but I didn't ask for that.",
+        "intent": "Incorrect Downgrade of Premium Plan",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's payment history",
+            "Check for any system errors or glitches",
+            "Compare customer's statement with the system's records",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 131,
-        "query": "ORDER #123456! NOW CAN I SPEAK WITH A SUPERSVISOR OR WHAT?!?!",
-        "intent": "escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "I'M SO ANGRY THAT I CAN'T GET HELP WITH MY ISSUE!!! PLEASE TRANSFER ME TO A SUPERVISOR RIGHT NOW!!!",
+        "intent": "Escalation to Supervisor",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer issue through order number confirmation",
+            "Acknowledge customer frustration and apologize",
+            "Transfer customer to supervisor after initial verification"
+        ]
     },
     {
         "chat_id": 132,
-        "query": "No, that's all for now. Thanks again!",
-        "intent": "Upgrade Plan",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I'm thinking of switching to the premium plan. Can you help me with the pricing?",
+        "intent": "Premium Plan Upgrade",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer's current plan information",
+            "Determine customer's needs for the premium plan",
+            "Provide premium plan features and pricing information",
+            "Inform customer about any available promotions or discounts",
+            "Answer any additional questions and provide assistance"
+        ]
     },
     {
         "chat_id": 133,
-        "query": "thx",
-        "intent": "Account Access Issue Resolved",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "hi",
+        "intent": "Account Access Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's identity",
+            "Investigate account access issue",
+            "Check for security concerns or restrictions",
+            "Lift account restriction if applicable"
+        ]
     },
     {
         "chat_id": 134,
-        "query": "THIS IS RIDICULOUS!!! I DEMAND TO SPEAK TO YOUR MANAGER!!!",
-        "intent": "Payment Issue Escalation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "HELP!!! my payment didnt go through and now I'm being charged twice!!",
+        "intent": "Double Charge Issue",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's card details",
+            "Check for any duplicate transactions",
+            "Issue a refund for the duplicate charge if found",
+            "Escalate the issue to a manager if the customer is not satisfied"
+        ]
     },
     {
         "chat_id": 135,
-        "query": "What? That's not helpful at all.",
-        "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "Hi",
+        "intent": "Payment Dispute Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request order number from customer",
+            "Attempt to locate order number if customer is unsure",
+            "Escalate issue to supervisor if unable to resolve",
+            "Supervisor should investigate duplicate charge and process refund if necessary"
+        ]
     },
     {
         "chat_id": 136,
-        "query": "ok",
-        "intent": "account access issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Reset Password"
+        "query": "hi",
+        "intent": "Account Lockout Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's account email address",
+            "Check for temporary account lock due to multiple login attempts",
+            "Lift the temporary account lock",
+            "Require customer to change password for security"
+        ]
     },
     {
         "chat_id": 137,
-        "query": "Okay, sounds good. Thanks!",
-        "intent": "Pricing Plan Inquiry",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "Hey, I'm not sure about the pricing plan, can you explain it to me?",
+        "intent": "Pricing Plan Explanation",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Identify customer's pricing plan inquiry",
+            "Explain the available pricing tiers (basic, premium, enterprise)",
+            "Provide additional information about the requested tier (enterprise)",
+            "Confirm customer's understanding and satisfaction"
+        ]
     },
     {
         "chat_id": 138,
-        "query": "Thanks",
-        "intent": "Cancellation and Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "I need to cancel my subscription, I've been charged twice!",
+        "intent": "Cancel Subscription and Refund",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order ID from the customer",
+            "Locate the issue using the provided order ID",
+            "Process refund within 3-5 business days"
+        ]
     },
     {
         "chat_id": 139,
-        "query": "FINALLY!!! THANK YOU, STEVEN!!!",
-        "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "query": "MY CARD WAS DECLINED AGAIN!!! I JUST PAID 5 MINUTES AGO!!! WHAT'S GOING ON?",
+        "intent": "Declined Payment Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information (order number and payment method)",
+            "Investigate payment status to identify the cause of decline",
+            "Request customer to verify available balance in their bank account",
+            "Reprocess payment if funds are available"
+        ]
     },
     {
         "chat_id": 140,
-        "query": "Thanks for helping me out. I finally got the issue resolved!",
-        "intent": "issue_resolution",
-        "status": "Learning Mode",
-        "source": "New Scenario (Tier-2)",
-        "resolution_steps": "PENDING: Awaiting Human Demonstration"
+        "query": "I had issues with my payment.  I paid for a subscription but I can't access the content.",
+        "intent": "Payment Issue Resolution",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather customer information and subscription details",
+            "Investigate the customer's account for subscription activation status",
+            "Provide instructions to the customer on how to activate their premium subscription",
+            "Verify that the issue has been resolved and offer further assistance if needed"
+        ]
     },
     {
         "chat_id": 141,
-        "query": "Oh, that worked! Thank you so much for your help.",
-        "intent": "Account Login Issue Resolved",
+        "query": "Hi, I'm having trouble with my account login. Can you help?",
+        "intent": "Account Login Issue",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Gather information about the issue",
+            "Attempt password reset",
+            "Verify login after password reset"
         ]
     },
     {
         "chat_id": 142,
-        "query": "ok",
+        "query": "hi",
         "intent": "Payment Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Investigate the payment issue using the provided order number",
+            "Identify the root cause of the payment issue (e.g., system error)",
+            "Take corrective action to resolve the payment issue"
+        ]
     },
     {
         "chat_id": 143,
         "query": "Hey, I just got the refund confirmation for my cancelled order. Thanks for your help!",
         "intent": "Refund Confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Customer initiates refund request",
+            "Agent assists with refund process",
+            "Refund confirmation is sent to customer",
+            "Refund amount is credited to original payment method within 3-5 business days"
+        ]
     },
     {
         "chat_id": 144,
-        "query": "Thanks, I guess.",
-        "intent": "Technical Issue Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Escalate to Tier-3 Engineering"
+        "query": "My internet is down and I'm really angry! I demand to speak with a supervisor!",
+        "intent": "Internet Connection Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Request account details to assist further",
+            "Offer alternative solution if customer refuses to provide details",
+            "Troubleshoot by suggesting a router restart",
+            "Verify issue on wired connection",
+            "Escalate issue to technical team if necessary"
+        ]
     },
     {
         "chat_id": 145,
-        "query": "Ok, thanks.",
-        "intent": "Refund Request",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "Hi, I need a refund for a cancelled order. Can you help me with that?",
+        "intent": "Refund for Cancelled Order",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Confirm the order number with the customer",
+            "Attempt to process the refund",
+            "Escalate the issue to a supervisor if necessary"
+        ]
     },
     {
         "chat_id": 146,
-        "query": "That helps. Thanks.",
+        "query": "Hi, I'm trying to decide between the premium and standard plan.",
         "intent": "Plan Comparison",
         "status": "Ready for Automation",
-        "source": "Learned from Human (Tier-2)",
+        "source": "AI Extraction",
         "resolution_steps": [
-            "1. Agent verified customer identity via secure token.",
-            "2. Manual override of subscription status applied.",
-            "3. Compensation discount (15%) sent via email API."
+            "Check pricing plans",
+            "Provide plan details",
+            "Explain features included in each plan"
         ]
     },
     {
         "chat_id": 147,
-        "query": "I still haven't received it. Can I speak to your supervisor?",
-        "intent": "Refund Issue",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "I still haven't received my refund from last month's order. Can you help me?",
+        "intent": "Refund Issue Resolution",
+        "status": "Needs Review",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Gather order information from the customer",
+            "Verify the refund status",
+            "Provide an estimated time for the refund to reflect in the customer's account",
+            "Escalate the issue to a supervisor if the customer remains unsatisfied"
+        ]
     },
     {
         "chat_id": 148,
-        "query": "FINALLY! THANK YOU SO MUCH! That's really appreciated.",
+        "query": "HEY, I'M SO ANGRY! I signed up for PREMIUM plan but I keep getting charged for the BASIC plan. Fix this ASAP!",
         "intent": "Billing Error Resolution",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Verify customer's account information",
+            "Investigate the billing issue",
+            "Identify the cause of the error",
+            "Refund the difference if necessary"
+        ]
     },
     {
         "chat_id": 149,
-        "query": "ok then",
-        "intent": "Return Order",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Initiate Refund"
+        "query": "i tried to return my order but u guys keep telling me it's too late",
+        "intent": "Return Window Issue",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Check return window in order details",
+            "Escalate issue to supervisor if return window is valid",
+            "Transfer customer to supervisor for further assistance"
+        ]
     },
     {
         "chat_id": 150,
         "query": "I just got a refund for my order. Thanks!",
-        "intent": "post-refund confirmation",
-        "status": "Verified",
-        "source": "AI Autonomous (Tier-1)",
-        "resolution_steps": "Triggered system: Check Transaction Status"
+        "intent": "Refund Confirmation",
+        "status": "Ready for Automation",
+        "source": "AI Extraction",
+        "resolution_steps": [
+            "Review the customer's refund status",
+            "Confirm the refund was processed successfully"
+        ]
     }
 ]

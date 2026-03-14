@@ -1,0 +1,137 @@
+[
+    {
+        "id": 700,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "onboarding_gap",
+        "customer": "Robyn Miller",
+        "recipient": "Customer",
+        "content": "You haven't set up your API key yet. Here is a 1-minute guide to get started.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 701,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "technical_friction",
+        "customer": "Briana Green",
+        "recipient": "Customer",
+        "content": "We noticed you've seen 'Error 500' twice. Try clearing your cache or use this direct link.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 702,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "payment_drift",
+        "customer": "Elizabeth Horn",
+        "recipient": "Agent",
+        "content": "Customer tried 3 different cards. Potential fraud or bank block. Investigation required.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 703,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "payment_drift",
+        "customer": "Jennifer Cardenas",
+        "recipient": "Agent",
+        "content": "Customer tried 3 different cards. Potential fraud or bank block. Investigation required.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 704,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "payment_drift",
+        "customer": "Jonathan Richards",
+        "recipient": "Agent",
+        "content": "Customer tried 3 different cards. Potential fraud or bank block. Investigation required.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 705,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "technical_friction",
+        "customer": "Kayla Williams",
+        "recipient": "Customer",
+        "content": "We noticed you've seen 'Error 500' twice. Try clearing your cache or use this direct link.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 706,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "technical_friction",
+        "customer": "Rachel Gutierrez",
+        "recipient": "Customer",
+        "content": "We noticed you've seen 'Error 500' twice. Try clearing your cache or use this direct link.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 707,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "churn_signal",
+        "customer": "David Cole",
+        "recipient": "Agent",
+        "content": "User visited 'Delete Account' page 3 times. High churn risk. Prepare a retention offer.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 708,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "technical_friction",
+        "customer": "Emily Franco",
+        "recipient": "Customer",
+        "content": "We noticed you've seen 'Error 500' twice. Try clearing your cache or use this direct link.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 709,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "onboarding_gap",
+        "customer": "Nicole Francis",
+        "recipient": "Customer",
+        "content": "You haven't set up your API key yet. Here is a 1-minute guide to get started.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 710,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "onboarding_gap",
+        "customer": "Steven Thompson",
+        "recipient": "Customer",
+        "content": "You haven't set up your API key yet. Here is a 1-minute guide to get started.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 711,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "feature_discovery",
+        "customer": "Lisa Cannon",
+        "recipient": "Agent",
+        "content": "User is trying to use Pro features on a Basic plan. Good opportunity for upselling.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 712,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "churn_signal",
+        "customer": "Bethany Padilla",
+        "recipient": "Agent",
+        "content": "User visited 'Delete Account' page 3 times. High churn risk. Prepare a retention offer.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 713,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "payment_drift",
+        "customer": "James Walker",
+        "recipient": "Agent",
+        "content": "Customer tried 3 different cards. Potential fraud or bank block. Investigation required.",
+        "status": "Alert Sent"
+    },
+    {
+        "id": 714,
+        "timestamp": "2026-03-14 21:16",
+        "event_type": "onboarding_gap",
+        "customer": "Marcus Olsen",
+        "recipient": "Customer",
+        "content": "You haven't set up your API key yet. Here is a 1-minute guide to get started.",
+        "status": "Alert Sent"
+    }
+]
