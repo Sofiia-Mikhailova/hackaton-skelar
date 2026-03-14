@@ -1,0 +1,1502 @@
+[
+    {
+        "id": 26,
+        "customer_name": "Dorothy Walker",
+        "priority_data": {
+            "id": 26,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Financial risk and extreme anger due to unexpected bill"
+        }
+    },
+    {
+        "id": 35,
+        "customer_name": "Raymond Terrell",
+        "priority_data": {
+            "id": 35,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Extreme anger, threat of social media exposure and implied churn"
+        }
+    },
+    {
+        "id": 60,
+        "customer_name": "Jose Oneill",
+        "priority_data": {
+            "id": 60,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Customer requests a refund due to non-delivery of a paid product, indicating financial risk."
+        }
+    },
+    {
+        "id": 68,
+        "customer_name": "Danielle Jones",
+        "priority_data": {
+            "id": 68,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Extreme anger and frustration, implying potential churn threat"
+        }
+    },
+    {
+        "id": 94,
+        "customer_name": "Christine Spence",
+        "priority_data": {
+            "id": 94,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Financial risk due to double billing and extreme customer frustration"
+        }
+    },
+    {
+        "id": 112,
+        "customer_name": "Brittney Velez",
+        "priority_data": {
+            "id": 112,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Financial risk due to refund demand and churn threat with extreme anger"
+        }
+    },
+    {
+        "id": 114,
+        "customer_name": "Christopher Nelson",
+        "priority_data": {
+            "id": 114,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Customer is requesting a refund and threatening to report the issue to their bank, indicating financial risk and extreme anger."
+        }
+    },
+    {
+        "id": 131,
+        "customer_name": "Brett Holloway",
+        "priority_data": {
+            "id": 131,
+            "priority": "CRITICAL",
+            "score": 98,
+            "reason": "Extreme anger and demand for supervisor, potential churn threat"
+        }
+    },
+    {
+        "id": 1,
+        "customer_name": "Ray Anderson",
+        "priority_data": {
+            "id": 1,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is extremely angry, threatening to leave a negative review, and has a pending payment issue"
+        }
+    },
+    {
+        "id": 3,
+        "customer_name": "David Erickson",
+        "priority_data": {
+            "id": 123456,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Double charge and refund request with extreme anger"
+        }
+    },
+    {
+        "id": 23,
+        "customer_name": "Samuel Shea",
+        "priority_data": {
+            "id": 23,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to declined credit card, duplicate charge, and refund request"
+        }
+    },
+    {
+        "id": 47,
+        "customer_name": "Adam Carrillo",
+        "priority_data": {
+            "id": 47,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is experiencing a refund issue, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 50,
+        "customer_name": "Abigail Ross",
+        "priority_data": {
+            "id": 50,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund due to a potential error with their order"
+        }
+    },
+    {
+        "id": 51,
+        "customer_name": "Pamela Lin",
+        "priority_data": {
+            "id": 51,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is waiting for a refund, indicating a financial risk"
+        }
+    },
+    {
+        "id": 73,
+        "customer_name": "Amanda Moreno",
+        "priority_data": {
+            "id": 73,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to pending refund"
+        }
+    },
+    {
+        "id": 88,
+        "customer_name": "Tami Martin",
+        "priority_data": {
+            "id": 88,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund due to a purchase issue"
+        }
+    },
+    {
+        "id": 93,
+        "customer_name": "Robyn Miller",
+        "priority_data": {
+            "id": 93,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is experiencing a financial risk due to a delayed refund"
+        }
+    },
+    {
+        "id": 105,
+        "customer_name": "Gregory Ortiz",
+        "priority_data": {
+            "id": 105,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund due to a potential financial risk"
+        }
+    },
+    {
+        "id": 106,
+        "customer_name": "Marcus Olsen",
+        "priority_data": {
+            "id": 106,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is experiencing a refund issue, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 117,
+        "customer_name": "Lori Clark",
+        "priority_data": {
+            "id": 117,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to refund request for defective product"
+        }
+    },
+    {
+        "id": 122,
+        "customer_name": "Monica Hill",
+        "priority_data": {
+            "id": 122,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund due to potential financial misunderstanding"
+        }
+    },
+    {
+        "id": 125,
+        "customer_name": "Luke Clayton",
+        "priority_data": {
+            "id": 125,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 134,
+        "customer_name": "Mark Campbell",
+        "priority_data": {
+            "id": 134,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to double charging and extreme customer frustration"
+        }
+    },
+    {
+        "id": 138,
+        "customer_name": "Rachel Mack",
+        "priority_data": {
+            "id": 138,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to double charge and potential churn"
+        }
+    },
+    {
+        "id": 139,
+        "customer_name": "Steven Thompson",
+        "priority_data": {
+            "id": 139,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to declined payment and potential churn threat"
+        }
+    },
+    {
+        "id": 144,
+        "customer_name": "David Davenport",
+        "priority_data": {
+            "id": 144,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Extreme anger and churn threat"
+        }
+    },
+    {
+        "id": 145,
+        "customer_name": "Michele Ward",
+        "priority_data": {
+            "id": 145,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Customer is requesting a refund for a cancelled order, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 147,
+        "customer_name": "Leslie Reilly",
+        "priority_data": {
+            "id": 147,
+            "priority": "CRITICAL",
+            "score": 95,
+            "reason": "Financial risk due to pending refund"
+        }
+    },
+    {
+        "id": 4,
+        "customer_name": "Brenda Edwards",
+        "priority_data": {
+            "id": 1,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer is requesting a refund due to ordering the wrong product, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 9,
+        "customer_name": "Dr. Catherine Hahn",
+        "priority_data": {
+            "id": 12345,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer is requesting a refund due to a missing product, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 30,
+        "customer_name": "Jonathan Thompson",
+        "priority_data": {
+            "id": 30,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer is requesting a refund and expressing frustration"
+        }
+    },
+    {
+        "id": 31,
+        "customer_name": "Heather Diaz",
+        "priority_data": {
+            "id": 31,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Extreme anger and urgent need for assistance"
+        }
+    },
+    {
+        "id": 40,
+        "customer_name": "Angela Hart",
+        "priority_data": {
+            "id": 40,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Extreme anger and urgency indicated by the customer"
+        }
+    },
+    {
+        "id": 42,
+        "customer_name": "James Walker",
+        "priority_data": {
+            "id": 42,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Extreme anger and demand to speak with supervisor, indicating high level of frustration and potential churn threat"
+        }
+    },
+    {
+        "id": 64,
+        "customer_name": "Amy Lewis",
+        "priority_data": {
+            "id": 64,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer requests a refund, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 65,
+        "customer_name": "Christine Vasquez",
+        "priority_data": {
+            "id": 65,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Extreme anger and account access issue"
+        }
+    },
+    {
+        "id": 67,
+        "customer_name": "Holly Adams",
+        "priority_data": {
+            "id": 67,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer is requesting a refund due to a missing product, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 69,
+        "customer_name": "Heidi Mcgee",
+        "priority_data": {
+            "id": 69,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer has ordered a refund, indicating potential financial risk"
+        }
+    },
+    {
+        "id": 77,
+        "customer_name": "Antonio Brown",
+        "priority_data": {
+            "id": 77,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Extreme anger and potential churn threat"
+        }
+    },
+    {
+        "id": 99,
+        "customer_name": "Robert Vasquez",
+        "priority_data": {
+            "id": 99,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Customer is requesting a refund and has already returned the item, indicating a potential financial risk."
+        }
+    },
+    {
+        "id": 111,
+        "customer_name": "Alexis Banks",
+        "priority_data": {
+            "id": 111,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Financial risk due to refund issue and customer's extreme anger"
+        }
+    },
+    {
+        "id": 121,
+        "customer_name": "Nicole Francis",
+        "priority_data": {
+            "id": 121,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Financial risk due to pending refund and customer frustration"
+        }
+    },
+    {
+        "id": 149,
+        "customer_name": "Gregory Nguyen",
+        "priority_data": {
+            "id": 149,
+            "priority": "CRITICAL",
+            "score": 90,
+            "reason": "Financial risk due to potential refund issue and customer frustration"
+        }
+    },
+    {
+        "id": 2,
+        "customer_name": "Emily Franco",
+        "priority_data": {
+            "id": 1,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment decline"
+        }
+    },
+    {
+        "id": 7,
+        "customer_name": "Erica Patterson",
+        "priority_data": {
+            "id": 7,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not going through"
+        }
+    },
+    {
+        "id": 13,
+        "customer_name": "Paul Smith",
+        "priority_data": {
+            "id": 13,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment pending and account access problem"
+        }
+    },
+    {
+        "id": 15,
+        "customer_name": "Lindsey Morales",
+        "priority_data": {
+            "id": 15,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with printer, indicates a Tier-2/3 issue"
+        }
+    },
+    {
+        "id": 17,
+        "customer_name": "John Lambert",
+        "priority_data": {
+            "id": 17,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing/Order issue, potential financial risk"
+        }
+    },
+    {
+        "id": 18,
+        "customer_name": "Anne Newman",
+        "priority_data": {
+            "id": 18,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with potential data loss, causing significant frustration"
+        }
+    },
+    {
+        "id": 25,
+        "customer_name": "Jennifer Guerrero",
+        "priority_data": {
+            "id": 25,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with account frozen due to payment processing error"
+        }
+    },
+    {
+        "id": 28,
+        "customer_name": "Dawn Webster",
+        "priority_data": {
+            "id": 28,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with email access on phone and incorrect support response"
+        }
+    },
+    {
+        "id": 29,
+        "customer_name": "Heather Castillo",
+        "priority_data": {
+            "id": 29,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not credited to account"
+        }
+    },
+    {
+        "id": 33,
+        "customer_name": "Melissa Cummings",
+        "priority_data": {
+            "id": 33,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue reported by the customer"
+        }
+    },
+    {
+        "id": 36,
+        "customer_name": "Tracey Merritt",
+        "priority_data": {
+            "id": 36,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not being recognized"
+        }
+    },
+    {
+        "id": 37,
+        "customer_name": "Valerie Johnson",
+        "priority_data": {
+            "id": 37,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with laptop not turning on, indicating a potential Tier-2/3 issue"
+        }
+    },
+    {
+        "id": 39,
+        "customer_name": "Jeffrey Woods",
+        "priority_data": {
+            "id": 39,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with potential financial impact"
+        }
+    },
+    {
+        "id": 41,
+        "customer_name": "Alicia Sanchez",
+        "priority_data": {
+            "id": 41,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with pricing plan change button"
+        }
+    },
+    {
+        "id": 44,
+        "customer_name": "David Owens",
+        "priority_data": {
+            "id": 12345,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Received incorrect order, potential refund and return policy inquiry"
+        }
+    },
+    {
+        "id": 45,
+        "customer_name": "Jason James",
+        "priority_data": {
+            "id": 45,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue related to payment"
+        }
+    },
+    {
+        "id": 46,
+        "customer_name": "David Cole",
+        "priority_data": {
+            "id": 46,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue and missing discount"
+        }
+    },
+    {
+        "id": 49,
+        "customer_name": "James Mcintyre",
+        "priority_data": {
+            "id": 49,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue regarding advertised discount"
+        }
+    },
+    {
+        "id": 52,
+        "customer_name": "Rachel Padilla",
+        "priority_data": {
+            "id": 52,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Customer is experiencing account access issues, indicating a technical error"
+        }
+    },
+    {
+        "id": 53,
+        "customer_name": "Becky Morrow",
+        "priority_data": {
+            "id": 53,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error described as laptop freezing and shutting down, indicating a potential Tier-2/3 issue"
+        }
+    },
+    {
+        "id": 54,
+        "customer_name": "Jonathan Reynolds MD",
+        "priority_data": {
+            "id": 54,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with pending payment"
+        }
+    },
+    {
+        "id": 55,
+        "customer_name": "Christian Merritt",
+        "priority_data": {
+            "id": 55,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment error"
+        }
+    },
+    {
+        "id": 63,
+        "customer_name": "Kayla Williams",
+        "priority_data": {
+            "id": 63,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error preventing account access"
+        }
+    },
+    {
+        "id": 70,
+        "customer_name": "Justin Knapp",
+        "priority_data": {
+            "id": 70,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with card decline"
+        }
+    },
+    {
+        "id": 71,
+        "customer_name": "Katrina Barnes",
+        "priority_data": {
+            "id": 71,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment decline"
+        }
+    },
+    {
+        "id": 74,
+        "customer_name": "Alexander Murray",
+        "priority_data": {
+            "id": 74,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Account access issue with a tone of extreme anger"
+        }
+    },
+    {
+        "id": 76,
+        "customer_name": "Courtney Little",
+        "priority_data": {
+            "id": 76,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with account access"
+        }
+    },
+    {
+        "id": 78,
+        "customer_name": "Crystal Lewis",
+        "priority_data": {
+            "id": 78,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not resulting in order receipt"
+        }
+    },
+    {
+        "id": 82,
+        "customer_name": "Joshua Morrison",
+        "priority_data": {
+            "id": 82,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with account access"
+        }
+    },
+    {
+        "id": 83,
+        "customer_name": "Patrick Kelley",
+        "priority_data": {
+            "id": 83,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue mentioned"
+        }
+    },
+    {
+        "id": 86,
+        "customer_name": "Jennifer Cardenas",
+        "priority_data": {
+            "id": 86,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with account access"
+        }
+    },
+    {
+        "id": 87,
+        "customer_name": "Jennifer Dodson",
+        "priority_data": {
+            "id": 87,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Customer hasn't received ordered product, potential churn threat"
+        }
+    },
+    {
+        "id": 89,
+        "customer_name": "Daryl Stevens",
+        "priority_data": {
+            "id": 89,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Payment issue indicates a potential billing problem"
+        }
+    },
+    {
+        "id": 91,
+        "customer_name": "Jessica Hamilton",
+        "priority_data": {
+            "id": 91,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not going through, indicating a potential technical error"
+        }
+    },
+    {
+        "id": 92,
+        "customer_name": "Briana Green",
+        "priority_data": {
+            "id": 92,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment failure"
+        }
+    },
+    {
+        "id": 98,
+        "customer_name": "Shannon Howell",
+        "priority_data": {
+            "id": 98,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with payment not going through and refund request"
+        }
+    },
+    {
+        "id": 100,
+        "customer_name": "Alexis Mcdonald",
+        "priority_data": {
+            "id": 100,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue related to payment"
+        }
+    },
+    {
+        "id": 103,
+        "customer_name": "Peter Long",
+        "priority_data": {
+            "id": 103,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue and potential churn threat"
+        }
+    },
+    {
+        "id": 108,
+        "customer_name": "Benjamin Perry PhD",
+        "priority_data": {
+            "id": 108,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error with account access"
+        }
+    },
+    {
+        "id": 109,
+        "customer_name": "Brian Phillips",
+        "priority_data": {
+            "id": 109,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with recent payment not reflected in account"
+        }
+    },
+    {
+        "id": 115,
+        "customer_name": "Alexis Jackson",
+        "priority_data": {
+            "id": 115,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with potential financial risk"
+        }
+    },
+    {
+        "id": 116,
+        "customer_name": "Michael Cameron",
+        "priority_data": {
+            "id": 116,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Technical error (Tier-2/3) with network issue and error code 404"
+        }
+    },
+    {
+        "id": 119,
+        "customer_name": "Rachel Gutierrez",
+        "priority_data": {
+            "id": 119,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue indicated by 'problem with my payment'"
+        }
+    },
+    {
+        "id": 124,
+        "customer_name": "Andrew Bennett",
+        "priority_data": {
+            "id": 124,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Pricing plan change and billing issue, with a tone indicating significant frustration"
+        }
+    },
+    {
+        "id": 130,
+        "customer_name": "Pam Padilla",
+        "priority_data": {
+            "id": 130,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with potential financial impact due to incorrect plan downgrade"
+        }
+    },
+    {
+        "id": 135,
+        "customer_name": "Danny Nelson",
+        "priority_data": {
+            "id": 135,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with duplicate charge"
+        }
+    },
+    {
+        "id": 140,
+        "customer_name": "Kimberly Scott",
+        "priority_data": {
+            "id": 140,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue with paid subscription and lack of access to content"
+        }
+    },
+    {
+        "id": 142,
+        "customer_name": "Frank Moore",
+        "priority_data": {
+            "id": 142,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue"
+        }
+    },
+    {
+        "id": 148,
+        "customer_name": "Anthony Calhoun",
+        "priority_data": {
+            "id": 148,
+            "priority": "HIGH",
+            "score": 80,
+            "reason": "Billing issue and extreme anger"
+        }
+    },
+    {
+        "id": 6,
+        "customer_name": "John Miller",
+        "priority_data": {
+            "id": 6,
+            "priority": "HIGH",
+            "score": 70,
+            "reason": "Technical error with order"
+        }
+    },
+    {
+        "id": 129,
+        "customer_name": "Julie Parker",
+        "priority_data": {
+            "id": 129,
+            "priority": "HIGH",
+            "score": 70,
+            "reason": "Technical error reported by the customer"
+        }
+    },
+    {
+        "id": 14,
+        "customer_name": "Michele Mccullough",
+        "priority_data": {
+            "id": 14,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 48,
+        "customer_name": "Stephanie Anderson",
+        "priority_data": {
+            "id": 48,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 57,
+        "customer_name": "Emily Hammond",
+        "priority_data": {
+            "id": 57,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Customer is frustrated with pricing plan and being charged extra for features"
+        }
+    },
+    {
+        "id": 84,
+        "customer_name": "Jeremy Lowe",
+        "priority_data": {
+            "id": 84,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Customer is unhappy with their current pricing plan and is seeking a cheaper option, but does not mention financial risks, churn threats, or technical errors."
+        }
+    },
+    {
+        "id": 90,
+        "customer_name": "Robin Long",
+        "priority_data": {
+            "id": 90,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Customer is having trouble accessing their account"
+        }
+    },
+    {
+        "id": 107,
+        "customer_name": "Courtney Cobb",
+        "priority_data": {
+            "id": 107,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Customer is having trouble accessing their account"
+        }
+    },
+    {
+        "id": 113,
+        "customer_name": "Elizabeth Horn",
+        "priority_data": {
+            "id": 113,
+            "priority": "MEDIUM",
+            "score": 60,
+            "reason": "Customer is experiencing account access issues due to a policy clash, but does not mention financial risks, churn threats, or extreme anger."
+        }
+    },
+    {
+        "id": 5,
+        "customer_name": "Leslie Miles",
+        "priority_data": {
+            "id": 5,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access question"
+        }
+    },
+    {
+        "id": 8,
+        "customer_name": "Robert Scott",
+        "priority_data": {
+            "id": 8,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is having account access issues"
+        }
+    },
+    {
+        "id": 11,
+        "customer_name": "Adam Whitaker",
+        "priority_data": {
+            "id": 11,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is having issues with a discount on a product, which relates to pricing plans"
+        }
+    },
+    {
+        "id": 12,
+        "customer_name": "Julia Smith",
+        "priority_data": {
+            "id": 12,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue with a subscription delivery"
+        }
+    },
+    {
+        "id": 16,
+        "customer_name": "Kristin Callahan",
+        "priority_data": {
+            "id": 16,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 19,
+        "customer_name": "Donna Powell",
+        "priority_data": {
+            "id": 19,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue with password reset"
+        }
+    },
+    {
+        "id": 21,
+        "customer_name": "Alexandra Valdez",
+        "priority_data": {
+            "id": 21,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has questions about pricing plans"
+        }
+    },
+    {
+        "id": 22,
+        "customer_name": "Julie Nguyen",
+        "priority_data": {
+            "id": 22,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has a question about their pricing plan"
+        }
+    },
+    {
+        "id": 27,
+        "customer_name": "Hector Sanchez",
+        "priority_data": {
+            "id": 27,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has a pricing plan issue"
+        }
+    },
+    {
+        "id": 32,
+        "customer_name": "Christina Eaton",
+        "priority_data": {
+            "id": 32,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue reported by customer"
+        }
+    },
+    {
+        "id": 34,
+        "customer_name": "Justin Smith",
+        "priority_data": {
+            "id": 34,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 38,
+        "customer_name": "Clifford Diaz",
+        "priority_data": {
+            "id": 38,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has a problem with their order, which may relate to billing or account access"
+        }
+    },
+    {
+        "id": 43,
+        "customer_name": "Jason Obrien",
+        "priority_data": {
+            "id": 43,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 56,
+        "customer_name": "Joseph Davis",
+        "priority_data": {
+            "id": 56,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue due to potential password problem"
+        }
+    },
+    {
+        "id": 58,
+        "customer_name": "Sean Rodriguez",
+        "priority_data": {
+            "id": 58,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has questions about pricing plans and bulk purchase discounts"
+        }
+    },
+    {
+        "id": 62,
+        "customer_name": "Wendy Juarez",
+        "priority_data": {
+            "id": 62,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 72,
+        "customer_name": "Mrs. Samantha Montes",
+        "priority_data": {
+            "id": 72,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has a problem with a recent purchase, which may relate to billing or pricing"
+        }
+    },
+    {
+        "id": 79,
+        "customer_name": "Craig Roberts",
+        "priority_data": {
+            "id": 79,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has a pricing plan issue"
+        }
+    },
+    {
+        "id": 81,
+        "customer_name": "Karen Wallace",
+        "priority_data": {
+            "id": 81,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access question"
+        }
+    },
+    {
+        "id": 85,
+        "customer_name": "Jonathan Richards",
+        "priority_data": {
+            "id": 85,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is inquiring about pricing plans and potential discounts"
+        }
+    },
+    {
+        "id": 95,
+        "customer_name": "Paula Maddox",
+        "priority_data": {
+            "id": 95,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access question"
+        }
+    },
+    {
+        "id": 96,
+        "customer_name": "Christine Burke",
+        "priority_data": {
+            "id": 96,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 104,
+        "customer_name": "Jennifer Nguyen",
+        "priority_data": {
+            "id": 104,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access questions"
+        }
+    },
+    {
+        "id": 110,
+        "customer_name": "Lisa Cannon",
+        "priority_data": {
+            "id": 110,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer inquiring about pricing options for Premium plan"
+        }
+    },
+    {
+        "id": 120,
+        "customer_name": "Larry Cook",
+        "priority_data": {
+            "id": 120,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer issue with order, missing free item"
+        }
+    },
+    {
+        "id": 123,
+        "customer_name": "Lisa Kirby",
+        "priority_data": {
+            "id": 123,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Pricing plan inquiry with a discrepancy in previous information"
+        }
+    },
+    {
+        "id": 126,
+        "customer_name": "Michelle Bailey",
+        "priority_data": {
+            "id": 126,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is having issues with pricing plan changes, which falls under medium priority"
+        }
+    },
+    {
+        "id": 127,
+        "customer_name": "Daniel Lynch",
+        "priority_data": {
+            "id": 127,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access issue"
+        }
+    },
+    {
+        "id": 132,
+        "customer_name": "Oscar Townsend",
+        "priority_data": {
+            "id": 132,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is inquiring about pricing plans and seeking more features"
+        }
+    },
+    {
+        "id": 133,
+        "customer_name": "Anthony Wolfe",
+        "priority_data": {
+            "id": 133,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access questions"
+        }
+    },
+    {
+        "id": 136,
+        "customer_name": "Emma Smith",
+        "priority_data": {
+            "id": 136,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has an issue with account access"
+        }
+    },
+    {
+        "id": 137,
+        "customer_name": "Diana Walker",
+        "priority_data": {
+            "id": 137,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer has questions about pricing plans"
+        }
+    },
+    {
+        "id": 141,
+        "customer_name": "Patricia Williams",
+        "priority_data": {
+            "id": 141,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Account access question"
+        }
+    },
+    {
+        "id": 146,
+        "customer_name": "Amber Taylor",
+        "priority_data": {
+            "id": 146,
+            "priority": "MEDIUM",
+            "score": 40,
+            "reason": "Customer is inquiring about pricing plans"
+        }
+    },
+    {
+        "id": 59,
+        "customer_name": "Daniel Reed",
+        "priority_data": {
+            "id": 59,
+            "priority": "MEDIUM",
+            "score": 20,
+            "reason": "Customer is inquiring about account access status, specifically subscription activation."
+        }
+    },
+    {
+        "id": 75,
+        "customer_name": "Jeffrey Jones",
+        "priority_data": {
+            "id": 75,
+            "priority": "MEDIUM",
+            "score": 20,
+            "reason": "Account access issue reported, no specific details given"
+        }
+    },
+    {
+        "id": 10,
+        "customer_name": "Sharon Watts",
+        "priority_data": {
+            "id": 10,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "General inquiry with no specific details"
+        }
+    },
+    {
+        "id": 61,
+        "customer_name": "Ryan Guerra IV",
+        "priority_data": {
+            "id": 61,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "General account access question"
+        }
+    },
+    {
+        "id": 66,
+        "customer_name": "Bethany Padilla",
+        "priority_data": {
+            "id": 66,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "Tier-1 basic question about account access"
+        }
+    },
+    {
+        "id": 80,
+        "customer_name": "Nathan Douglas",
+        "priority_data": {
+            "id": 80,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "General inquiry with no specific details"
+        }
+    },
+    {
+        "id": 97,
+        "customer_name": "Jessica Edwards",
+        "priority_data": {
+            "id": 97,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "General inquiry with no specific details"
+        }
+    },
+    {
+        "id": 101,
+        "customer_name": "Erik Foster",
+        "priority_data": {
+            "id": 101,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "Tier-1 basic question about account access"
+        }
+    },
+    {
+        "id": 102,
+        "customer_name": "William Coffey",
+        "priority_data": {
+            "id": 102,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "General inquiry with no specific details"
+        }
+    },
+    {
+        "id": 118,
+        "customer_name": "Amber Lee PhD",
+        "priority_data": {
+            "id": 118,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "Customer received refund and is satisfied"
+        }
+    },
+    {
+        "id": 143,
+        "customer_name": "Anne Wilson",
+        "priority_data": {
+            "id": 143,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "Customer received refund confirmation, issue resolved"
+        }
+    },
+    {
+        "id": 150,
+        "customer_name": "Taylor Tucker",
+        "priority_data": {
+            "id": 150,
+            "priority": "LOW",
+            "score": 10,
+            "reason": "Customer received refund and is satisfied"
+        }
+    },
+    {
+        "id": 20,
+        "customer_name": "Danielle Carrillo",
+        "priority_data": {
+            "id": 20,
+            "priority": "LOW",
+            "score": 5,
+            "reason": "Customer received refund and is satisfied"
+        }
+    },
+    {
+        "id": 24,
+        "customer_name": "Mike Briggs",
+        "priority_data": {
+            "id": 24,
+            "priority": "LOW",
+            "score": 5,
+            "reason": "Customer received refund, expressing gratitude, no issue present"
+        }
+    },
+    {
+        "id": 128,
+        "customer_name": "Stacey Chen",
+        "priority_data": {
+            "id": 128,
+            "priority": "LOW",
+            "score": 5,
+            "reason": "Customer is thanking for a resolved refund issue, no new issues mentioned"
+        }
+    }
+]

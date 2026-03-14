@@ -1,0 +1,1352 @@
+[
+    {
+        "timestamp": "2026-03-14 17:43:50",
+        "chat_id": 1,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:50",
+        "chat_id": 2,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:51",
+        "chat_id": 3,
+        "intent": "issue resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:51",
+        "chat_id": 4,
+        "intent": "Request Refund",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:52",
+        "chat_id": 5,
+        "intent": "password reset",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:52",
+        "chat_id": 6,
+        "intent": "Order Delivery Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:52",
+        "chat_id": 7,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:52",
+        "chat_id": 8,
+        "intent": "Password Reset Successful",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:53",
+        "chat_id": 9,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:53",
+        "chat_id": 10,
+        "intent": "Order Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:53",
+        "chat_id": 11,
+        "intent": "Customer Issue Resolution",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:54",
+        "chat_id": 12,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:55",
+        "chat_id": 13,
+        "intent": "Payment Issue Escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:55",
+        "chat_id": 14,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:55",
+        "chat_id": 15,
+        "intent": "Technical Support",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:55",
+        "chat_id": 16,
+        "intent": "Account Access Issue",
+        "action_taken": "Reset Password",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:56",
+        "chat_id": 17,
+        "intent": "Order Status Inquiry",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:57",
+        "chat_id": 18,
+        "intent": "Technical Support",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:58",
+        "chat_id": 19,
+        "intent": "password reset assistance",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:58",
+        "chat_id": 20,
+        "intent": "post-refund confirmation",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:58",
+        "chat_id": 21,
+        "intent": "Plan Upgrade",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:58",
+        "chat_id": 22,
+        "intent": "Pricing Plan Issue",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:59",
+        "chat_id": 23,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:43:59",
+        "chat_id": 24,
+        "intent": "Customer Appreciation",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:00",
+        "chat_id": 25,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:01",
+        "chat_id": 26,
+        "intent": "Billing Dispute and Account Cancellation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:01",
+        "chat_id": 27,
+        "intent": "price plan update",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:01",
+        "chat_id": 28,
+        "intent": "issue_resolution",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:01",
+        "chat_id": 29,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:02",
+        "chat_id": 30,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:03",
+        "chat_id": 31,
+        "intent": "Device Hardware Issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:03",
+        "chat_id": 32,
+        "intent": "account access issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:03",
+        "chat_id": 33,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:03",
+        "chat_id": 34,
+        "intent": "password reset",
+        "action_taken": "Reset Password",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:04",
+        "chat_id": 35,
+        "intent": "Order Status and Delivery Issue",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:04",
+        "chat_id": 36,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:05",
+        "chat_id": 37,
+        "intent": "Technical Support - Laptop Issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:05",
+        "chat_id": 38,
+        "intent": "request for refund",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:05",
+        "chat_id": 39,
+        "intent": "Technical Support",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:05",
+        "chat_id": 40,
+        "intent": "Frustration and need for resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:05",
+        "chat_id": 41,
+        "intent": "Plan Change Request",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:06",
+        "chat_id": 42,
+        "intent": "Account Access Issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:07",
+        "chat_id": 43,
+        "intent": "Password Reset",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:08",
+        "chat_id": 44,
+        "intent": "return_order",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:09",
+        "chat_id": 45,
+        "intent": "Payment Issue Escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:10",
+        "chat_id": 46,
+        "intent": "Payment and Discount Issue Resolution",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:11",
+        "chat_id": 47,
+        "intent": "Refund Status Inquiry",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:11",
+        "chat_id": 48,
+        "intent": "account access issue resolved",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:12",
+        "chat_id": 49,
+        "intent": "Request for Discount",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:13",
+        "chat_id": 50,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "100%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:14",
+        "chat_id": 51,
+        "intent": "Refund Status",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:14",
+        "chat_id": 52,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:14",
+        "chat_id": 53,
+        "intent": "Laptop Hardware Issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:15",
+        "chat_id": 54,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:15",
+        "chat_id": 55,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:16",
+        "chat_id": 56,
+        "intent": "password reset assistance",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:16",
+        "chat_id": 57,
+        "intent": "Customer Satisfaction",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:16",
+        "chat_id": 58,
+        "intent": "Pricing Plan Inquiry",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:16",
+        "chat_id": 59,
+        "intent": "Subscription Status Inquiry",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:17",
+        "chat_id": 60,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:18",
+        "chat_id": 61,
+        "intent": "password reset",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:18",
+        "chat_id": 62,
+        "intent": "Account Login Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:18",
+        "chat_id": 63,
+        "intent": "Technical Support",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:19",
+        "chat_id": 64,
+        "intent": "Cancellation and Refund",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:19",
+        "chat_id": 65,
+        "intent": "account access issue",
+        "action_taken": "Reset Password",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:19",
+        "chat_id": 66,
+        "intent": "password reset issue resolved",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:19",
+        "chat_id": 67,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:20",
+        "chat_id": 68,
+        "intent": "Frustration and need for resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:20",
+        "chat_id": 69,
+        "intent": "Refund Confirmation",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:20",
+        "chat_id": 70,
+        "intent": "payment issue resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:20",
+        "chat_id": 71,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:20",
+        "chat_id": 72,
+        "intent": "Customer Support - Refund",
+        "action_taken": "None - Issue Resolved",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:21",
+        "chat_id": 73,
+        "intent": "Refund Status Inquiry",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:22",
+        "chat_id": 74,
+        "intent": "escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:22",
+        "chat_id": 75,
+        "intent": "Refund Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:23",
+        "chat_id": 76,
+        "intent": "password reset",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:24",
+        "chat_id": 77,
+        "intent": "Request for Refund",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:25",
+        "chat_id": 78,
+        "intent": "Order Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:25",
+        "chat_id": 79,
+        "intent": "Pricing Plan Issue Resolution",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:25",
+        "chat_id": 80,
+        "intent": "account access issue resolved",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:25",
+        "chat_id": 81,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "100%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:26",
+        "chat_id": 82,
+        "intent": "password reset issue",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:26",
+        "chat_id": 83,
+        "intent": "payment issue resolved",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:26",
+        "chat_id": 84,
+        "intent": "request for cheaper plan",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:26",
+        "chat_id": 85,
+        "intent": "requesting discount",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:26",
+        "chat_id": 86,
+        "intent": "Account Suspension Resolution",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:27",
+        "chat_id": 87,
+        "intent": "Tracking Order Status",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:28",
+        "chat_id": 88,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:28",
+        "chat_id": 89,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:28",
+        "chat_id": 90,
+        "intent": "account access issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:29",
+        "chat_id": 91,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:29",
+        "chat_id": 92,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:30",
+        "chat_id": 93,
+        "intent": "Refund Status Inquiry",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:30",
+        "chat_id": 94,
+        "intent": "issue_resolution",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:30",
+        "chat_id": 95,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:30",
+        "chat_id": 96,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:31",
+        "chat_id": 97,
+        "intent": "Refund Status",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:32",
+        "chat_id": 98,
+        "intent": "Payment Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:33",
+        "chat_id": 99,
+        "intent": "Refund Status Inquiry",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:33",
+        "chat_id": 100,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:33",
+        "chat_id": 101,
+        "intent": "password reset issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:33",
+        "chat_id": 102,
+        "intent": "payment issue",
+        "action_taken": "Check Transaction Status",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:34",
+        "chat_id": 103,
+        "intent": "Cancellation Request",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:35",
+        "chat_id": 104,
+        "intent": "Account Access Issue",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:36",
+        "chat_id": 105,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:36",
+        "chat_id": 106,
+        "intent": "Refund Status",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:36",
+        "chat_id": 107,
+        "intent": "account_access_issue",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:37",
+        "chat_id": 108,
+        "intent": "account access issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:38",
+        "chat_id": 109,
+        "intent": "Dispute and Request for Assistance",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:38",
+        "chat_id": 110,
+        "intent": "Pricing Inquiry",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:38",
+        "chat_id": 111,
+        "intent": "Refund Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:39",
+        "chat_id": 112,
+        "intent": "Request for Refund and Escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:39",
+        "chat_id": 113,
+        "intent": "account access issue due to policy clash",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:39",
+        "chat_id": 114,
+        "intent": "Request Refund Expedite",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:40",
+        "chat_id": 115,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:40",
+        "chat_id": 116,
+        "intent": "Technical Issue Resolved with Workaround",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:41",
+        "chat_id": 117,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:41",
+        "chat_id": 118,
+        "intent": "Customer Satisfaction",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:41",
+        "chat_id": 119,
+        "intent": "Payment Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:41",
+        "chat_id": 120,
+        "intent": "Order Issue Resolution",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:42",
+        "chat_id": 121,
+        "intent": "Refund Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:43",
+        "chat_id": 122,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:43",
+        "chat_id": 123,
+        "intent": "clarify pricing and discounts",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:43",
+        "chat_id": 124,
+        "intent": "Complaint about pricing plan change",
+        "action_taken": "None from the list, as the customer has already been escalated to a manager",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:44",
+        "chat_id": 125,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:44",
+        "chat_id": 126,
+        "intent": "Pricing Plan Upgrade Issue",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:44",
+        "chat_id": 127,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:44",
+        "chat_id": 128,
+        "intent": "customer support completion",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:45",
+        "chat_id": 129,
+        "intent": "Technical Support",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:46",
+        "chat_id": 130,
+        "intent": "Dispute Charge",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:47",
+        "chat_id": 131,
+        "intent": "escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:47",
+        "chat_id": 132,
+        "intent": "Upgrade Plan",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:47",
+        "chat_id": 133,
+        "intent": "Account Access Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:47",
+        "chat_id": 134,
+        "intent": "Payment Issue Escalation",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:48",
+        "chat_id": 135,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "high"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:49",
+        "chat_id": 136,
+        "intent": "account access issue",
+        "action_taken": "Reset Password",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:49",
+        "chat_id": 137,
+        "intent": "Pricing Plan Inquiry",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:50",
+        "chat_id": 138,
+        "intent": "Cancellation and Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:51",
+        "chat_id": 139,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:51",
+        "chat_id": 140,
+        "intent": "issue_resolution",
+        "action_taken": "none",
+        "confidence": "90%",
+        "status": "Execution Failed",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:51",
+        "chat_id": 141,
+        "intent": "Account Login Issue Resolved",
+        "action_taken": "None",
+        "confidence": "90%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:52",
+        "chat_id": 142,
+        "intent": "Payment Issue Resolution",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:53",
+        "chat_id": 143,
+        "intent": "Refund Confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:54",
+        "chat_id": 144,
+        "intent": "Technical Issue Resolution",
+        "action_taken": "Escalate to Tier-3 Engineering",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:55",
+        "chat_id": 145,
+        "intent": "Refund Request",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:55",
+        "chat_id": 146,
+        "intent": "Plan Comparison",
+        "action_taken": "Send Pricing Comparison",
+        "confidence": "80%",
+        "status": "Skipped (Low Confidence)",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:56",
+        "chat_id": 147,
+        "intent": "Refund Issue",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:57",
+        "chat_id": 148,
+        "intent": "Billing Error Resolution",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:58",
+        "chat_id": 149,
+        "intent": "Return Order",
+        "action_taken": "Initiate Refund",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "medium"
+    },
+    {
+        "timestamp": "2026-03-14 17:44:59",
+        "chat_id": 150,
+        "intent": "post-refund confirmation",
+        "action_taken": "Check Transaction Status",
+        "confidence": "90%",
+        "status": "Executed Automatically",
+        "risk_level": "low"
+    }
+]
