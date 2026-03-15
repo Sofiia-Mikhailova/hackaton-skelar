@@ -73,46 +73,86 @@
 2. **Запустити інтерфейс оператора (Streamlit):** `py -m streamlit run app.py`
 3. **Запустити аналіз якості та пріоритетів:** `python src/analyze.py`
 
----
-
-# English Version
-
+# English version
 # Skelar AI: Next-Gen Operational Support & Self-Learning Ecosystem
 
-## Project Structure
+**Skelar AI** is an intelligent operating system for customer support that transforms team workflows from "reactive" to "proactive." Our solution doesn't just automate responses; it continuously learns from human agent behavior, independently executes routine operations, and guarantees the resolution quality of every ticket.
 
-* `src/` — Main source code, including scripts for data analysis and generation.
-* `data/` — Directory containing "clean" input datasets used for processing and research.
-* `utils/` — Helper functions and modules for architecture support and determinism checks.
-* `outputs/` — Generated results, logs, and metrics in JSON format.
+---
 
-##  Impact Metrics
+##  Impact & Operational Metrics
 
-* **+11% Agent Efficiency Boost:** Achieved by the AI agent learning to autonomously handle Tier-2 tasks by observing and logging human decision-making.
-* **Tier-1 Optimization:** Automated handling of **50% basic query types**, significantly reducing initial support load.
-* **94% Intent Accuracy:** Precision in identifying user goals from the very first interaction.
-* **Guaranteed Resolution:** Drastic reduction in unresolved issues via the automated 24-hour verification pipeline.
+The implementation of Skelar AI drives measurable efficiency:
 
-##  Key Features
+* **+11% Agent Productivity**: AI autonomously handles simple Tier-2 tasks by analyzing and replicating human decision-making logic.
+* **Tier-1 Optimization**: Automated 50% of basic inquiry types, significantly offloading the support line.
+* **94% Intent Recognition**: High-precision identification of the user's true goal (e.g., `refund_request`) from the first message.
+* **Guaranteed Resolution**: Automated 24-hour audits ensure no ticket is "forgotten" if the technical issue persists.
 
-### 1. Continuous Learning & Action Logging
+---
 
-Every interaction and agent action is recorded in **comprehensive logs**.
+##  Key Technological Features
 
-* For Tier-2 tasks requiring minor human intervention, the AI observes the agent’s choices.
-* By learning from these real-world actions, the AI automates repetitive workflows, resulting in an **11% increase in overall agent productivity**.
+### 1. Self-Learning Knowledge Base Builder
+The system utilizes a continuous improvement loop. All requests, contexts, and agent actions are recorded in detailed system logs.
+* **Logic Analysis**: When a human resolves a Tier-2 task, the AI analyzes the chosen action.
+* **Autonomous Evolution**: The model fine-tunes itself based on these logs, minimizing future human intervention for similar cases.
 
-### 2. AI Copilot Sidebar 
+### 2. AI Copilot Interface
+An interactive workspace featuring an intelligent sidebar:
+* **Live Intent Detection**: Real-time visualization of customer intent and confidence scores.
+* **Suggested Operational Actions**: Dynamic buttons (e.g., "Execute Refund", "Upgrade Plan") that trigger real-world system actions in one click.
+* **Proactive Intelligence Scanner**: Flags system errors or failed payments before the customer even reaches out.
 
-Our advanced agent workspace, as seen in the demo, includes:
+### 3. Deterministic Analyzer
+* **24h Resolution Check**: Automatically re-opens tickets as **Urgent (P0)** if logs show the technical problem wasn't actually fixed.
+* **Hidden Dissatisfaction**: Differentiates between a polite "Thanks" and a technically unresolved request.
+* **Performance Tracking**: Scores agents based on resolution accuracy rather than just conversational tone.
 
-* **Real-time Intent Intelligence:** Displays user goals and AI confidence levels instantly (**94% confidence**).
-* **Operational Action Buttons:** Contextual buttons (e.g., "Execute Refund") that trigger actual system-level actions directly from the sidebar.
-* **Proactive Scanner:** Alerts agents to system failures or payment errors before the customer even reports them.
-* **Unified History:** Displays cross-product context for all 12 Skelar brands to eliminate redundant questions.
+---
 
-### 3. Deterministic Analysis 
+## Logic & Scoring
 
-* **24h Resolution Audit:** We verify results, not just timestamps. 24 hours after a ticket is closed, the AI re-evaluates logs. If the issue persists, the system autonomously reopens the ticket with **Urgent (P0)** priority.
-* **Hidden Dissatisfaction Detection:** Identifies cases where a customer is polite but their technical issue remains open.
-* **Agent Performance:** Scoring (1-5) is based on action accuracy and problem resolution, not just sentiment.
+### Priority Matrix
+| Level | Intent (Type) | Processing Logic |
+| :--- | :--- | :--- |
+| **URGENT (P0)** | Refund / Payment | Financial risks & Churn prevention. Immediate alert. |
+| **HIGH (P1)** | Technical Error | Critical bugs affecting core service usage. |
+| **NORMAL (P2)** | Pricing / Plan Info | General product functionality and tariff inquiries. |
+| **LOW (P3)** | Feedback / Other | General feedback and non-critical suggestions. |
+
+### Quality Score (QS)
+| Score | Status | Criteria |
+| :--- | :--- | :--- |
+| **5** | **Solved** | Problem resolved, SLA met, customer satisfied. |
+| **3** | **Partially Solved** | Response sent, but technical root cause might recur. |
+| **1** | **Failed** | Problem unresolved after 24h or protocol violation. |
+
+---
+
+##  Project Structure
+
+* `src/` — Core source code (data analysis, generation scripts, and model logic).
+* `data/` — Raw input datasets used for processing and research.
+* `utils/` — Helper functions for architecture support and determinism validation.
+
+---
+
+##  Installation & Setup
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+```
+
+2. **Launch the Operator Interface (Streamlit):**
+```bash
+python -m streamlit run app.py
+
+```
+
+
+3. **Run Quality and Priority Analysis:**
+```bash
+python src/analyze.py
