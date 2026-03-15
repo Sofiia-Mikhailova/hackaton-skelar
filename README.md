@@ -15,23 +15,22 @@
 
 ##  Ключові технологічні переваги
 
-### 1. Самонавчання на діях людини (Self-Learning Loop)
+### 1. Самонавчання на діях людини (Knowledge Base Builder)
 
 В основі системи лежить цикл безперервного вдосконалення. Усі запити, контекст та відповідні дії агентів записуються у **детальні системні логи**.
 
 * Коли завдання (Tier-2) потребує невеликого втручання людини, AI аналізує, яку дію та відповідь обрав агент.
 * На основі цих логів модель донавчається, що дозволило нам **покращити показник автономності на 11%**, мінімізуючи повторне втручання людини в аналогічні кейси.
 
-### 2. AI Copilot Interface (`app.py`)
+### 2. AI Copilot Interface
 
 Інтерактивне робоче місце агента з інтелектуальним сайдбаром (як продемонстровано на відео):
 
 * **Live Intent Detection:** AI миттєво візуалізує намір клієнта та впевненість у ньому (**94% Confidence Score**).
 * **Suggested Operational Actions:** Динамічні кнопки (наприклад, **"Execute Refund"**, **"Upgrade Plan"**), що ініціюють реальні дії в системі одним кліком.
 * **Proactive Intelligence Scanner:** Окремий блок, що сигналізує про системні помилки або невдалі платежі ще до того, як клієнт напише в чат.
-* **Cross-Product Context:** Агент бачить історію клієнта у всіх 12 продуктах Skelar одночасно, що дозволяє уникнути зайвих уточнюючих питань.
 
-### 3. Детермінований аналізатор (`analyze.py`)
+### 3. Детермінований аналізатор 
 
 * **24h Resolution Check:** Система перевіряє стан тікета через 24 години після його закриття. Якщо за технічними логами проблема не зникла — AI автоматично перевідкриває тікет зі статусом **Urgent (P0)**.
 * **Hidden Dissatisfaction:** AI бачить різницю між ввічливим "Thanks" та реально невиконаним запитом.
@@ -46,6 +45,7 @@
 | **URGENT (P0)** | **Refund / Payment Issue** | Фінансові запити та ризик відтоку (Churn). Миттєве сповіщення. |
 | **HIGH (P1)** | **Technical Error** | Критичні баги, що заважають користуванню сервісом. |
 | **NORMAL (P2)** | **Pricing / Plan Info** | Загальні питання щодо тарифів та функціоналу продуктів. |
+| **LOW(P3)** | **Feedback / Other** |	Відгуки та некритичні пропозиції.|
 
 ---
 
@@ -87,7 +87,7 @@ Every interaction and agent action is recorded in **comprehensive logs**.
 * For Tier-2 tasks requiring minor human intervention, the AI observes the agent’s choices.
 * By learning from these real-world actions, the AI automates repetitive workflows, resulting in an **11% increase in overall agent productivity**.
 
-### 2. AI Copilot Sidebar (`app.py`)
+### 2. AI Copilot Sidebar 
 
 Our advanced agent workspace, as seen in the demo, includes:
 
@@ -96,7 +96,7 @@ Our advanced agent workspace, as seen in the demo, includes:
 * **Proactive Scanner:** Alerts agents to system failures or payment errors before the customer even reports them.
 * **Unified History:** Displays cross-product context for all 12 Skelar brands to eliminate redundant questions.
 
-### 3. Deterministic Analysis (`analyze.py`)
+### 3. Deterministic Analysis 
 
 * **24h Resolution Audit:** We verify results, not just timestamps. 24 hours after a ticket is closed, the AI re-evaluates logs. If the issue persists, the system autonomously reopens the ticket with **Urgent (P0)** priority.
 * **Hidden Dissatisfaction Detection:** Identifies cases where a customer is polite but their technical issue remains open.
