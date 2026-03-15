@@ -1,153 +1,233 @@
 import streamlit as st
 import json
-import pandas as pd
-import time
 import os
 from datetime import datetime
+from src.copilot2 import AICopilot
+from src.customer_simulator import CustomerSimulator
+from src.action_executor import ActionExecutor
+from src.dashboard import render_dashboard
+from src.proactive_engine import run_proactive_monitoring
+from src.analyze import analyze_single, LLMClient
+import pandas as pd
+import plotly.express as px
 
-# --- CONFIG & STYLING ---
-st.set_page_config(page_title="Skelar AI Operations", layout="wide")
+st.set_page_config(page_title="Skelar Live Operations", layout="wide")
 
-# Custom CSS to mimic a professional support desk
-st.markdown("""
-    <style>
-    .agent-reply { background-color: #f0f2f6; padding: 10px; border-radius: 10px; margin: 5px 0; }
-    .customer-msg { background-color: #e1f5fe; padding: 10px; border-radius: 10px; margin: 5px 0; text-align: right; }
-    .stButton>button { width: 100%; border-radius: 5px; }
-    .risk-high { color: #ff4b4b; font-weight: bold; }
-    .risk-low { color: #2ecc71; font-weight: bold; }
-    </style>
-    """, unsafe_allow_html=True)
+# --- INITIALIZATION ---
+if 'copilot' not in st.session_state:
+    st.session_state.copilot = AICopilot()
+if 'simulator' not in st.session_state:
+    st.session_state.simulator = CustomerSimulator()
+if 'chat_history' not in st.session_state:
+    st.session_state.chat_history = []
+if 'audit_logs' not in st.session_state:
+    st.session_state.audit_logs = []
+if 'draft_buffer' not in st.session_state:
+    st.session_state.draft_buffer = ""
+if 'last_analysis' not in st.session_state:
+    st.session_state.last_analysis = None
 
-# --- DATA LOADING HELPERS ---
-def load_json(path, default=[]):
-    # Using os.path.join to handle relative paths safely
+def load_json(path):
     if os.path.exists(path):
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            st.error(f"Error loading {path}: {e}")
-            return default
-    return default
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return []
 
-# Relative paths (assuming app.py is in the root of your hackaton-skelar folder)
 dataset = load_json("data/dataset_clean.json")
-copilot_results = load_json("copilot_results.json")
-audit_data = load_json("detailed_operational_audit.json")
-kb_data = load_json("potential_kb_articles.json")
 
-# --- SIDEBAR NAVIGATION ---
+# Helper to log system actions
+def log_system_event(event_type, description, chat_id):
+    entry = {
+        "timestamp": datetime.now().strftime("%H:%M:%S"),
+        "chat_id": chat_id,
+        "event": event_type,
+        "description": description
+    }
+    st.session_state.audit_logs.append(entry)
+
+# --- SIDEBAR ---
 st.sidebar.title("SKELAR AI")
-page = st.sidebar.radio("Navigate to:", ["Agent Workspace (Copilot)", "Supervisor Dashboard", "Knowledge Base"])
+page = st.sidebar.radio("Navigate:", ["Agent Workspace", "Supervisor Dashboard","Proactive Intelligence", "System Audit Log", "Automatic Chat Analysis"])
 
-# --- PAGE 1: AGENT WORKSPACE ---
-if page == "Agent Workspace (Copilot)":
-    st.title(" Agent Copilot Workspace")
+if page == "Agent Workspace":
+    st.title("Interactive Agent Workspace")
     
     col1, col2 = st.columns([2, 1])
 
     with col1:
-        st.subheader("Active Conversation")
-        if not dataset:
-            st.warning("No chat data found. Please run your generation scripts first.")
-        else:
-            chat_ids = [c['id'] for c in dataset]
-            selected_id = st.selectbox("Select Incoming Ticket:", chat_ids)
-            current_chat = next(c for c in dataset if c['id'] == selected_id)
+        st.subheader("Live Chat")
+        
+        # Scenario Selection
+        chat_ids = [c['id'] for c in dataset]
+        selected_id = st.selectbox("Select Scenario:", chat_ids)
+        current_scenario = next((c for c in dataset if c['id'] == selected_id), {"customer_name": "Unknown", "messages": []})
+        chat_id = current_scenario['id']
 
-            chat_container = st.container(height=400, border=True)
-            for msg in current_chat['messages']:
-                div_class = "customer-msg" if msg['role'] == "customer" else "agent-reply"
-                chat_container.markdown(f"<div class='{div_class}'><b>{msg['role'].upper()}:</b> {msg['text']}</div>", unsafe_allow_html=True)
+        # BUTTON TO GENERATE NEXT MESSAGE FROM DATASET
+        if st.button("Next Message from Dataset ➡️"):
+            dataset_msgs = current_scenario['messages']
+            current_len = len(st.session_state.chat_history)
+            if current_len < len(dataset_msgs):
+                next_msg = dataset_msgs[current_len]
+                st.session_state.chat_history.append(next_msg)
+                log_system_event("Dataset Import", f"Imported {next_msg['role']} message from original chat.", chat_id)
+                st.rerun()
+            else:
+                st.info("End of original chat reached.")
 
-            st.text_area("Your Response", placeholder="Type your message here...", height=100)
-            c_btn1, c_btn2 = st.columns(2)
-            if c_btn1.button("Send Message", type="primary"):
-                st.success("Message sent!")
-            c_btn2.button("Internal Note")
+        # CHAT DISPLAY
+        chat_container = st.container(height=400, border=True)
+        with chat_container:
+            for msg in st.session_state.chat_history:
+                st.markdown(f"**{msg['role'].upper()}:** {msg['text']}")
+
+        # AGENT INPUT
+        agent_input = st.text_area("Your Response:", value=st.session_state.draft_buffer, height=100)
+        
+        btn_col1, btn_col2, btn_col3 = st.columns(3)
+        
+        if btn_col1.button("Send Message", type="primary"):
+            if agent_input:
+                st.session_state.chat_history.append({"role": "agent", "text": agent_input})
+                log_system_event("Manual Reply", f"Agent sent: {agent_input[:30]}...", chat_id)
+                st.session_state.draft_buffer = "" # Clear buffer
+                
+                with st.spinner("Customer is typing..."):
+                    history_str = "\n".join([f"{m['role']}: {m['text']}" for m in st.session_state.chat_history])
+                    reply = st.session_state.simulator.get_customer_response(history_str)
+                    st.session_state.chat_history.append({"role": "customer", "text": reply})
+                st.rerun()
+
+        if btn_col2.button("Close Chat & Run Executor"):
+            log_system_event("Terminal State", "Agent closed chat. Triggering Executor...", chat_id)
+            
+            # Prepare final data for executor
+            executor = ActionExecutor()
+            executor.run_and_save()
+            
+            st.success("Chat closed and final workflows executed.")
+            st.session_state.chat_history = []
+            st.rerun()
+
+        if btn_col3.button("Clear History"):
+            st.session_state.chat_history = []
+            st.rerun()
 
     with col2:
-        st.subheader(" AI Insights")
-        analysis = next((item for item in copilot_results if item['chat_id'] == selected_id), None)
-        
-        if analysis:
-            with st.expander("Analysis & Intent", expanded=True):
-                st.write(f"**Intent:** {analysis.get('intent', 'N/A')}")
-                st.write(f"**Confidence:** {analysis.get('confidence', '0%')}")
-                risk = analysis.get('risk_level', 'low').lower()
-                
-                # FIXED: Moved logic outside the f-string to avoid quote errors
-                risk_class = "risk-high" if risk == "high" else "risk-low"
-                st.markdown(f"**Risk Level:** <span class='{risk_class}'>{risk.upper()}</span>", unsafe_allow_html=True)
-
-            st.subheader("Suggested Actions")
-            suggested_action = analysis.get('suggested_action', "General Support")
+        st.subheader("AI Copilot")
+        if st.session_state.chat_history:
+            history_str = "\n".join([f"{m['role']}: {m['text']}" for m in st.session_state.chat_history])
             
-            if st.button(f"⚡ Execute: {suggested_action}"):
-                with st.status(f"Running {suggested_action} workflow..."):
-                    time.sleep(1)
-                    st.write("Accessing Database...")
-                    time.sleep(1)
-                    st.write("Processing Action...")
-                st.success(f"Action '{suggested_action}' completed!")
-                st.balloons()
+            with st.spinner("Analyzing..."):
+                res = st.session_state.copilot.get_ai_advice(history_str, customer_name=current_scenario.get('customer_name'))
 
-            with st.expander("Draft AI Reply"):
-                st.info(analysis.get('suggested_reply', "No draft available."))
-                if st.button("Copy to Editor"):
-                    st.toast("Draft copied!")
+            if res:
+                # TIER-1 AUTOMATION LOGIC
+                if res.get('confidence', 0) >= 90:
+                    st.warning(f"AI Auto-Action: {res.get('suggested_action')}")
+                    log_system_event("Tier-1 Auto-Action", f"Confident ({res.get('confidence')}%) execution of {res.get('suggested_action')}", chat_id)
+                
+                with st.container(border=True):
+                    st.write(f"**Intent:** {res.get('intent')}")
+                    
+                    risk = str(res.get('churn_risk', 'low')).lower()
+                    st.markdown(f"**Risk:** {risk.upper()}")
+                    
+                    st.write(f"**Action:** {res.get('suggested_action')}")
+                    st.divider()
+                    st.info(res.get('suggested_reply'))
+                    
+                    if st.button("Apply Suggested Reply"):
+                        st.session_state.draft_buffer = res.get('suggested_reply')
+                        st.rerun()
 
-# --- PAGE 2: SUPERVISOR DASHBOARD ---
 elif page == "Supervisor Dashboard":
-    st.title(" Operational Health Dashboard")
+    render_dashboard()
+
+elif page == "Proactive Intelligence":
+    st.title("🛡️ Proactive Intelligence Scanner")
+    st.markdown("""
+    This module shifts our support from **Reactive** to **Proactive**. The AI autonomously monitors 
+    user behavior and system errors to initiate contact before a complaint is even filed.
+    """)
+
+    col1, col2 = st.columns([1, 3])
     
-    if not audit_data:
-        st.error("Audit data missing. Run your audit script to generate metrics.")
+    if col1.button("Run System-Wide Intelligence Scan", type="primary"):
+        with st.spinner("AI is scanning system logs for friction points..."):
+            # Trigger the proactive engine logic
+            run_proactive_monitoring()
+            st.success("Scan Complete! New intelligence alerts generated.")
+            log_system_event("Intelligence Scan", "Manual system-wide proactive scan triggered.", "SYSTEM")
+
+    # Load the results generated by proactive_engine.py
+    proactive_data = load_json("proactive_actions.json")
+
+    if proactive_data:
+        # Displaying key metrics
+        c1, c2, c3 = st.columns(3)
+        c1.metric("Total Alerts", len(proactive_data))
+        c2.metric("Target: Agents", len([x for x in proactive_data if x['recipient'] == 'Agent']))
+        c3.metric("Target: Customers", len([x for x in proactive_data if x['recipient'] == 'Customer']))
+
+        # Detailed Alert Table
+        st.subheader("Live Intelligence Feed")
+        st.table(proactive_data)
     else:
-        df = pd.DataFrame([
-            {
-                "ID": i["chat_id"],
-                "Customer": i["customer_name"],
-                "Priority": i["prioritization"]["level"],
-                "Risk": i["copilot_analysis"]["risk_level"],
-                "Automation": i["system_execution"]["status"]
-            } for i in audit_data
-        ])
+        st.info("No proactive alerts found. Run a scan to find friction points.")
 
-        m1, m2, m3 = st.columns(3)
-        m1.metric("Total Tickets", len(df))
-        m2.metric("High Risk Alerts", len(df[df['Risk'] == 'high']))
-        m3.metric("Auto-Resolved", len(df[df['Automation'].str.contains("Executed", na=False)]))
+elif page == "System Audit Log":
+    st.title("Raw Operational Audit Log")
+    st.table(st.session_state.audit_logs)
 
-        st.divider()
-        col_left, col_right = st.columns(2)
-        with col_left:
-            st.subheader("Priority Distribution")
-            st.bar_chart(df['Priority'].value_counts())
-        with col_right:
-            st.subheader("High Risk Tickets")
-            st.table(df[df['Risk'] == 'high'].head(5))
+elif page == "Automatic Chat Analysis":
+    st.title("🔍 Automatic Chat Analysis & Scoring")
+    st.markdown("This module uses **Llama 3.3 70B** to audit service quality.")
 
-# --- PAGE 3: KNOWLEDGE BASE ---
-elif page == "Knowledge Base":
-    st.title(" Self-Learning Knowledge Base")
-    st.write("Workflows extracted from high-quality human resolutions.")
+    # SECTION 1: LATEST SESSION RESULT
+    if st.session_state.last_analysis:
+        st.subheader("⚡ Result of Last Session")
+        analysis = st.session_state.last_analysis['analysis']
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("Quality Score", f"{analysis['quality_score']}/5")
+        c2.metric("Intent", analysis['intent'])
+        c3.metric("Satisfaction", analysis['satisfaction'])
+        c4.metric("Scenario", analysis['scenario'])
+        
+        if analysis['agent_mistakes']:
+            st.error(f"⚠️ Mistakes Detected: {', '.join(analysis['agent_mistakes'])}")
+        else:
+            st.success("✅ No mistakes detected. Great job!")
+    
+    st.divider()
 
-    if not kb_data:
-        st.info("No KB articles generated yet.")
+    # SECTION 2: HISTORICAL AUDIT (From analysis_results.json)
+    st.subheader("📊 Global Audit Results")
+    analysis_data = load_json("data/analysis_results.json")
+
+    if analysis_data:
+        rows = []
+        for item in analysis_data:
+            rows.append({
+                "ID": item["id"],
+                "Customer": item["customer_name"],
+                "Score": item["analysis"]["quality_score"],
+                "Intent": item["analysis"]["intent"],
+                "Satisfaction": item["analysis"]["satisfaction"],
+                "Mistakes": ", ".join(item["analysis"]["agent_mistakes"])
+            })
+        
+        df = pd.DataFrame(rows)
+
+        # Charts
+        v1, v2 = st.columns(2)
+        with v1:
+            fig_score = px.histogram(df, x="Score", title="Quality Score Distribution", color_discrete_sequence=['#2ecc71'])
+            st.plotly_chart(fig_score, use_container_width=True)
+        with v2:
+            fig_pie = px.pie(df, names="Satisfaction", title="Customer Satisfaction Levels", hole=0.4)
+            st.plotly_chart(fig_pie, use_container_width=True)
+
+        st.dataframe(df, use_container_width=True)
     else:
-        for i, article in enumerate(kb_data):
-            with st.container(border=True):
-                st.markdown(f"### Intent: {article.get('intent')}")
-                st.write(f"**Status:** {article.get('status')}")
-                st.write("**Resolution Steps:**")
-                for step in article.get('resolution_steps', []):
-                    st.markdown(f"- {step}")
-                if st.button("Approve for Automation", key=f"btn_{i}"):
-                    st.success("Workflow Approved!")
-
-# --- FOOTER ---
-st.sidebar.divider()
-# FIXED: Removed st.experimental_user and replaced with a static string
-st.sidebar.caption("Skelar Hackathon 2026 | Agent: Sofiia Mikhailova")
+        st.warning("No historical analysis found in data/analysis_results.json")

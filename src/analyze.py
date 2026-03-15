@@ -3,7 +3,7 @@ import time
 import re
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from llm_client import LLMClient
+from src.llm_client import LLMClient
 
 
 def extract_json(text):

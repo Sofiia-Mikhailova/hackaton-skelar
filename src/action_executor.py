@@ -12,7 +12,8 @@ class ActionExecutor:
             "Initiate Refund": ["Verifying transaction", "Processing reversal", "Success"],
             "Reset Password": ["Generating secure link", "Email sent", "Done"],
             "Check Transaction Status": ["Connecting to gateway", "Fetching status", "Completed"],
-            "Escalate to Tier-3 Engineering": ["Collecting logs", "Jira ticket created", "Escalated"]
+            "Escalate to Tier-3 Engineering": ["Collecting logs", "Jira ticket created", "Escalated"],
+            "Close Ticket": ["Archiving chat", "Finalizing logs", "Closed"]
         }
 
         if action_name in steps:
