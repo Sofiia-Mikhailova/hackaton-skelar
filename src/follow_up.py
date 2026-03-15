@@ -23,7 +23,8 @@ def run_post_resolution_follow_up():
         customer_name = audit_data.get(chat_id, {}).get('customer_name', 'Customer')
         action_type = action.get('action_taken', 'Resolution')
         
-        scheduled_time = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M")
+        scheduled_time = (datetime.now() + timedelta(seconds=3)).strftime("%Y-%m-%d %H:%M:%S")
+        #scheduled_time = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d %H:%M")
         message = f"Hi {customer_name}! This is Skelar Support. We noticed your {action_type} was processed recently. Was your issue fully resolved?"
 
         print(f"\n[FOLLOW-UP SCHEDULED]")
