@@ -10,7 +10,7 @@
 
 ---
 
-## Результати та Impact (Operational Metrics)
+## Результати та Вплив (Operational Metrics)
 
 Впровадження системи дозволило досягти конкретних показників ефективності:
 
@@ -79,10 +79,17 @@
 
 # Skelar AI: Next-Gen Operational Support & Self-Learning Ecosystem
 
+## Project Structure
+
+* `src/` — Main source code, including scripts for data analysis and generation.
+* `data/` — Directory containing "clean" input datasets used for processing and research.
+* `utils/` — Helper functions and modules for architecture support and determinism checks.
+* `outputs/` — Generated results, logs, and metrics in JSON format.
+
 ##  Impact Metrics
 
 * **+11% Agent Efficiency Boost:** Achieved by the AI agent learning to autonomously handle Tier-2 tasks by observing and logging human decision-making.
-* **Tier-1 Optimization:** Automated handling of **50+ basic query types**, significantly reducing initial support load.
+* **Tier-1 Optimization:** Automated handling of **50% basic query types**, significantly reducing initial support load.
 * **94% Intent Accuracy:** Precision in identifying user goals from the very first interaction.
 * **Guaranteed Resolution:** Drastic reduction in unresolved issues via the automated 24-hour verification pipeline.
 
