@@ -144,13 +144,10 @@ An interactive workspace featuring an intelligent sidebar:
    ```bash
    pip install -r requirements.txt
 
-```
 
 2. **Launch the Operator Interface (Streamlit):**
-```bash
-python -m streamlit run app.py
-
-```
+   ```bash
+   python -m streamlit run app.py
 
 
 3. **Run Quality and Priority Analysis:**
